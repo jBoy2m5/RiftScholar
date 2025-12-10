@@ -1,0 +1,20 @@
+#box1 {
+    width: 200px;
+    height: 200px; 
+    background-color: green;
+    position: sticky;
+    right: 450px;
+    top: 250px;
+}
+
+#box2 {
+    width: 80px;
+    height: 80px; 
+    background-color: red;
+    position: absolute;
+    left: 30px;
+    top: 35px;
+}
+.color {
+    color: #e9e9e993;
+}
