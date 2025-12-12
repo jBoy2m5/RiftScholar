@@ -7,6 +7,9 @@ import Champion from './Components/Navbar/Champion.jsx'
 import GameKnowledge from './Components/Navbar/GameKnowledge.jsx'
 import Home from './Components/Navbar/Home.jsx'
 import Items from './Components/Navbar/Items.jsx'
+import Build from './Components/Navbar/Build.jsx'
+import Guide from './Components/Navbar/Guide.jsx'
+import Counter from './Components/Navbar/Counter.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,7 +19,10 @@ const router = createBrowserRouter([
       {index: true, element: <Home />},
       {path: "champion", element: <Champion />},
       {path: "gameknowledge", element: <GameKnowledge />},
-      {path: "items", element: <Items />}
+      {path: "items", element: <Items />},
+      {path: "build", element: <Build />},
+      {path: "guide", element: <Guide />},
+      {path: "counter", element: <Counter />}
     ]
   }
 ])
