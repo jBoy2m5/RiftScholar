@@ -1,3 +1,4 @@
+// Champion images
 import aatrox from "../champion-img/Aatrox.png";
 import ahri from "../champion-img/AhriSquare.webp";
 import akali from "../champion-img/AkaliSquare.webp";
@@ -13,7 +14,7 @@ import aurelionsol from "../champion-img/Aurelion_SolSquare.webp";
 import aurora from "../champion-img/AuroraSquare.webp";
 import azir from "../champion-img/AzirSquare.webp";
 import bard from "../champion-img/BardSquare.webp";
-import belveth from "../champion-img/Bel%27VethSquare.webp";
+import belveth from "../champion-img/BelVethSquare.webp";
 import blitzcrank from "../champion-img/BlitzcrankSquare.webp";
 import brand from "../champion-img/BrandSquare.webp";
 import braum from "../champion-img/BraumSquare.webp";
@@ -21,7 +22,7 @@ import briar from "../champion-img/Briar.png";
 import caitlyn from "../champion-img/CaitlynSquare.webp";
 import camille from "../champion-img/CamilleSquare.webp";
 import cassiopeia from "../champion-img/CassiopeiaSquare.webp";
-import chogath from "../champion-img/Cho%27GathSquare.webp";
+import chogath from "../champion-img/ChoGathSquare.webp";
 import corki from "../champion-img/CorkiSquare.webp";
 import darius from "../champion-img/DariusSquare.webp";
 import diana from "../champion-img/DianaSquare.webp";
@@ -53,8 +54,8 @@ import jax from "../champion-img/JaxSquare.webp";
 import jayce from "../champion-img/JayceSquare.webp";
 import jhin from "../champion-img/JhinSquare.webp";
 import jinx from "../champion-img/JinxSquare.webp";
-import ksante from "../champion-img/K%27SanteSquare.webp";
-import kaisa from "../champion-img/Kai%27SaSquare.webp";
+import ksante from "../champion-img/KSanteSquare.webp";
+import kaisa from "../champion-img/KaiSaSquare.webp";
 import kalista from "../champion-img/KalistaSquare.webp";
 import karma from "../champion-img/KarmaSquare_Unreleased.webp";
 import karthus from "../champion-img/KarthusSquare.webp";
@@ -63,10 +64,10 @@ import katarina from "../champion-img/KatarinaSquare_Unreleased.webp";
 import kayle from "../champion-img/KayleSquare.webp";
 import kayn from "../champion-img/KaynSquare.webp";
 import kennen from "../champion-img/KennenSquare.webp";
-import khazix from "../champion-img/Kha%27ZixSquare.webp";
+import khazix from "../champion-img/KhaZixSquare.webp";
 import kindred from "../champion-img/KindredSquare.webp";
 import kled from "../champion-img/KledSquare.webp";
-import kogmaw from "../champion-img/Kog%27MawSquare.webp";
+import kogmaw from "../champion-img/KogMawSquare.webp";
 import leblanc from "../champion-img/LeBlancSquare.webp";
 import leesin from "../champion-img/Lee_SinSquare.webp";
 import leona from "../champion-img/LeonaSquare.webp";
@@ -92,7 +93,7 @@ import neeko from "../champion-img/NeekoSquare.webp";
 import nidalee from "../champion-img/NidaleeSquare.webp";
 import nilah from "../champion-img/NilahSquare.webp";
 import nocturne from "../champion-img/NocturneSquare.webp";
-import nunuwillump from "../champion-img/Nunu_%26_WillumpSquare.webp";
+import nunuwillump from "../champion-img/Nunu_WillumpSquare.webp";
 import olaf from "../champion-img/OlafSquare.webp";
 import orianna from "../champion-img/OriannaSquare.webp";
 import ornn from "../champion-img/OrnnSquare.webp";
@@ -103,7 +104,7 @@ import qiyana from "../champion-img/QiyanaSquare.webp";
 import quinn from "../champion-img/QuinnSquare.webp";
 import rakan from "../champion-img/RakanSquare.webp";
 import rammus from "../champion-img/RammusSquare.webp";
-import reksai from "../champion-img/Rek%27SaiSquare.webp";
+import reksai from "../champion-img/RekSaiSquare.webp";
 import rell from "../champion-img/Rell.png";
 import renataglasc from "../champion-img/Renata_GlascSquare.webp";
 import renekton from "../champion-img/RenektonSquare.webp";
@@ -145,7 +146,7 @@ import urgot from "../champion-img/UrgotSquare.webp";
 import varus from "../champion-img/VarusSquare.webp";
 import vayne from "../champion-img/VayneSquare.webp";
 import veigar from "../champion-img/VeigarSquare.webp";
-import velkoz from "../champion-img/Vel%27KozSquare.webp";
+import velkoz from "../champion-img/VelKozSquare.webp";
 import vex from "../champion-img/VexSquare.webp";
 import vi from "../champion-img/Vi.png";
 import viego from "../champion-img/ViegoSquare.webp";
@@ -171,12 +172,14 @@ import zilean from "../champion-img/Zilean.png";
 import zoe from "../champion-img/Zoe.png";
 import zyra from "../champion-img/Zyra.png";
 
+// Roles
 import top from "../role-img/top.png";
 import jungle from "../role-img/jg.png";
 import bot from "../role-img/bot.png";
 import support from "../role-img/sp.png";
 import mid from "../role-img/mid.png";
 
+// Classes
 import fighter from "../role-img/fighter.png";
 import mage from "../role-img/mage.png";
 import marksman from "../role-img/marksman.png";
@@ -204,1519 +207,1827 @@ const championTrait = [
         description: "The Nine-Tailed Fox"
     },
 
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    { // Ahri
-        to: "/",
-        lane: [mid, "", "", ""],
-        class: [mage, "", "", ""],
-        img: ahri,
-        name: "Ahri",
-        description: "The Nine-Tailed Fox"
-    },
-
-    
+    {
+  // Akali
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [slayer, "", "", ""],
+  img: akali,
+  name: "Akali",
+  description: "The Rogue Assassin"
+},
+
+{
+  // Akshan
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [marksman, slayer, "", ""],
+  img: akshan,
+  name: "Akshan",
+  description: "The Rogue Sentinel"
+},
+
+{
+  // Alistar
+  to: "/",
+  lane: [support, "", "", ""],
+  class: [tank, "", "", ""],
+  img: alistar,
+  name: "Alistar",
+  description: "The Minotaur"
+},
+
+{
+  // Ambessa
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: ambessa,
+  name: "Ambessa",
+  description: "Matriarch of War"
+},
+
+{
+  // Amumu
+  to: "/",
+  lane: [jungle, support, "", ""],
+  class: [tank, "", "", ""],
+  img: amumu,
+  name: "Amumu",
+  description: "The Sad Mummy"
+},
+
+{
+  // Anivia
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [mage, "", "", ""],
+  img: anivia,
+  name: "Anivia",
+  description: "The Cryophoenix"
+},
+
+{
+  // Annie
+  to: "/",
+  lane: [mid, support, "", ""],
+  class: [mage, "", "", ""],
+  img: annie,
+  name: "Annie",
+  description: "The Dark Child"
+},
+
+{
+  // Aphelios
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: aphelios,
+  name: "Aphelios",
+  description: "The Weapon of the Faithful"
+},
+
+{
+  // Ashe
+  to: "/",
+  lane: [bot, support, "", ""],
+  class: [marksman, "", "", ""],
+  img: ashe,
+  name: "Ashe",
+  description: "The Frost Archer"
+},
+
+{
+  // Aurelion Sol
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [mage, "", "", ""],
+  img: aurelionsol,
+  name: "Aurelion Sol",
+  description: "The Star Forger"
+},
+
+{
+  // Aurora
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [mage, "", "", ""],
+  img: aurora,
+  name: "Aurora",
+  description: "The Witch Between Worlds"
+},
+
+{
+  // Azir
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [mage, "", "", ""], 
+  img: azir,
+  name: "Azir",
+  description: "The Emperor of the Sands"
+},
+
+{
+  // Bard
+  to: "/",
+  lane: [support, "", "", ""],
+  class: ["", "", "", ""], // Controller (no icon in your imports)
+  img: bard,
+  name: "Bard",
+  description: "The Wandering Caretaker"
+},
+
+{
+  // Bel'Veth
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: belveth,
+  name: "Bel'Veth",
+  description: "The Empress of the Void"
+},
+
+{
+  // Blitzcrank
+  to: "/",
+  lane: [support, "", "", ""],
+  class: [tank, "", "", ""], // Controller (no icon in your imports)
+  img: blitzcrank,
+  name: "Blitzcrank",
+  description: "The Great Steam Golem"
+},
+
+{
+  // Brand
+  to: "/",
+  lane: [mid, support, jungle, ""],
+  class: [mage, "", "", ""],
+  img: brand,
+  name: "Brand",
+  description: "The Burning Vengeance"
+},
+
+{
+  // Braum
+  to: "/",
+  lane: [support, "", "", ""],
+  class: [tank, "", "", ""],
+  img: braum,
+  name: "Braum",
+  description: "The Heart of the Freljord"
+},
+
+{
+  // Briar
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: briar,
+  name: "Briar",
+  description: "The Restrained Hunger"
+},
+
+{
+  // Caitlyn
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: caitlyn,
+  name: "Caitlyn",
+  description: "The Sheriff of Piltover"
+},
+
+{
+  // Camille
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: camille,
+  name: "Camille",
+  description: "The Steel Shadow"
+},
+
+{
+  // Cassiopeia
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [mage, "", "", ""],
+  img: cassiopeia,
+  name: "Cassiopeia",
+  description: "The Serpent's Embrace"
+},
+
+{
+  // Cho'Gath
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [tank, "", "", ""], 
+  img: chogath,
+  name: "Cho'Gath",
+  description: "The Terror of the Void"
+},
+
+{
+  // Corki
+  to: "/",
+  lane: [bot, mid, "", ""],
+  class: [marksman, "", "", ""],
+  img: corki,
+  name: "Corki",
+  description: "The Daring Bombardier"
+},
+
+{
+  // Darius
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: darius,
+  name: "Darius",
+  description: "The Hand of Noxus"
+},
+
+{
+  // Diana
+  to: "/",
+  lane: [mid, jungle, "", ""],
+  class: [slayer, fighter, "", ""],
+  img: diana,
+  name: "Diana",
+  description: "Scorn of the Moon"
+},
+
+{
+  // Dr. Mundo
+  to: "/",
+  lane: [top, jungle, "", ""],
+  class: [fighter, tank, "", ""],
+  img: mundo,
+  name: "Dr. Mundo",
+  description: "The Madman of Zaun"
+},
+
+{
+  // Draven
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: draven,
+  name: "Draven",
+  description: "The Glorious Executioner"
+},
+
+{
+  // Ekko
+  to: "/",
+  lane: [mid, jungle, "", ""],
+  class: [slayer, "", "", ""],
+  img: ekko,
+  name: "Ekko",
+  description: "The Boy Who Shattered Time"
+},
+
+{
+  // Elise
+  to: "/",
+  lane: [jungle, support, "", ""],
+  class: [slayer, "", "", ""],
+  img: elise,
+  name: "Elise",
+  description: "The Spider Queen"
+},
+
+{
+  // Evelynn
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [slayer, "", "", ""],
+  img: evelynn,
+  name: "Evelynn",
+  description: "Agony's Embrace"
+},
+
+{
+  // Ezreal
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: ezreal,
+  name: "Ezreal",
+  description: "The Prodigal Explorer"
+},
+
+{
+  // Fiddlesticks
+  to: "/",
+  lane: [jungle, support, "", ""],
+  class: [mage, "", "", ""], 
+  img: fiddlesticks,
+  name: "Fiddlesticks",
+  description: "The Ancient Fear"
+},
+
+{
+  // Fiora
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: fiora,
+  name: "Fiora",
+  description: "The Grand Duelist"
+},
+
+{
+  // Fizz
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [slayer, "", "", ""],
+  img: fizz,
+  name: "Fizz",
+  description: "The Tidal Trickster"
+},
+
+{
+  // Corki
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: corki,
+  name: "Corki",
+  description: "The Daring Bombardier"
+},
+
+{
+  // Darius
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: darius,
+  name: "Darius",
+  description: "The Hand of Noxus"
+},
+
+{
+  // Diana
+  to: "/",
+  lane: [mid, jungle, "", ""],
+  class: [slayer, fighter, "", ""],
+  img: diana,
+  name: "Diana",
+  description: "Scorn of the Moon"
+},
+
+{
+  // Dr. Mundo
+  to: "/",
+  lane: [top, jungle, "", ""],
+  class: [fighter, "", "", ""],
+  img: mundo,
+  name: "Dr. Mundo",
+  description: "The Madman of Zaun"
+},
+
+{
+  // Draven
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: draven,
+  name: "Draven",
+  description: "The Glorious Executioner"
+},
+
+{
+  // Ekko
+  to: "/",
+  lane: [mid, jungle, "", ""],
+  class: [slayer, "", "", ""],
+  img: ekko,
+  name: "Ekko",
+  description: "The Boy Who Shattered Time"
+},
+
+{
+  // Elise
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: elise,
+  name: "Elise",
+  description: "The Spider Queen"
+},
+
+{
+  // Evelynn
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [slayer, "", "", ""],
+  img: evelynn,
+  name: "Evelynn",
+  description: "Agony's Embrace"
+},
+
+{
+  // Ezreal
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: ezreal,
+  name: "Ezreal",
+  description: "The Prodigal Explorer"
+},
+
+{
+  // Fiddlesticks
+  to: "/",
+  lane: [jungle, support, "", ""],
+  class: [mage, "", "", ""], // Specialist (no icon in your imports)
+  img: fiddlesticks,
+  name: "Fiddlesticks",
+  description: "The Ancient Fear"
+},
+
+{
+  // Fiora
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [slayer, "", "", ""],
+  img: fiora,
+  name: "Fiora",
+  description: "The Grand Duelist"
+},
+
+{
+  // Fizz
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [slayer, "", "", ""],
+  img: fizz,
+  name: "Fizz",
+  description: "The Tidal Trickster"
+},
+
+{
+  // Galio
+  to: "/",
+  lane: [mid, support, "", ""],
+  class: [tank, "", "", ""],
+  img: galio,
+  name: "Galio",
+  description: "The Colossus"
+},
+
+{
+  // Gangplank
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [fighter, "", "", ""], // Specialist (no icon in your imports)
+  img: gangplank,
+  name: "Gangplank",
+  description: "The Saltwater Scourge"
+},
+
+{
+  // Garen
+  to: "/",
+  lane: [top, mid, "", ""],
+  class: [fighter, "", "", ""],
+  img: garen,
+  name: "Garen",
+  description: "The Might of Demacia"
+},
+
+{
+  // Gnar
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [fighter, "", "", ""], // Specialist (no icon in your imports)
+  img: gnar,
+  name: "Gnar",
+  description: "The Missing Link"
+},
+
+{
+  // Gragas
+  to: "/",
+  lane: [jungle, top, mid, ""],
+  class: [tank, "", "", ""],
+  img: gragas,
+  name: "Gragas",
+  description: "The Rabble Rouser"
+},
+
+{
+  // Graves
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [marksman, "", "", ""], // Specialist (no icon in your imports)
+  img: graves,
+  name: "Graves",
+  description: "The Outlaw"
+},
+
+{
+  // Gwen
+  to: "/",
+  lane: [top, jungle, "", ""],
+  class: [fighter, "", "", ""],
+  img: gwen,
+  name: "Gwen",
+  description: "The Hallowed Seamstress"
+},
+
+{
+  // Hecarim
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: hecarim,
+  name: "Hecarim",
+  description: "The Shadow of War"
+},
+
+{
+  // Heimerdinger
+  to: "/",
+  lane: [top, mid, support, ""],
+  class: [mage, "", "", ""], // Specialist (no icon in your imports)
+  img: heimerdinger,
+  name: "Heimerdinger",
+  description: "The Revered Inventor"
+},
+
+{
+  // Hwei
+  to: "/",
+  lane: [mid, support, bot, ""],
+  class: [mage, "", "", ""],
+  img: hwei,
+  name: "Hwei",
+  description: "The Visionary"
+},
+
+{
+  // Illaoi
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: illaoi,
+  name: "Illaoi",
+  description: "The Kraken Priestess"
+},
+
+{
+  // Irelia
+  to: "/",
+  lane: [top, mid, "", ""],
+  class: [fighter, "", "", ""],
+  img: irelia,
+  name: "Irelia",
+  description: "The Blade Dancer"
+},
+
+{
+  // Ivern
+  to: "/",
+  lane: [jungle, support, "", ""],
+  class: ["", "", "", ""], // Controller (no icon in your imports)
+  img: ivern,
+  name: "Ivern",
+  description: "The Green Father"
+},
+
+{
+  // Janna
+  to: "/",
+  lane: [support, "", "", ""],
+  class: ["", "", "", ""], // Controller (no icon in your imports)
+  img: janna,
+  name: "Janna",
+  description: "The Storm's Fury"
+},
+
+{
+  // Jarvan IV
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: jarvan,
+  name: "Jarvan IV",
+  description: "The Exemplar of Demacia"
+},
+
+{
+  // Jax
+  to: "/",
+  lane: [top, jungle, "", ""],
+  class: [fighter, "", "", ""],
+  img: jax,
+  name: "Jax",
+  description: "Grandmaster at Arms"
+},
+
+{
+  // Jayce
+  to: "/",
+  lane: [top, mid, "", ""],
+  class: [marksman, "", "", ""],
+  img: jayce,
+  name: "Jayce",
+  description: "The Defender of Tomorrow"
+},
+
+{
+  // Jhin
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: jhin,
+  name: "Jhin",
+  description: "The Virtuoso"
+},
+
+{
+  // Jinx
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: jinx,
+  name: "Jinx",
+  description: "The Loose Cannon"
+},
+
+{
+  // K'Sante
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [tank, fighter, "", ""],
+  img: ksante,
+  name: "K'Sante",
+  description: "The Pride of Nazumah"
+},
+
+{
+  // Kai'Sa
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: kaisa,
+  name: "Kai'Sa",
+  description: "Daughter of the Void"
+},
+
+{
+  // Kalista
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: kalista,
+  name: "Kalista",
+  description: "The Spear of Vengeance"
+},
+
+{
+  // Karma
+  to: "/",
+  lane: [mid, support, "", ""],
+  class: [mage, "", "", ""], // Controller part omitted (no icon)
+  img: karma,
+  name: "Karma",
+  description: "The Enlightened One"
+},
+
+{
+  // Karthus
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [mage, "", "", ""],
+  img: karthus,
+  name: "Karthus",
+  description: "The Deathsinger"
+},
+
+{
+  // Kassadin
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [slayer, "", "", ""],
+  img: kassadin,
+  name: "Kassadin",
+  description: "The Void Walker"
+},
+
+{
+  // Katarina
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [slayer, "", "", ""],
+  img: katarina,
+  name: "Katarina",
+  description: "The Sinister Blade"
+},
+
+{
+  // Kayle
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [marksman, mage, "", ""], // Specialist (no icon in your imports)
+  img: kayle,
+  name: "Kayle",
+  description: "The Righteous"
+},
+
+{
+  // Kayn
+  to: "/",
+  lane: [jungle, top, "", ""],
+  class: [slayer, fighter, "", ""],
+  img: kayn,
+  name: "Kayn",
+  description: "The Shadow Reaper"
+},
+
+{
+  // Kennen
+  to: "/",
+  lane: [top, mid, "", ""],
+  class: [mage, "", "", ""], // Specialist (no icon in your imports)
+  img: kennen,
+  name: "Kennen",
+  description: "The Heart of the Tempest"
+},
+
+{
+  // Kha'Zix
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [slayer, "", "", ""],
+  img: khazix,
+  name: "Kha'Zix",
+  description: "The Voidreaver"
+},
+
+{
+  // Kindred
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: kindred,
+  name: "Kindred",
+  description: "The Eternal Hunters"
+},
+
+{
+  // Kled
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: kled,
+  name: "Kled",
+  description: "The Cantankerous Cavalier"
+},
+
+{
+  // Kog'Maw
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: kogmaw,
+  name: "Kog'Maw",
+  description: "The Mouth of the Abyss"
+},
+
+{
+  // LeBlanc
+  to: "/",
+  lane: [mid, support, "", ""],
+  class: [mage, "", "", ""],
+  img: leblanc,
+  name: "LeBlanc",
+  description: "The Deceiver"
+},
+
+{
+  // Lee Sin
+  to: "/",
+  lane: [jungle, top, "", ""],
+  class: [fighter, "", "", ""],
+  img: leesin,
+  name: "Lee Sin",
+  description: "The Blind Monk"
+},
+
+{
+  // Leona
+  to: "/",
+  lane: [support, "", "", ""],
+  class: [tank, "", "", ""],
+  img: leona,
+  name: "Leona",
+  description: "The Radiant Dawn"
+},
+
+{
+  // Lillia
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: lillia,
+  name: "Lillia",
+  description: "The Bashful Bloom"
+},
+
+{
+  // Lissandra
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [mage, "", "", ""],
+  img: lissandra,
+  name: "Lissandra",
+  description: "The Ice Witch"
+},
+
+{
+  // Lucian
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: lucian,
+  name: "Lucian",
+  description: "The Purifier"
+},
+
+{
+  // Lulu
+  to: "/",
+  lane: [support, "", "", ""],
+  class: ["", "", "", ""], // Controller (no icon in your imports)
+  img: lulu,
+  name: "Lulu",
+  description: "The Fae Sorceress"
+},
+
+{
+  // Lux
+  to: "/",
+  lane: [mid, support, "", ""],
+  class: [mage, "", "", ""],
+  img: lux,
+  name: "Lux",
+  description: "The Lady of Luminosity"
+},
+
+{
+  // Malphite
+  to: "/",
+  lane: [top, support, jungle, mid],
+  class: [tank, mage, "", ""],
+  img: malphite,
+  name: "Malphite",
+  description: "Shard of the Monolith"
+},
+
+{
+  // Malzahar
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [mage, "", "", ""],
+  img: malzahar,
+  name: "Malzahar",
+  description: "The Prophet of the Void"
+},
+
+{
+  // Maokai
+  to: "/",
+  lane: [jungle, support, "", ""],
+  class: [tank, "", "", ""],
+  img: maokai,
+  name: "Maokai",
+  description: "The Twisted Treant"
+},
+
+{
+  // Master Yi
+  to: "/",
+  lane: [jungle, top, "", ""],
+  class: [fighter, slayer, "", ""],
+  img: yi,
+  name: "Master Yi",
+  description: "The Wuju Bladesman"
+},
+
+{
+  // Mel
+  to: "/",
+  lane: [mid, support, "", ""],
+  class: [mage, "", "", ""],
+  img: mel,
+  name: "Mel",
+  description: "The Soul's Reflection"
+},
+
+{
+  // Milio
+  to: "/",
+  lane: [support, "", "", ""],
+  class: ["", "", "", ""], // Controller (no icon in your imports)
+  img: milio,
+  name: "Milio",
+  description: "The Gentle Flame"
+},
+
+{
+  // Miss Fortune
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: missfortune,
+  name: "Miss Fortune",
+  description: "The Bounty Hunter"
+},
+
+{
+  // Mordekaiser
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: mordekaiser,
+  name: "Mordekaiser",
+  description: "The Iron Revenant"
+},
+
+{
+  // Morgana
+  to: "/",
+  lane: [support, mid, "", ""],
+  class: [mage, "", "", ""], // Controller (no icon in your imports)
+  img: morgana,
+  name: "Morgana",
+  description: "The Fallen"
+},
+
+{
+  // Naafiri
+  to: "/",
+  lane: [jungle, mid, "", ""],
+  class: [slayer, "", "", ""],
+  img: naafiri,
+  name: "Naafiri",
+  description: "The Hound of a Hundred Bites"
+},
+
+{
+  // Nami
+  to: "/",
+  lane: [support, "", "", ""],
+  class: ["", "", "", ""], // Controller (no icon in your imports)
+  img: nami,
+  name: "Nami",
+  description: "The Tidecaller"
+},
+
+{
+  // Nasus
+  to: "/",
+  lane: [top, jungle, mid, ""],
+  class: [fighter, "", "", ""],
+  img: nasus,
+  name: "Nasus",
+  description: "The Curator of the Sands"
+},
+
+{
+  // Nautilus
+  to: "/",
+  lane: [support, "", "", ""],
+  class: [tank, "", "", ""],
+  img: nautilus,
+  name: "Nautilus",
+  description: "The Titan of the Depths"
+},
+
+{
+  // Neeko
+  to: "/",
+  lane: [mid, support, "", ""],
+  class: [mage, "", "", ""], // Controller part omitted (no icon)
+  img: neeko,
+  name: "Neeko",
+  description: "The Curious Chameleon"
+},
+
+{
+  // Nidalee
+  to: "/",
+  lane: [jungle, support, top, ""],
+  class: [slayer, "", "", ""], // Specialist (no icon in your imports)
+  img: nidalee,
+  name: "Nidalee",
+  description: "The Bestial Huntress"
+},
+
+{
+  // Nilah
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: nilah,
+  name: "Nilah",
+  description: "The Joy Unbound"
+},
+
+{
+  // Nocturne
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [slayer, "", "", ""],
+  img: nocturne,
+  name: "Nocturne",
+  description: "The Eternal Nightmare"
+},
+
+{
+  // Nunu & Willump
+  to: "/",
+  lane: [jungle, mid, "", ""],
+  class: [tank, "", "", ""],
+  img: nunuwillump,
+  name: "Nunu & Willump",
+  description: "The Boy and His Yeti"
+},
+
+{
+  // Olaf
+  to: "/",
+  lane: [top, jungle, "", ""],
+  class: [fighter, "", "", ""],
+  img: olaf,
+  name: "Olaf",
+  description: "The Berserker"
+},
+
+{
+  // Orianna
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [mage, "", "", ""],
+  img: orianna,
+  name: "Orianna",
+  description: "The Lady of Clockwork"
+},
+
+{
+  // Ornn
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [tank, "", "", ""],
+  img: ornn,
+  name: "Ornn",
+  description: "The Fire below the Mountain"
+},
+
+{
+  // Pantheon
+  to: "/",
+  lane: [top, jungle, mid, support],
+  class: [fighter, "", "", ""],
+  img: pantheon,
+  name: "Pantheon",
+  description: "The Unbreakable Spear"
+},
+
+{
+  // Poppy
+  to: "/",
+  lane: [top, support, jungle, ""],
+  class: [tank, "", "", ""],
+  img: poppy,
+  name: "Poppy",
+  description: "Keeper of the Hammer"
+},
+
+{
+  // Pyke
+  to: "/",
+  lane: [support, "", "", ""],
+  class: [slayer, "", "", ""], // Controller part omitted (no icon)
+  img: pyke,
+  name: "Pyke",
+  description: "The Bloodharbor Ripper"
+},
+
+{
+  // Qiyana
+  to: "/",
+  lane: [mid, jungle, "", ""],
+  class: [slayer, "", "", ""],
+  img: qiyana,
+  name: "Qiyana",
+  description: "Empress of the Elements"
+},
+
+{
+  // Quinn
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [marksman, "", "", ""], // Specialist (no icon in your imports)
+  img: quinn,
+  name: "Quinn",
+  description: "Demacia's Wings"
+},
+
+{
+  // Rakan
+  to: "/",
+  lane: [support, "", "", ""],
+  class: ["", "", "", ""], // Controller (no icon in your imports)
+  img: rakan,
+  name: "Rakan",
+  description: "The Charmer"
+},
+
+{
+  // Rammus
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [tank, "", "", ""],
+  img: rammus,
+  name: "Rammus",
+  description: "The Armordillo"
+},
+
+{
+  // Rek'Sai
+  to: "/",
+  lane: [jungle, top, "", ""],
+  class: [fighter, "", "", ""],
+  img: reksai,
+  name: "Rek'Sai",
+  description: "The Void Burrower"
+},
+
+{
+  // Rell
+  to: "/",
+  lane: [support, "", "", ""],
+  class: [tank, "", "", ""],
+  img: rell,
+  name: "Rell",
+  description: "The Iron Maiden"
+},
+
+{
+  // Renata Glasc
+  to: "/",
+  lane: [support, "", "", ""],
+  class: ["", "", "", ""], // Controller (no icon in your imports)
+  img: renataglasc,
+  name: "Renata Glasc",
+  description: "The Chem-Baroness"
+},
+
+{
+  // Renekton
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: renekton,
+  name: "Renekton",
+  description: "The Butcher of the Sands"
+},
+
+{
+  // Rengar
+  to: "/",
+  lane: [jungle, top, "", ""],
+  class: [slayer, "", "", ""],
+  img: rengar,
+  name: "Rengar",
+  description: "The Pridestalker"
+},
+
+{
+  // Riven
+  to: "/",
+  lane: [top, jungle, "", ""],
+  class: [fighter, "", "", ""],
+  img: riven,
+  name: "Riven",
+  description: "The Exile"
+},
+
+{
+  // Rumble
+  to: "/",
+  lane: [top, mid, "", ""],
+  class: [mage, "", "", ""],
+  img: rumble,
+  name: "Rumble",
+  description: "The Mechanized Menace"
+},
+
+{
+  // Ryze
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [mage, "", "", ""],
+  img: ryze,
+  name: "Ryze",
+  description: "The Rune Mage"
+},
+
+{
+  // Samira
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: samira,
+  name: "Samira",
+  description: "The Desert Rose"
+},
+
+{
+  // Sejuani
+  to: "/",
+  lane: [jungle, top, "", ""],
+  class: [tank, "", "", ""],
+  img: sejuani,
+  name: "Sejuani",
+  description: "Fury of the North"
+},
+
+{
+  // Senna
+  to: "/",
+  lane: [bot, support, "", ""],
+  class: [marksman, "", "", ""], // Controller part omitted (no icon)
+  img: senna,
+  name: "Senna",
+  description: "The Redeemer"
+},
+
+{
+  // Seraphine
+  to: "/",
+  lane: [mid, support, "", ""],
+  class: [mage, "", "", ""], // Controller part omitted (no icon)
+  img: seraphine,
+  name: "Seraphine",
+  description: "The Starry-Eyed Songstress"
+},
+
+{
+  // Sett
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: sett,
+  name: "Sett",
+  description: "The Boss"
+},
+
+{
+  // Shaco
+  to: "/",
+  lane: [jungle, support, top, ""],
+  class: [slayer, "", "", ""],
+  img: shaco,
+  name: "Shaco",
+  description: "The Demon Jester"
+},
+
+{
+  // Shen
+  to: "/",
+  lane: [top, support, "", ""],
+  class: [tank, "", "", ""],
+  img: shen,
+  name: "Shen",
+  description: "The Eye of Twilight"
+},
+
+{
+  // Shyvana
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: shyvana,
+  name: "Shyvana",
+  description: "The Half-Dragon"
+},
+
+{
+  // Singed
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [tank, mage, "", ""], // Specialist (no icon in your imports)
+  img: singed,
+  name: "Singed",
+  description: "The Mad Chemist"
+},
+
+{
+  // Sion
+  to: "/",
+  lane: [top, support, "", ""],
+  class: [tank, "", "", ""],
+  img: sion,
+  name: "Sion",
+  description: "The Undead Juggernaut"
+},
+
+{
+  // Sivir
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: sivir,
+  name: "Sivir",
+  description: "The Battle Mistress"
+},
+
+{
+  // Skarner
+  to: "/",
+  lane: [jungle, top, support, ""],
+  class: [tank, "", "", ""],
+  img: skarner,
+  name: "Skarner",
+  description: "The Primordial Sovereign"
+},
+
+{
+  // Smolder
+  to: "/",
+  lane: [bot, mid, top, ""],
+  class: [marksman, "", "", ""],
+  img: smolder,
+  name: "Smolder",
+  description: "The Fiery Fledgling"
+},
+
+{
+  // Sona
+  to: "/",
+  lane: [support, "", "", ""],
+  class: ["", "", "", ""], // Controller (no icon in your imports)
+  img: sona,
+  name: "Sona",
+  description: "Maven of the Strings"
+},
+
+{
+  // Soraka
+  to: "/",
+  lane: [support, "", "", ""],
+  class: ["", "", "", ""], // Controller (no icon in your imports)
+  img: soraka,
+  name: "Soraka",
+  description: "The Starchild"
+},
+
+{
+  // Swain
+  to: "/",
+  lane: [top, support, bot, mid],
+  class: [mage, "", "", ""],
+  img: swain,
+  name: "Swain",
+  description: "The Noxian Grand General"
+},
+
+{
+  // Sylas
+  to: "/",
+  lane: [mid, top, jungle, ""],
+  class: [mage, fighter, "", ""],
+  img: sylas,
+  name: "Sylas",
+  description: "The Unshackled"
+},
+
+{
+  // Syndra
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [mage, "", "", ""],
+  img: syndra,
+  name: "Syndra",
+  description: "The Dark Sovereign"
+},
+
+{
+  // Tahm Kench
+  to: "/",
+  lane: [support, top, "", ""],
+  class: [tank, "", "", ""],
+  img: tahmkench,
+  name: "Tahm Kench",
+  description: "The River King"
+},
+
+{
+  // Taliyah
+  to: "/",
+  lane: [mid, jungle, "", ""],
+  class: [mage, "", "", ""],
+  img: taliyah,
+  name: "Taliyah",
+  description: "The Stoneweaver"
+},
+
+{
+  // Talon
+  to: "/",
+  lane: [mid, jungle, "", ""],
+  class: [slayer, "", "", ""],
+  img: talon,
+  name: "Talon",
+  description: "The Blade's Shadow"
+},
+
+{
+  // Taric
+  to: "/",
+  lane: [support, "", "", ""],
+  class: ["", "", "", ""], // Controller part omitted (no icon)
+  img: taric,
+  name: "Taric",
+  description: "The Shield of Valoran"
+},
+
+{
+  // Teemo
+  to: "/",
+  lane: [top, "", "", ""],
+  class: ["", "", "", ""], // Specialist (no icon in your imports)
+  img: teemo,
+  name: "Teemo",
+  description: "The Swift Scout"
+}, 
+
+{
+  // Thresh
+  to: "/",
+  lane: [support, "", "", ""],
+  class: [tank, "", "", ""], // Controller (no icon in your imports)
+  img: thresh,
+  name: "Thresh",
+  description: "The Chain Warden"
+},
+
+{
+  // Tristana
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: tristana,
+  name: "Tristana",
+  description: "The Yordle Gunner"
+},
+
+{
+  // Trundle
+  to: "/",
+  lane: [top, jungle, "", ""],
+  class: [fighter, "", "", ""],
+  img: trundle,
+  name: "Trundle",
+  description: "The Troll King"
+},
+
+{
+  // Tryndamere
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [slayer, "", "", ""],
+  img: tryndamere,
+  name: "Tryndamere",
+  description: "The Barbarian King"
+},
+
+{
+  // Twisted Fate
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [mage, "", "", ""],
+  img: twistedfate,
+  name: "Twisted Fate",
+  description: "The Card Master"
+},
+
+{
+  // Twitch
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: twitch,
+  name: "Twitch",
+  description: "The Plague Rat"
+},
+
+{
+  // Udyr
+  to: "/",
+  lane: [top, jungle, "", ""],
+  class: [fighter, "", "", ""],
+  img: udyr,
+  name: "Udyr",
+  description: "The Spirit Walker"
+},
+
+{
+  // Urgot
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: urgot,
+  name: "Urgot",
+  description: "The Dreadnought"
+},
+
+{
+  // Varus
+  to: "/",
+  lane: [bot, top, "", ""],
+  class: [marksman, mage, "", ""],
+  img: varus,
+  name: "Varus",
+  description: "The Arrow of Retribution"
+},
+
+{
+  // Vayne
+  to: "/",
+  lane: [bot, top, "", ""],
+  class: [marksman, "", "", ""],
+  img: vayne,
+  name: "Vayne",
+  description: "The Night Hunter"
+},
+
+{
+  // Veigar
+  to: "/",
+  lane: [mid, support, "", ""],
+  class: [mage, "", "", ""],
+  img: veigar,
+  name: "Veigar",
+  description: "The Tiny Master of Evil"
+},
+
+{
+  // Vel'Koz
+  to: "/",
+  lane: [mid, support, "", ""],
+  class: [mage, "", "", ""],
+  img: velkoz,
+  name: "Vel'Koz",
+  description: "The Eye of the Void"
+},
+
+{
+  // Vex
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [mage, "", "", ""],
+  img: vex,
+  name: "Vex",
+  description: "The Gloomist"
+},
+
+{
+  // Vi
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: vi,
+  name: "Vi",
+  description: "The Piltover Enforcer"
+},
+
+{
+  // Viego
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: viego,
+  name: "Viego",
+  description: "The Ruined King"
+},
+
+{
+  // Viktor
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [mage, "", "", ""],
+  img: viktor,
+  name: "Viktor",
+  description: "The Arcane Herald"
+},
+
+{
+  // Vladimir
+  to: "/",
+  lane: [mid, top, "", ""],
+  class: [mage, "", "", ""],
+  img: vladimir,
+  name: "Vladimir",
+  description: "The Crimson Reaper"
+},
+
+{
+  // Volibear
+  to: "/",
+  lane: [top, jungle, "", ""],
+  class: [fighter, "", "", ""],
+  img: volibear,
+  name: "Volibear",
+  description: "The Relentless Storm"
+},
+
+{
+  // Warwick
+  to: "/",
+  lane: [jungle, top, "", ""],
+  class: [fighter, "", "", ""],
+  img: warwick,
+  name: "Warwick",
+  description: "The Uncaged Wrath of Zaun"
+},
+
+{
+  // Wukong
+  to: "/",
+  lane: [top, jungle, "", ""],
+  class: [fighter, "", "", ""],
+  img: wukong,
+  name: "Wukong",
+  description: "The Monkey King"
+},
+
+{
+  // Xayah
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: xayah,
+  name: "Xayah",
+  description: "The Rebel"
+},
+
+{
+  // Xerath
+  to: "/",
+  lane: [mid, support, "", ""],
+  class: [mage, "", "", ""],
+  img: xerath,
+  name: "Xerath",
+  description: "The Magus Ascendant"
+},
+
+{
+  // Xin Zhao
+  to: "/",
+  lane: [jungle, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: xinzhao,
+  name: "Xin Zhao",
+  description: "The Seneschal of Demacia"
+},
+
+{
+  // Yasuo
+  to: "/",
+  lane: [mid, top, "", ""],
+  class: [fighter, "", "", ""],
+  img: yasuo,
+  name: "Yasuo",
+  description: "The Unforgiven"
+},
+
+{
+  // Yone
+  to: "/",
+  lane: [mid, top, "", ""],
+  class: [fighter, "", "", ""],
+  img: yone,
+  name: "Yone",
+  description: "The Unforgotten"
+},
+
+{
+  // Yorick
+  to: "/",
+  lane: [top, "", "", ""],
+  class: [fighter, "", "", ""],
+  img: yorick,
+  name: "Yorick",
+  description: "Shepherd of Souls"
+},
+
+{
+  // Yunara
+  to: "/",
+  lane: [mid, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: yunara,
+  name: "Yunara",
+  description: "The Unbroken Faith"
+},
+
+{
+  // Yuumi
+  to: "/",
+  lane: [support, "", "", ""],
+  class: ["", "", "", ""], // Controller (no icon in your imports)
+  img: yuumi,
+  name: "Yuumi",
+  description: "The Magical Cat"
+},
+
+{
+  // Zaahen
+  to: "/",
+  lane: [top, jungle, "", ""],
+  class: [fighter, "", "", ""],
+  img: zaahen,
+  name: "Zaahen",
+  description: "The Darkin Glaive"
+},
+
+
+{
+  // Zac
+  to: "/",
+  lane: [jungle, top, support, ""],
+  class: [tank, "", "", ""],
+  img: zac,
+  name: "Zac",
+  description: "The Secret Weapon"
+},
+
+{
+  // Zed
+  to: "/",
+  lane: [mid, jungle, "", ""],
+  class: [slayer, "", "", ""],
+  img: zed,
+  name: "Zed",
+  description: "The Master of Shadows"
+},
+
+{
+  // Zeri
+  to: "/",
+  lane: [bot, "", "", ""],
+  class: [marksman, "", "", ""],
+  img: zeri,
+  name: "Zeri",
+  description: "The Spark of Zaun"
+},
+
+{
+  // Ziggs
+  to: "/",
+  lane: [bot, mid, "", ""],
+  class: [mage, "", "", ""],
+  img: ziggs,
+  name: "Ziggs",
+  description: "The Hexplosives Expert"
+},
+
+{
+  // Zilean
+  to: "/",
+  lane: [mid, support, "", ""],
+  class: ["", "", "", ""],
+  img: zilean,
+  name: "Zilean",
+  description: "The Chronokeeper"
+},
+
+{
+  // Zoe
+  to: "/",
+  lane: [mid, support, "", ""],
+  class: [mage, "", "", ""],
+  img: zoe,
+  name: "Zoe",
+  description: "The Aspect of Twilight"
+},
+
+{
+  // Zyra
+  to: "/",
+  lane: [jungle, support, "", ""],
+  class: [mage, "", "", ""],
+  img: zyra,
+  name: "Zyra",
+  description: "Rise of the Thorns"
+}
+
 ]
 
 export { championTrait }

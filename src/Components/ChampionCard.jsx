@@ -7,17 +7,17 @@ function ChampionCard(props) {
         <div className="bg-[#0D1221] h-75 w-75 px-3 py-3 flex flex-col items-center border border-[rgba(230,234,242,0.16)] hover:border-[#F2D18B] ">
           <div className="w-10/10 mb-5 flex flex-row justify-between">
             <div className="flex gap-1 w-1/2">
-              {props.lane1 && <img src={props.lane1} alt="top" className="w-[20%] " />}
-              {props.lane2 && <img src={props.lane2} alt="jungle" className="w-[20%] " />}
-              {props.lane3 && <img src={props.lane3} alt="top" className="w-[20%] " />}
-              {props.lane4 && <img src={props.lane4} alt="jungle" className="w-[20%] " />}
+              {props.lane1 && <img src={props.lane1} className="w-[20%] " />}
+              {props.lane2 && <img src={props.lane2} className="w-[20%] " />}
+              {props.lane3 && <img src={props.lane3} className="w-[20%] " />}
+              {props.lane4 && <img src={props.lane4} className="w-[20%] " />}
             </div>
 
             <div className="flex gap-1 w-1/2 justify-end">
-              {props.class1 && <img src={props.class1} alt="fighter" className="w-[20%]" />}
-              {props.class2 && <img src={props.class1} alt="fighter" className="w-[20%]" />}
-              {props.class3 && <img src={props.class3} alt="fighter" className="w-[20%]" />}
-              {props.class4 && <img src={props.class4} alt="fighter" className="w-[20%]" />}
+              {props.class1 && <img src={props.class1} className="w-[20%]" />}
+              {props.class2 && <img src={props.class2} className="w-[20%]" />}
+              {props.class3 && <img src={props.class3} className="w-[20%]" />}
+              {props.class4 && <img src={props.class4} className="w-[20%]" />}
             </div>
           </div>
           <img src={props.champimg} alt="aatrox" className="w-4/10 mb-6" />
