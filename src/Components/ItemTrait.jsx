@@ -203,6 +203,410 @@ import zeke from "../item-img/40px-Zeke's_Convergence_item"
 import zhonya from "../item-img/40px-Zhonya's_Hourglass_item"
 
 
-const ItemTrait = [];
+const ItemTrait = [
+    // Cull 
+    {},
+    // Darkseal
+    {},
+    // Doran Blade
+    {},
+    // Doran Shield
+    {},
+    // Gustwalker
+    {},
+    // Mosstomper
+    {},
+    // Scorchclaw
+    {},
+    // Tear
+    {},
+    // Atlas
+    {},
+    // Control ward
+    {},
+    // Iron elixir
+    {},
+    // Sorcery elixir
+    {},
+    // Wrath elixir
+    {},
+    // Health Portion
+    {},
+    // Refillable Portion
+    {},
+    // Farsight
+    {},
+    // Lens
+    {},
+    // Ward
+    {},
+    // Avarice Elixir
+    {},
+    // Force Elixir
+    {},
+    // Skille Elixir
+    {},
+    // Herald Eye
+    {},
+    // Magical Boot
+    {},
+    // Biscuit
+    {},
+    // Pyke Cut
+    {},
+    // Berserker Boot
+    {},
+    // Boots
+    {},
+    // Swiftness Boot
+    {},
+    // Ionian Boot
+    {},
+    // Mercury Treads
+    {},
+    // Steelcaps Boot
+    {},
+    // Sorcerer Boot
+    {},
+    // Symbiotic Soles 
+    {},
+    // Amplifying Tome
+    {},
+    // BF Sword
+    {},
+    // Blasting Wand
+    {},
+    // Cloak Agility
+    {},
+    // Cloak Armor
+    {},
+    // Dagger
+    {},
+    // Faerie Charm
+    {},
+    // Glowing Mote
+    {},
+    // Long Sword
+    {},
+    // Largerod
+    {},
+    // Null Magic Mantle
+    {},
+    // Pickaxe
+    {},
+    // Rejuvenation Bead
+    {},
+    // Ruby Crystal
+    {},
+    // Sapphire Crystal
+    {},
+    // Aegis
+    {},
+    // Aether Wisp
+    {},
+    // Bami
+    {},
+    // Bandle Glass
+    {},
+    // Blighting
+    {},
+    // Bramble
+    {},
+    // Catalyst
+    {},
+    // Caulfield
+    {},
+    // Chainvest
+    {},
+    // Crystalline
+    {},
+    // Executioner
+    {},
+    // Fatedashes
+    {},
+    // Fiendish Codex
+    {},
+    // Forbidden Idol
+    {},
+    // Giant Belt
+    {},
+    // Glacial
+    {},
+    // Haunting Guise
+    {},
+    // Hearthbound Axe
+    {},
+    // Hex drinker
+    {},
+    // Hextechal Ternator
+    {},
+    // Kindle Gem
+    {},
+    // Last Whisper
+    {},
+    // Lifeline
+    {},
+    // Lost Chapter
+    {},
+    // Negatron Cloak
+    {},
+    // Noon Quiver
+    {},
+    // Oblivion Orb
+    {},
+    // Phage
+    {},
+    // Quick Silver
+    {},
+    // Rectrix
+    {},
+    // Recurve Bow
+    {},
+    // Runi Compass
+    {},
+    // Scout
+    {},
+    // Seeker
+    {},
+    // Serrated Dirk
+    {},
+    // Sheen
+    {},
+    // Spectre Cowl
+    {},
+    // Steel Sigil
+    {},
+    // Brutalizer
+    {},
+    // Tiamat
+    {},
+    // Tunneler
+    {},
+    // Vampiric Scepter
+    {},
+    // Verdant Barrier
+    {},
+    // Warden Mall
+    {},
+    // Watchful
+    {},
+    // Winged Moonplate
+    {},
+    // Zeal
+    {},
+    // Abyssal
+    {},
+    // Archangel Staff
+    {},
+    // Ardent Censef
+    {},
+    // Axiomarc
+    {},
+    // Banshee
+    {},
+    // Black Cleaver
+    {},
+    // Black Fire
+    {},
+    // Blade Ruined King
+    {},
+    // Blood Letter
+    {},
+    // Blood Song
+    {},
+    // Blood Thirster
+    {},
+    // Bounty World
+    {},
+    // Celestial Opposition
+    {},
+    // Chempunk
+    {},
+    // Cosmic Drive
+    {},
+    // Crypt Bloom
+    {},
+    // Dawn Core
+    {},
+    // Deadman Plate
+    {},
+    // Death Dance
+    {},
+    // Dream Maker
+    {},
+    // Echohelia
+    {},
+    // Eclipse
+    {},
+    // Edge of Night 
+    {},
+    // Essence Reaver
+    {},
+    // Hexplate
+    {},
+    // Fimbulwinter
+    {},
+    // Force Nature
+    {},
+    // Frozen Heart
+    {},
+    // Guardian Angel
+    {},
+    // Guinsoo
+    {},
+    // Heartsteel
+    {},
+    // Rocketbelt
+    {},
+    // Hollow Radiance
+    {},
+    // Hubris
+    {},
+    // Hull Breaker
+    {},
+    // Iceborn Gauntlet
+    {},
+    // Shield Bow
+    {},
+    // Imperial Mandate
+    {},
+    // Infinity Edge
+    {},
+    // Jaksho
+    {},
+    // Kaenic
+    {},
+    // Knight Vow
+    {},
+    // Kraken Slayer
+    {},
+    // liandry
+    {},
+    // Lichbane
+    {},
+    // Iron Solary
+    {},
+    // Dominik
+    {},
+    // Luden Gun
+    {},
+    // Malignance
+    {},
+    // Manamune
+    {},
+    // Malmortius
+    {},
+    // Mejai
+    {},
+    // Mercurial
+    {},
+    // Mikael
+    {},
+    // Moonstone
+    {},
+    // Morello
+    {},
+    // Mortal Reminder
+    {},
+    // Muramana
+    {},
+    // Nashor
+    {},
+    // Navori
+    {},
+    // Opportunity
+    {},
+    // Overlord
+    {},
+    // Overlord
+    {},
+    // Phantom
+    {},
+    // Profane
+    {},
+    // Rabadon
+    {},
+    // Randuin
+    {},
+    // Fire Cannon
+    {},
+    // Ravenous
+    {},
+    // Redemption
+    {},
+    // Riftmaker
+    {},
+    // Rodofedge
+    {},
+    // Runaan
+    {},
+    // Rylai
+    {},
+    // Seraph
+    {},
+    // Serylda
+    {},
+    // Solstice
+    {},
+    // Shojin
+    {},
+    // Spectral
+    {},
+    // Spirit Visage
+    {},
+    // Flowing Water
+    {},
+    // Statikk
+    {},
+    // Sterak
+    {},
+    // Storm Surge
+    {},
+    // Stride Breaker
+    {},
+    // Sundered Sky
+    {},
+    // Sunfire
+    {},
+    // Terminus
+    {},
+    // Collector
+    {},
+    // Thornmail
+    {},
+    // Titanic
+    {},
+    // Trail Blazer
+    {},
+    // Trinity Force
+    {},
+    // Umbral
+    {},
+    // Unending
+    {},
+    // Wardstone
+    {},
+    // Voidstaff
+    {},
+    // Voltaic
+    {},
+    // Warmog
+    {},
+    // Winter Approach
+    {},
+    // Witend
+    {},
+    // youmuu
+    {},
+    // Yuntal
+    {},
+    // Zazzak
+    {},
+    // Zeke
+    {},
+    // Zhonya
+    {}
+
+];
 
 export {ItemTrait}
