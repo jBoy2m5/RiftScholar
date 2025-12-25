@@ -1,6 +1,7 @@
 import cull from "../item-img/40px-Cull_item"
 import darkseal from "../item-img/40px-Dark_Seal_item"
 import doranblade from "../item-img/40px-Doran's_Blade_item"
+import doranring from "../item-img/40px-Doran's_Ring_item.png"
 import doranshield from "../item-img/40px-Doran's_Shield_item"
 import gustwalker from "../item-img/40px-Gustwalker_Hatchling_item"
 import mosstomper from "../item-img/40px-Mosstomper_Seedling_item"
@@ -205,407 +206,2015 @@ import zhonya from "../item-img/40px-Zhonya's_Hourglass_item"
 
 const ItemTrait = [
     // Cull 
-    {},
+    {
+            id: 0,
+            itemImg: doranring, 
+            itemName: "Doran's Ring",
+            cost: 400, 
+            attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+            description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+        ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Darkseal
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Doran Blade
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Doran Shield
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Gustwalker
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Mosstomper
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Scorchclaw
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Tear
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Atlas
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Control ward
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Iron elixir
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Sorcery elixir
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Wrath elixir
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Health Portion
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Refillable Portion
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Farsight
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Lens
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Ward
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Avarice Elixir
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Force Elixir
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Skille Elixir
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Herald Eye
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Magical Boot
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Biscuit
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Pyke Cut
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Berserker Boot
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Boots
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Swiftness Boot
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Ionian Boot
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Mercury Treads
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Steelcaps Boot
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Sorcerer Boot
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Symbiotic Soles 
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Amplifying Tome
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // BF Sword
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Blasting Wand
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Cloak Agility
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Cloak Armor
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Dagger
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Faerie Charm
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Glowing Mote
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Long Sword
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Largerod
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Null Magic Mantle
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Pickaxe
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Rejuvenation Bead
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Ruby Crystal
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Sapphire Crystal
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Aegis
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Aether Wisp
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Bami
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Bandle Glass
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Blighting
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Bramble
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Catalyst
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Caulfield
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Chainvest
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Crystalline
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Executioner
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Fatedashes
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Fiendish Codex
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Forbidden Idol
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Giant Belt
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Glacial
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Haunting Guise
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Hearthbound Axe
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Hex drinker
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Hextechal Ternator
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Kindle Gem
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Last Whisper
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Lifeline
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Lost Chapter
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Negatron Cloak
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Noon Quiver
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Oblivion Orb
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Phage
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Quick Silver
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Rectrix
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Recurve Bow
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Runi Compass
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Scout
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Seeker
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Serrated Dirk
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Sheen
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Spectre Cowl
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Steel Sigil
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Brutalizer
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Tiamat
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Tunneler
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Vampiric Scepter
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Verdant Barrier
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Warden Mall
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Watchful
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Winged Moonplate
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Zeal
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Abyssal
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Archangel Staff
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Ardent Censef
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Axiomarc
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Banshee
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Black Cleaver
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Black Fire
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Blade Ruined King
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Blood Letter
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Blood Song
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Blood Thirster
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Bounty World
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Celestial Opposition
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Chempunk
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Cosmic Drive
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Crypt Bloom
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Dawn Core
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Deadman Plate
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Death Dance
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Dream Maker
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Echohelia
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Eclipse
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Edge of Night 
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Essence Reaver
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Hexplate
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Fimbulwinter
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Force Nature
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Frozen Heart
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Guardian Angel
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Guinsoo
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Heartsteel
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Rocketbelt
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Hollow Radiance
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Hubris
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Hull Breaker
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Iceborn Gauntlet
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Shield Bow
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Imperial Mandate
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Infinity Edge
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Jaksho
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Kaenic
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Knight Vow
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Kraken Slayer
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // liandry
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Lichbane
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Iron Solary
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Dominik
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Luden Gun
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Malignance
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Manamune
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Malmortius
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Mejai
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Mercurial
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Mikael
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Moonstone
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Morello
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Mortal Reminder
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Muramana
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Nashor
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Navori
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Opportunity
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Overlord
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Overlord
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Phantom
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Profane
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Rabadon
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Randuin
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Fire Cannon
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Ravenous
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Redemption
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Riftmaker
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Rodofedge
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Runaan
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Rylai
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Seraph
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Serylda
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Solstice
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Shojin
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Spectral
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Spirit Visage
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Flowing Water
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Statikk
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Sterak
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Storm Surge
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Stride Breaker
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Sundered Sky
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Sunfire
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Terminus
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Collector
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Thornmail
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Titanic
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Trail Blazer
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Trinity Force
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Umbral
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Unending
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Wardstone
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Voidstaff
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Voltaic
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Warmog
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Winter Approach
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Witend
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // youmuu
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Yuntal
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Zazzak
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Zeke
-    {},
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    },
     // Zhonya
-    {}
+    {
+        id: 0,
+        itemImg: doranring, 
+        itemName: "Doran's Ring",
+        cost: 400, 
+        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
+    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+    }
 
 ];
 
