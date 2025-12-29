@@ -72,7 +72,8 @@ function ItemCard() {
                     <span>{item.cost}</span>
                   </div>
                 </div>
-                <div className="pb-3 border-b border-[#F2D18B] mb-3">
+                {
+                item.attribute[0] && <div className="pb-3 border-b border-[#F2D18B] mb-3">
                   {item.attribute.map((attribute) => (
                     <p className="mb-2">
                       <span>{attribute[0]}</span>
@@ -80,6 +81,7 @@ function ItemCard() {
                     </p>
                   ))}
                 </div>
+                }
                 <div className="pb-3">
                   {item.description.map((des) => (
                     <p className="mb-2">

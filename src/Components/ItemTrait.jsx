@@ -203,8 +203,12 @@ import zazzak from "../item-img/40px-Zaz'Zak's_Realmspike_item.png"
 import zeke from "../item-img/40px-Zeke's_Convergence_item.png"
 import zhonya from "../item-img/40px-Zhonya's_Hourglass_item.png"
 
+import melee from "../role-img/16px-Melee_role.png"
+import ranged from "../role-img/16px-Ranged_role.png"
+
 import gold_icon from "../assets/20px-Gold_colored_icon.png";
 
+import { Link } from "react-router-dom"
 
 
 const ItemTrait = [
@@ -215,2008 +219,3467 @@ const ItemTrait = [
             itemName: "Cull",
             cost: 450, 
             attribute: [["+7 ", "Attack Damage"], ["+3 ", "Health On-Hit"]],
-            description: [["Unique – Reap: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-        ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+            description: [["Unique – Reap: ", 
+                <>
+                    Killing a minion grants an additional 
+                    {" "}<img src={gold_icon} className="inline" /> {" "}
+                    1, up to a maximum of
+                    {" "}<img src={gold_icon} className="inline" /> {" "}
+                    100.
+                </>],
+        
+            ["", 
+                <>
+                    After having killed 100 minions, grants an additional
+                    {" "}<img src={gold_icon} className="inline" /> {" "}
+                    350 and permanently disables this passive.
+                </>]]
     },
     // Darkseal
     {
-        id: 0,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        id: 1,
+        itemImg: darkseal, 
+        itemName: "Dark Seal",
+        cost: 350, 
+        attribute: [["+15 ", "Ability Power"], ["+50 ", "Health"]],
+        description: [["Unique – Glory: ",
+            <>
+                Gain 2 stacks for each champion kill and 1 stack for each assist, up to a maximum of 10 stacks. For every stack, gain 4 <span className="text-[#5d3fd3]">ability power</span>, up to 40 at maximum stacks. Lose 5 stacks on death. Stacks are preserved when upgrading to
+                {" "}<img src={mejai} className="inline w-4 h-4" /> {" "}
+                Mejai's Soulstealer.
+            </> 
+        ]]
     },
     // Doran Blade
     {
-        id: 0,
+        id: 2,
+        itemImg: doranblade, 
+        itemName: "Doran's Blade",
+        cost: 450, 
+        attribute: [["+10 ", "Attack Damage"], ["+80 ", "Health"]],
+        description: [["Unique – Life Draining: ",
+            <>
+                Heal for 2.5% of post-mitigation damage dealt, reduced to 33.3% effectiveness for area of effect and pet damage.
+            </> 
+        ]]
+    },
+    // Doran's Ring
+    {
+        id: 3,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+            <>
+                Restore 1 <span className="text-[#0096ff]">mana</span> every second. Dealing damage to an enemy champion increases the restoration to 2 <span className="text-[#0096ff]">mana</span> for the next 5 seconds. If you cannot gain mana, heal for ( 45% of the value ) instead.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+        <>
+            Basic attacks deal 5 bonus <span className="text-[#FF5F1F]">physical damage</span> on-hit against minions.
+        </>]]
     },
+
     // Doran Shield
     {
-        id: 0,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        id: 4,
+        itemImg: doranshield, 
+        itemName: "Doran's Shield",
+        cost: 450, 
+        attribute: [["+110 ", "Health"], ["+4 ", "Health per 5 seconds"]],
+        description: [["Unique – Enduring Focus: ",
+            <>
+                After taking damage from a champion, gain bonus <span className="text-[#008000]">health</span> regeneration per second equal to (<img src={melee} className="inline w-4 h-4" /> 0 – 5 / <img src={ranged} className="inline w-4 h-4" /> 0 – 3.75) (based on current missing health) for 8 seconds, refreshing on subsequent champion damage taken. Area of effect, damage over time, or proc damage taken trigger this effect with the An icon representing the keyword Ranged ranged values.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+        <>
+            Basic attacks deal 5 bonus <span className="text-[#FF5F1F]">physical damage</span> on-hit against minions.
+        </>]]
     },
     // Gustwalker
     {
-        id: 0,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        id: 5,
+        itemImg: gustwalker, 
+        itemName: "Gustwalker Hatchling",
+        cost: 450, 
+        attribute: [],
+        description: [["Unique – Jungle Companions: ",
+            <>
+                Summon a Gustwalker Hatchling companion to assist you in combat against monsters.
+            </> 
+        ],
+    ["Unique – Gustwalker's Gait: ", 
+        <>
+             Feed your companion enough treats to evolve it and upgrade your Smite. Upon the companion reaching its final evolution, this item is consumed, granting you the Gustwalker's Gait buff.
+        </>],
+    ["Gustwalker's Gait Buff: ", 
+        <>
+             While in a brush, gain 30% bonus movement speed, decaying over 2 seconds after leaving the brush. Killing a large monster increases this effect to 45% for 2 seconds.
+        </>]]
     },
     // Mosstomper
     {
-        id: 0,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        id: 6,
+        itemImg: mosstomper, 
+        itemName: "Mosstomper Seedling",
+        cost: 450, 
+        attribute: [],
+        description: [["Unique – Jungle Companions: ",
+        <>
+            Summon a Mosstomper Seedling companion to assist you in combat against monsters.
+        </> 
+        ],
+    ["Unique – Mosstomper's Courage: ", 
+        <>
+             Feed your companion enough treats to evolve it and upgrade your Smite. Upon the companion reaching its final evolution, this item is consumed, granting you the Mosstomper's Courage buff.
+        </>],
+    ["Mosstomper's Courage Buff: ",
+        <>
+            Gain a 180 – 300 (based on level) shield that lasts until broken and refreshes after killing a monster camp or 10 seconds without combat.
+        </>
+    ]]
     },
     // Scorchclaw
     {
-        id: 0,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        id: 7,
+        itemImg: scorchclaw, 
+        itemName: "Scorchclaw Pup",
+        cost: 450, 
+        attribute: [],
+        description: [["Unique – Jungle Companions: ",
+        <>
+            Summon a Mosstomper Seedling companion to assist you in combat against monsters.
+        </> 
+        ],
+    ["Unique – Scorchclaw's Slash: ", 
+        <>
+             Feed your companion enough treats to evolve it and upgrade your Smite. Upon the companion reaching its final evolution, this item is consumed, granting you the Scorchclaw's Slash buff.
+        </>],
+    ["Scorchclaw's Slash Buff: ",
+        <>
+            Gain 3 Ember stacks every 0.5 seconds, up to 100. Killing a large monster grants maximum stacks. When fully stacked, your next damaging basic attack or instance of ability damage against an enemy champion burns them and all enemies within range 250 units of them, dealing bonus true damage equal to ( 4% of the target's maximum health over 4 seconds )and slowing them by 30% decaying over 2 seconds.
+        </>
+    ]]
     },
     // Tear
     {
-        id: 0,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
+        id: 8,
+        itemImg: tear, 
+        itemName: "Tear of the Goddess",
         cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        attribute: [["+240 ", "Mana"]],
+        description: [["Unique – Manaflow: ",
+        <>
+            Grants a charge every 8 seconds, up to 4 charges. Affecting an enemy or ally with an ability consumes a charge to grant 3 bonus <span className="text-[#0096ff]">mana</span>, increased to 6 if they are a champion, up to maximum of 360 bonus <span className="text-[#0096ff]">mana</span>.
+        </> 
+        ],
+    ["Unique – Helping Hand: ", 
+        <>
+            Basic attacks deal 5 bonus <span className="text-[#FF5F1F]">physical damage</span> on-hit against minions.
+        </>]]
     },
     // Atlas
     {
-        id: 0,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
+        id: 9,
+        itemImg: atlas, 
+        itemName: "World Atlas",
         cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        attribute: [["+30 ", "Health"], ["+25% ", "Base Health Generation"], ["+25% ", "Base Mana Generation"], ["+3 per 10 sec ", "Gold Generation"]],
+        description: [["Unique – Support Quest: ",
+        <>
+            Earn{" "}<img src={gold_icon} className="inline" /> {" "}400 through Shared Riches to automatically upgrade to Runic Compass, gaining the Ward active with 3 wards in stock.
+        </> 
+        ],
+    ["Unique – Shared Riches: ", 
+    <>
+        Grants a Shared Riches charge every 20 seconds, up to 3 charges. When an allied champion is within range 1050 units of you, consume a charge in the following ways:
+    </>],
+    ["", 
+    <>
+        • Kill a minion by any means, granting you {" "}<img src={gold_icon} className="inline w-4 h-4" /> {" "} 15 and the nearest allied champion kill full gold. Damaging a minion below ({" "}<img src={melee} className="inline w-4 h-4" /> {" "} 50%/{" "}<img src={ranged} className="inline w-4 h-4" /> {" "} 30%) of its maximum health executes it.
+    </>
+    ],
+    ["",
+    <>
+        • Damage an enemy champion or structure with a basic attack or ability, granting you {" "}<img src={gold_icon} className="inline" /> {" "}({" "}<img src={melee} className="inline" /> {" "} 22 / {" "}<img src={ranged} className="inline" /> {" "} 20). A charge may be consumed this way only once per attack or ability.
+    </>
+    ],
+    ["Unique: ",
+    <>
+        Receives diminishing gold from excessive minion kills.
+    </>
+    ],
+    ["Unique: ",
+    <>
+        Receives Lane Swap Detector penalties if detected within the top or middle lanes early in the game.
+    </>
+    ]]
     },
     // Control ward
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Iron elixir
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Sorcery elixir
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Wrath elixir
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Health Portion
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Refillable Portion
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Farsight
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Lens
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Ward
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Avarice Elixir
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Force Elixir
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Skille Elixir
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Herald Eye
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Magical Boot
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Biscuit
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Pyke Cut
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Berserker Boot
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Boots
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Swiftness Boot
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Ionian Boot
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Mercury Treads
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Steelcaps Boot
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Sorcerer Boot
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Symbiotic Soles 
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Amplifying Tome
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // BF Sword
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Blasting Wand
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Cloak Agility
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Cloak Armor
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Dagger
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Faerie Charm
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Glowing Mote
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Long Sword
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Largerod
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Null Magic Mantle
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Pickaxe
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Rejuvenation Bead
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Ruby Crystal
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Sapphire Crystal
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Aegis
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Aether Wisp
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Bami
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Bandle Glass
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Blighting
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Bramble
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Catalyst
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Caulfield
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Chainvest
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Crystalline
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Executioner
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Fatedashes
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Fiendish Codex
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Forbidden Idol
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Giant Belt
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Glacial
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Haunting Guise
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Hearthbound Axe
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Hex drinker
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Hextechal Ternator
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Kindle Gem
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Last Whisper
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Lifeline
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Lost Chapter
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Negatron Cloak
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Noon Quiver
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Oblivion Orb
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Phage
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Quick Silver
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Rectrix
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Recurve Bow
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Runi Compass
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Scout
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Seeker
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Serrated Dirk
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Sheen
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Spectre Cowl
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Steel Sigil
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Brutalizer
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Tiamat
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Tunneler
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Vampiric Scepter
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Verdant Barrier
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Warden Mall
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Watchful
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Winged Moonplate
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Zeal
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Abyssal
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Archangel Staff
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Ardent Censef
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Axiomarc
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Banshee
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Black Cleaver
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Black Fire
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Blade Ruined King
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Blood Letter
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Blood Song
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Blood Thirster
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Bounty World
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Celestial Opposition
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Chempunk
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Cosmic Drive
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Crypt Bloom
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Dawn Core
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Deadman Plate
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Death Dance
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Dream Maker
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Echohelia
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Eclipse
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Edge of Night 
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Essence Reaver
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Hexplate
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Fimbulwinter
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Force Nature
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Frozen Heart
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Guardian Angel
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Guinsoo
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Heartsteel
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Rocketbelt
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Hollow Radiance
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Hubris
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Hull Breaker
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Iceborn Gauntlet
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Shield Bow
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Imperial Mandate
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Infinity Edge
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Jaksho
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Kaenic
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Knight Vow
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Kraken Slayer
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // liandry
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Lichbane
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Iron Solary
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Dominik
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Luden Gun
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Malignance
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Manamune
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Malmortius
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Mejai
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Mercurial
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Mikael
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Moonstone
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Morello
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Mortal Reminder
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Muramana
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Nashor
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Navori
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Opportunity
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Overlord
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Overlord
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Phantom
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Profane
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Rabadon
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Randuin
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Fire Cannon
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Ravenous
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Redemption
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Riftmaker
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Rodofedge
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Runaan
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Rylai
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Seraph
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Serylda
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Solstice
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Shojin
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Spectral
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Spirit Visage
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Flowing Water
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Statikk
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Sterak
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Storm Surge
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Stride Breaker
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Sundered Sky
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Sunfire
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Terminus
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Collector
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Thornmail
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Titanic
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Trail Blazer
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Trinity Force
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Umbral
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Unending
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Wardstone
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Voidstaff
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Voltaic
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Warmog
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Winter Approach
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Witend
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // youmuu
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Yuntal
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Zazzak
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Zeke
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     },
     // Zhonya
     {
-        id: 0,
+        id: 100000,
         itemImg: doranring, 
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ", "Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, heal for 45% of the value instead."],
-    ["Unique – Helping Hand: ", "Basic attacks deal 5 bonus physical damage on-hit against minions."]]
+        description: [["Unique – Drain: ",
+        <>
+                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            </> 
+        ],
+    ["Unique – Helping Hand: ", 
+    <>
+        Hello
+    </>]]
     }
 
 ];
