@@ -820,258 +820,138 @@ const ItemTrait = [
     },
     // Amplifying Tome
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
+        id: 28,
+        itemImg: amplifyingtome, 
+        itemName: "Amplifying Tome",
         cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        attribute: [["+20 ", "Ability Power"]],
+        description: []
     },
     // BF Sword
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 29,
+        itemImg: bf, 
+        itemName: "B. F. Sword",
+        cost: 1300, 
+        attribute: [["+40 ", "Attack Damage"]],
+        description: []
     },
     // Blasting Wand
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 30,
+        itemImg: blastingwand, 
+        itemName: "Blasting Wand",
+        cost: 850, 
+        attribute: [["+45 ", "Ability Power"]],
+        description: []
     },
     // Cloak Agility
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 31,
+        itemImg: cloakagility, 
+        itemName: "Cloak of Agility",
+        cost: 600, 
+        attribute: [["+15 ", "Critical Strike Chance"]],
+        description: []
     },
     // Cloak Armor
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 32,
+        itemImg: cloakarmor, 
+        itemName: "Cloth Armor",
+        cost: 300, 
+        attribute: [["+15 ", "Armor"]],
+        description: []
     },
     // Dagger
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 33,
+        itemImg: dagger,
+        itemName: "Dagger",
+        cost: 250, 
+        attribute: [["+10 ", "Attack Speed"]],
+        description: []
     },
     // Faerie Charm
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 34,
+        itemImg: faeriecharm, 
+        itemName: "Faerie Charm",
+        cost: 200, 
+        attribute: [["+50 ", "Base Mana Regenaration"]],
+        description: []
     },
     // Glowing Mote
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 35,
+        itemImg: glowingmote, 
+        itemName: "Glowing Mote",
+        cost: 250, 
+        attribute: [["+5 ", "Ability Haste"]],
+        description: []
     },
     // Long Sword
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 36,
+        itemImg: longsword, 
+        itemName: "Long Sword",
+        cost: 350, 
+        attribute: [["+10 ", "Attack Damage"]],
+        description: []
     },
     // Largerod
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 37,
+        itemImg: largerod, 
+        itemName: "Needlessly Large Rod",
+        cost: 1200, 
+        attribute: [["+65 ", "Ability Power"]],
+        description: []
     },
     // Null Magic Mantle
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
+        id: 38,
+        itemImg: nullmagicmantle, 
+        itemName: "Null-Magic Mantle",
         cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        attribute: [["+20 ", "Magic Resistance"]],
+        description: []
     },
     // Pickaxe
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 39,
+        itemImg: pickaxe, 
+        itemName: "Pickaxe",
+        cost: 875, 
+        attribute: [["+25 ", "Attack Damage"]],
+        description: []
     },
     // Rejuvenation Bead
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 40,
+        itemImg: rejuvenationbead, 
+        itemName: "Rejuvenation Bead",
+        cost: 300, 
+        attribute: [["+100% ", "Base Health Regeneration"]],
+        description: []
     },
     // Ruby Crystal
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
+        id: 41,
+        itemImg: rubycrystal, 
+        itemName: "Ruby Crystal",
         cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        attribute: [["+150 ", "Health"]],
+        description: []
     },
     // Sapphire Crystal
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 42,
+        itemImg: sapphirecrystal, 
+        itemName: "Sapphire Crystal",
+        cost: 300, 
+        attribute: [["+300 ", "Mana"]],
+        description: []
     },
     // Aegis
     {
