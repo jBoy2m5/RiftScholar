@@ -1,5 +1,3 @@
-import item from "../item-img/40px-Doran's_Ring_item.png";
-import item1 from "../item-img/40px-Hubris_item.png";
 import { useState, useRef, useEffect } from "react";
 import gold_icon from "../assets/20px-Gold_colored_icon.png";
 import {ItemTrait} from "./ItemTrait"

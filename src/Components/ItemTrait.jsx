@@ -955,258 +955,165 @@ const ItemTrait = [
     },
     // Aegis
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 43,
+        itemImg: aegis, 
+        itemName: "Aegis of the Legion",
+        cost: 1100, 
+        attribute: [["+10 ", "Ability Haste"], ["+25 ", "Armor"], ["+25 ", "Magic Resistance"]],
+        description: []
     },
     // Aether Wisp
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 44,
+        itemImg: aetherwisp, 
+        itemName: "Aether Wisp",
+        cost: 900, 
+        attribute: [["+30 ", "Ability Power"], ["+4% ", "Movement Speed"]],
+        description: []
     },
     // Bami
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 45,
+        itemImg: bami, 
+        itemName: "Bami's Cinder",
+        cost: 900, 
+        attribute: [["+5 ", "Ability Haste"], ["+150 ", "Health"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Immolate: Taking or dealing damage activates this passive for 3 seconds. Deal 15 <span className="text-[#6495ED]">magic damage</span> every second to enemies within range 325 (+ 100% bonus size) units, with the damage being increased to 150% against minions and 200% against monsters. This executes minions that would be killed by one more tick of damage.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Immolate item.
     </>]]
     },
     // Bandle Glass
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
+        id: 46,
+        itemImg: bandleglass, 
+        itemName: "Bandleglass Mirror",
         cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        attribute: [["+20 ", "Ability Power"], ["+10 ", "Ability Haste"], ["+100 ", "Base Mana Regenaration"]],
+        description: []
     },
     // Blighting
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 47,
+        itemImg: blighting, 
+        itemName: "Blighting Jewel",
+        cost: 1100, 
+        attribute: [["+25 ", "Ability Power"], ["+13 ", "Magic Penetration"]],
+        description: [["Limitations: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+            Limited to 1 Blight item.
+        </> 
+        ]]
     },
     // Bramble
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 48,
+        itemImg: bramble, 
+        itemName: "Bramble Vest",
+        cost: 800, 
+        attribute: [["+30 ", "Armor"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+            Unique – Thorns: When struck by a basic attack on-hit, deal 10 <span className="text-[#6495ED]">magic damage</span> to the attacker and, if they are a champion, inflict them with wounds Grievous Wounds for 3 seconds.
+        </> 
+        ]]
     },
     // Catalyst
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 49,
+        itemImg: catalyst, 
+        itemName: "Catalyst of Aeons",
+        cost: 1000, 
+        attribute: [["+300 ", "Health"], ["+375 ", "Mana"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+            Unique – Eternity: Restore mana equal to 10% of pre-mitigation damage taken from champions, and heal for an amount equal to 25% of mana spent, up to 20 per cast. Toggled abilities can only heal for up to 20 per second.
+        </> 
+        ]]
     },
     // Caulfield
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 50,
+        itemImg: caulfield, 
+        itemName: "Caulfield's Warhammer",
+        cost: 1050, 
+        attribute: [["+20 ", "Attack Damage"], ["+10 ", "Ability Haste"]],
+        description: []
     },
     // Chainvest
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 51,
+        itemImg: chainvest, 
+        itemName: "Chain Vest",
+        cost: 800, 
+        attribute: [["+40 ", "Armor"]],
+        description: []
     },
     // Crystalline
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 52,
+        itemImg: crystalline, 
+        itemName: "Crystalline Bracer",
+        cost: 800, 
+        attribute: [["+200 ", "Health"], ["+100% ", "Base Health Regenaration"]],
+        description: []
     },
     // Executioner
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 53,
+        itemImg: executioner, 
+        itemName: "Executioner's Calling",
+        cost: 800, 
+        attribute: [["+15 ", "Attack Damage"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+            Unique – Grievous Wounds: Dealing <span className="text-[#FF5F1F]">physical damage</span> to enemy champions inflicts them with Grievous Wounds for 3 seconds. </> 
+        ]]
     },
     // Fatedashes
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 54,
+        itemImg: fatedashes, 
+        itemName: "Fated Ashes",
+        cost: 900, 
+        attribute: [["+30 ", "Ability Power"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+            Unique – Inflame: Dealing ability damage burns enemies, causing them to take 2.5 <span className="text-[#6495ED]">magic damage</span> every 0.5 seconds over 3 seconds, for a total of 15. Against monsters, the burn deals 7.5 bonus <span className="text-[#6495ED]">magic damage</span> per tick, dealing a total of 10 <span className="text-[#6495ED]">magic damage</span> per tick for up to 60.
+        </> 
+        ]]
     },
     // Fiendish Codex
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 55,
+        itemImg: fiendishcodex, 
+        itemName: "Fiendish Codex",
+        cost: 850, 
+        attribute: [["+25 ", "Ability Power"], ["+10 ", "Ability Haste"]],
+        description: []
     },
     // Forbidden Idol
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 56,
+        itemImg: forbiddenidol, 
+        itemName: "Forbidden Idol",
+        cost: 600, 
+        attribute: [["+50 ", "Base Mana Regenaration"], ["+8% ", "Heal and Shield Power"]],
+        description: []
     },
     // Giant Belt
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
-        <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+        id: 57,
+        itemImg: giantbelt, 
+        itemName: "Giant's Belt",
+        cost: 900, 
+        attribute: [["+350 ", "Health"]],
+        description: []
     },
     // Glacial
     {
