@@ -165,10 +165,11 @@ import firecannon from "../item-img/40px-Rapid_Firecannon_item.png"
 import ravenous from "../item-img/40px-Ravenous_Hydra_item.png"
 import redemption from "../item-img/40px-Redemption_item.png"
 import riftmaker from "../item-img/40px-Riftmaker_item.png"
-import rodofedge from "../item-img/40px-Rod_of_Ages_item.png"
+import rodofages from "../item-img/40px-Rod_of_Ages_item.png"
 import runaan from "../item-img/40px-Runaan's_Hurricane_item.png"
 import rylai from "../item-img/40px-Rylai's_Crystal_Scepter_item.png"
 import seraph from "../item-img/40px-Seraph's_Embrace_item.png"
+import serpentfang from "../item-img/40px-Serpent's_Fang_item.png"
 import serylda from "../item-img/40px-Serylda's_Grudge_item.png"
 import shadowflame from "../item-img/40px-Shadowflame_item.png"
 import shurelya from "../item-img/40px-Shurelya's_Battlesong_item.png"
@@ -2754,210 +2755,265 @@ const ItemTrait = [
         attribute: [["+15 ", "Ability Haste"], ["+200 ", "Health"], ["+100% ", "Base Mana Regeneration"], ["+10% ", "Heal and Shield Power"]],
         description: [["Active: ",
         <>
-            Unique – Intervention: Call upon a 550-radius beam of light to strike upon the target location after 2.5 seconds, granting sight of the area for the duration. Allies within the area are healed for 150 – 350 (based on target's level), while enemy champions within take 10% of target's maximum health as true damage. Can be used while dead. (90 second cooldown; 5500 range).
+            Unique – Intervention: Call upon a 550-radius beam of light to strike upon the target location after 2.5 seconds, granting sight of the area for the duration. Allies within the area are healed for 150 – 350 (based on target's level), while enemy champions within take 10% of target's <span className="text-[#008000]">maximum health</span> as <span className="text-[#F28c28]">true damage</span>. Can be used while dead. (90 second cooldown; 5500 range).
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Redemption. <br/><br/>
+        Intervention's effects are reduced by 50% if the target was affected by another Intervention in the last 12 seconds.
     </>]]
     },
 
     // Riftmaker
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 159,
+        itemImg: riftmaker, 
+        itemName: "Riftmaker",
+        cost: 3100, 
+        attribute: [["+70 ", "Ability Power"], ["+15 ", "Ability Haste"], ["+350 ", "Health"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Void Corruption: For each second in combat with champions, deal 2% increased damage, stacking up to 4 times for a total of 8% increased damage. At maximum stacks, gain (<img src={melee} className="inline w-4 h-4" /> 10% / <img src={melee} className="inline w-4 h-4" /> 6%) <span className="text-[#A52A2A]">omnivamp</span>. <br/><br/>
+            Unique – Void Infusion: Gain <span className="text-[#5D3FD3]">ability power</span> equal to 2% bonus <span className="text-[#008000]">health</span>.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Riftmaker.
     </>]]
     },
 
-    // Rodofedge
+    // Rodofages
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 160,
+        itemImg: rodofages, 
+        itemName: "Rod of Ages",
+        cost: 2600, 
+        attribute: [["+45 ", "Ability Power"], ["+350 ", "Health"], ["+500 ", "Mana"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Timeless: This item gains 10 <span className="text-[#008000]">bonus health</span>, 30 <span className="text-[#0096ff]">bonus mana</span>, and 3 <span className="text-[#5D3FD3]">ability power</span> every minute, up to 10 times, for a maximum of 100 <span className="text-[#008000]">bonus health</span>, 300 <span className="text-[#0096ff]">bonus mana</span>, and 30 <span className="text-[#5D3FD3]">ability power</span>. Upon reaching maximum stacks, gain a level that preserves your current experience (cap remains at level 18). <br/> <br/>
+            Unique – Eternity: Restore <span className="text-[#0096ff]">mana</span> equal to 10% of pre-mitigation damage taken from champions, and An icon representing the keyword Heal heal for an amount equal to 25% of <span className="text-[#0096ff]">mana spent</span>, up to 20 per cast. Toggled abilities can only heal for up to 20 per second.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Eternity item.
     </>]]
     },
 
     // Runaan
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 161,
+        itemImg: runaan, 
+        itemName: "Runaan's Hurricane",
+        cost: 2650, 
+        attribute: [["+40% ", "Attack Speed"], ["+25% ", "Critical Strike Chance"], ["+4% ", "Movement Speed"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Wind's Fury: Basic attacks on-attack fire additional bolts at up to 2 enemies in front of you, each dealing 55% AD physical damage. Bolts apply on-hit effects and are affected by critical strike modifiers. <br/>
+            The bolts will target the closest enemies to you that are not the main target.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Runaan's Hurricane. <br/>
+        Can only be purchased on ranged champions.
     </>]]
     },
 
     // Rylai
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 162,
+        itemImg: rylai, 
+        itemName: "Rylai's Crystal Scepter",
+        cost: 2600, 
+        attribute: [["+65 ", "Ability Power"], ["+400 ", "Health"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Rimefrost: Dealing ability damage slows affected units by 30% for 1 second.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Rylai's Crystal Scepter.
     </>]]
     },
 
     // Seraph
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 163,
+        itemImg: seraph, 
+        itemName: "Seraph's Embrace",
+        cost: 2900, 
+        attribute: [["+70 ", "Ability Power"], ["+25 ", "Ability Haste"], ["+1000 ", "Mana"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Awe: Grants <span className="text-[#5D3FD3]">ability power</span> equal to 2% <span className="text-[#0096ff]">bonus mana</span>.
+            Unique – Lifeline: If you would take damage that would reduce you below 30% of your <span className="text-[#008000]">maximum health</span>, you first gain a shield for 3 seconds that absorbs damage equal to 18% <span className="text-[#0096ff]">maximum mana</span> for 3 seconds (90 second cooldown). <br/><br/>
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Manaflow item. <br/>
+        Limited to 1 Lifeline item.
+    </>]]
+    },
+
+    // Serpent's Fang
+    {
+        id: 164,
+        itemImg: serpentfang, 
+        itemName: "Serpent's Fang",
+        cost: 2500, 
+        attribute: [["+55 ", "Attack Damage"], ["+15 ", "Lethality"]],
+        description: [["Passive: ",
+        <>
+            Unique – Shield Reaver: Dealing damage to an enemy champion inflicts them with venom for 3 seconds, reducing any shields they gain within the duration by (<img src={melee} className="inline w-4 h-4" /> 50% / <img src={ranged} className="inline w-4 h-4" /> 35%), and if the target was not already afflicted by the venom, reducing all of their active shields by the same amount.
+        </> 
+        ],
+    ["Limitations: ", 
+    <>
+        Limited to 1 Serpent's Fang.
     </>]]
     },
 
     // Serylda
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 165,
+        itemImg: serylda, 
+        itemName: "Serylda's Grudge",
+        cost: 3000, 
+        attribute: [["+45 ", "Attack Damage"], ["+15 ", "Ability Haste"], ["+35% ", "Armor Penetration"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Bitter Cold: Dealing ability damage to an enemy that is at or below 50% of their <span className="text-[#008000]">maximum health</span> slows them by 30% for 1 second.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Fatality item.
+    </>]]
+    },
+
+    // Shadow Flame
+    {
+        id: 166,
+        itemImg: shadowflame, 
+        itemName: "Shadowflame",
+        cost: 3200, 
+        attribute: [["+110 ", "Ability Power"], ["+15 ", "Magic Penetration"]],
+        description: [["Passive: ",
+        <>
+            Unique – Cinderbloom: Your <span className="text-[#6495ED]">magic</span> and <span className="text-[#F28c28]">true damage</span> will critically strike for 120% damage against enemies below 40% <span className="text-[#008000]">maximum health</span>.
+        </> 
+        ],
+    ["Limitations: ", 
+    <>
+        Limited to 1 Shadowflame.
+    </>]]
+    },
+
+    // Shurelya
+    {
+        id: 167,
+        itemImg: shurelya, 
+        itemName: "Shurelya's Battlesong",
+        cost: 2200, 
+        attribute: [["+50 ", "Ability Power"], ["+15 ", "Ability Haste"], ["+125% ", "Base Mana Regeneration"], ["+4% ", "Movement Speed"]],
+        description: [["Active: ",
+        <>
+            Unique – Inspiring Speech: Grants you and all allies within 1000 units 30% bonus <span className="text-white font-bold">movement speed</span> for 4 seconds (75 second cooldown).
+        </> 
+        ],
+    ["Limitations: ", 
+    <>
+        Limited to 1 Shurelya's Battlesong.
     </>]]
     },
 
     // Solstice
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
+        id: 168,
+        itemImg: solstice, 
+        itemName: "Solstice Sleigh",
         cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Passive: ",
+        attribute: [["+200 ", "Health"], ["+75 ", "Base Health Regeneration"], ["+75% ", "Base Mana Regeneration"], [<>+ <img src={gold_icon} className="inline" /> 5 </>, "per 10 seconds"]],
+        description: [["Active: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Ward: Consumes a charge to place a Stealth Ward at the target location, which grants sight of the surrounding area. Charges refill upon visiting the shop (4 charges; 600 range).
         </> 
         ],
+    ["Passive: ", 
+    <>
+        Unique – Going Sledding: Slowing or immobilizing an enemy champion causes you and the most wounded allied champion within 1500 units to gain 20% bonus <span className="text-white font-bold">movement speed</span> decaying over 2.5 seconds and 50 – 230 (based on your level) <span className="text-[#008000]">bonus health</span> for 2.5 seconds (30 second cooldown). <br/>
+        Unique: Receives diminishing gold from excessive minion kills.
+    </>],
     ["Limitations: ", 
     <>
-        Hello
-    </>]]
+        Limited to 1 Support / Jungle item. <br/>
+        A nearby ally is required to trigger Going Sledding.
+    </>], 
+    ["Requirements: ", 
+        <>
+            Requires completion of the support quest for Runic Compass, which transforms into Bounty of Worlds afterwards to allow you to upgrade into this item for free.
+        </>
+    ]]
     },
 
     // Shojin
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 169,
+        itemImg: shojin, 
+        itemName: "Spear of Shojin",
+        cost: 3100, 
+        attribute: [["+45 ", "Attack Damage"], ["+450 ", "Health"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Dragonforce: Gain 25 basic ability haste. <br/><br/>
+            Unique – Focused Will: Dealing ability damage with a non-innate ability generates a stack for 6 seconds, stacking up to 4 times and up to once per cast instance per second and every second for damage over time abilities. For each stack, your non-basic damage dealt by non-items gain 3% increased damage, for a total increase of 12% at maximum stacks.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
-    </>]]
-    },
-
-    // Spectral
-    {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Passive: ",
-        <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-        </> 
-        ],
-    ["Limitations: ", 
-    <>
-        Hello
+        Limited to 1 Spear of Shojin.
     </>]]
     },
 
     // Spirit Visage
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 170,
+        itemImg: spiritvisage, 
+        itemName: "Spirit Visage",
+        cost: 2700, 
+        attribute: [["+10 ", "Ability Haste"], ["+50 ", "Magic Resistance"], ["+400 ", "Health"], ["+100% ", "Base Health Regeneration"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Boundless Vitality: Increases all healing and shielding received as well as health regeneration by 25%.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Spirit Visage.
     </>]]
     },
 
     // Flowing Water
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 171,
+        itemImg: flowingwater, 
+        itemName: "Staff of Flowing Water",
+        cost: 2250, 
+        attribute: [["+35 ", "Ability Power"], ["+15 ", "Ability Haste"], ["+125% ", "Base Mana Regeneration"], ["+10% ", "Heal and Shield Power"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Rapids: Healing or shielding allied champions (excluding yourself) grants you and them 45 <span className="text-[#5D3FD3]">ability power</span> for 6 seconds.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Staff of Flowing Water.
     </>]]
     },
 
