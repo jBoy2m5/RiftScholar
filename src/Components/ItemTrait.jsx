@@ -2499,272 +2499,262 @@ const ItemTrait = [
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Moonstone Renewer.
     </>]]
     },
 
     // Morello
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 145,
+        itemImg: morello, 
+        itemName: "Morellonomicon",
+        cost: 2850, 
+        attribute: [["+75 ", "Ability Power"], ["+15 ", "Ability Haste"], ["+350 ", "Health"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Grievous Wounds: Dealing <span className="text-[#6495ED]">magic damage</span> to enemy champions inflicts them with Grievous Wounds for 3 seconds.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Morellonomicon.
     </>]]
     },
 
     // Mortal Reminder
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 146,
+        itemImg: mortalreminder, 
+        itemName: "Mortal Reminder",
+        cost: 3300, 
+        attribute: [["+35 ", "Attack Damage"], ["+35% ", "Armor Penetration"], ["+25% ", "Criti"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Grievous Wounds: Dealing physical damage to enemy champions inflicts them with Grievous Wounds for 3 seconds.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Fatality item.
     </>]]
     },
 
     // Muramana
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 147,
+        itemImg: muramana, 
+        itemName: "Muramana",
+        cost: 2900, 
+        attribute: [["+35 ", "Attack Damage"], ["+15 ", "Ability Haste"], ["+800 ", "Mana"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Awe: Grants <span className="text-[#F28c28]">bonus attack damage</span> equal to 2% <span className="text-[#0096ff]">maximum mana</span>. <br/><br/>
+            Unique – Shock: Basic attacks on-hit against champions deal 1.2% <span className="text-[#0096ff]">maximum mana</span> <span className="text-[#FF5F1F]">bonus physical damage</span>. Dealing spell damage or persistent damage to champions deals (<img src={melee} className="inline w-4 h-4" /> 4% / <img src={ranged} className="inline w-4 h-4" /> 3%) <span className="text-[#0096ff]">maximum mana</span> <span className="text-[#FF5F1F]">bonus physical damage</span>. Can only be triggered on the same target once every 6.5 seconds from the same attack or cast.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Manaflow item.
     </>]]
     },
 
     // Nashor
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 148,
+        itemImg: nashor, 
+        itemName: "Nashor's Tooth",
+        cost: 2900, 
+        attribute: [["+80 ", "Ability Power"], ["+15 ", "Ability Haste"], ["+50% ", "Attack Speed"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Icathian Bite: Basic attacks deal 15 (+ 15% <span className="text-[#5D3FD3]">AP</span>) <span className="text-[#6495ED]">bonus magic damage</span> on-hit.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Nashor's Tooth.
     </>]]
     },
 
     // Navori
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 149,
+        itemImg: navori, 
+        itemName: "Navori Flickerblade",
+        cost: 2650, 
+        attribute: [["+40% ", "Attack Speed"], ["+25% ", "Critical Strike Chance"], ["+4% ", "Movement Speed"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Transcendence: Basic attacks on-attack reduce the remaining cooldowns of your basic abilities by 15%.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Navori Flickerblade.
     </>]]
     },
 
     // Opportunity
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 150,
+        itemImg: opportunity, 
+        itemName: "Opportunity",
+        cost: 2700, 
+        attribute: [["+55 ", "Attack Damage"], ["+18 ", "Lethality"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Preparation: After being out-of-combat with enemy champions for 8 seconds, gain (<img src={melee} className="inline w-4 h-4" /> 11 / <img src={ranged} className="inline w-4 h-4" /> 5) <span className="text-[#F28c28]">lethality</span>. This bonus remains for 3 seconds after dealing damage to an enemy champion. <br/><br/>
+            Unique – Extraction: Scoring a takedown against an enemy champion within 3 seconds of damaging them grants you 200 bonus <span className="text-white font-bold">movement speed</span> that decays over 1.5 seconds.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Opportunity.
     </>]]
     },
 
     // Overlord
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 151,
+        itemImg: overlord, 
+        itemName: "Overlord's Bloodmail",
+        cost: 3300, 
+        attribute: [["+30 ", "Attack Damage"], ["+550 ", "Health"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Tyranny: Gain <span className="text-[#F28c28]">bonus attack damage</span> equal to 2.5% <span className="text-[#008000]">bonus health</span>. <br/><br/>
+            Unique – Retribution: Gain <span className="text-[#F28c28]">bonus attack damage</span> equal to 0% – 12% (based on <span className="text-[#008000]">missing health</span>) of your <span className="text-[#F28c28]">total attack damage</span> from other sources.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Overlord's Bloodmail.
     </>]]
     },
 
-    // Overlord
-    {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Passive: ",
-        <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-        </> 
-        ],
-    ["Limitations: ", 
-    <>
-        Hello
-    </>]]
-    },
 
     // Phantom
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 152,
+        itemImg: phantom, 
+        itemName: "Phantom Dancer",
+        cost: 2650, 
+        attribute: [["+65% ", "Attack Speed"], ["+25% ", "Critical Strike Chance"], ["+10% ", "Movement Speed"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Spectral Waltz: Become permanently ghosted.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Phantom Dancer.
     </>]]
     },
 
     // Profane
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Passive: ",
+        id: 153,
+        itemImg: profane, 
+        itemName: "Profane Hydra",
+        cost: 2850, 
+        attribute: [["+55 ", "Attack Damage"], ["+10 ", "Ability Haste"], ["+18 ", "Lethality"]],
+        description: [["Active: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Heretical Cleave: Deal 80% <span className="text-[#FF5F1F]">AD physical damage</span> to enemies in a 450 radius (10 second cooldown).
         </> 
         ],
-    ["Limitations: ", 
+    ["Passive: ", 
     <>
-        Hello
-    </>]]
+        Unique – Cleave: Damaging basic attacks deal (<img src={melee} className="inline w-4 h-4" /> 40% AD / <img src={ranged} className="inline w-4 h-4" /> 20% AD) <span className="text-[#FF5F1F]">physical damage</span> to other enemies in a 350 radius centered around the target.
+    </>], 
+    ["Limitations: ", "Limited to 1 Hydra item."]]
     },
 
     // Rabadon
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 154,
+        itemImg: rabadon, 
+        itemName: "Rabadon's Deathcap",
+        cost: 3500, 
+        attribute: [["+130 ", "Ability Power"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Magical Opus: Increase your <span className="text-[#5D3FD3]">ability power</span> by 30%.
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Rabadon's Deathcap.
     </>]]
     },
 
     // Randuin
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Passive: ",
+        id: 155,
+        itemImg: randuin, 
+        itemName: "Randuin's Omen",
+        cost: 2700, 
+        attribute: [["+75 ", "Armor"], ["+350 ", "Health"]],
+        description: [["Active: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Humility: Unleash a shockwave around you that slows nearby enemies by 70% for 2 seconds (90 second cooldown; 500 range).
         </> 
         ],
-    ["Limitations: ", 
+    ["Passive: ", 
     <>
-        Hello
-    </>]]
+        Unique – Resilience: Reduces incoming damage from critical strikes by 30%.
+    </>], 
+    ["Limitations: ", "Limited to 1 Randuin's Omen."]]
     },
 
     // Fire Cannon
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
+        id: 156,
+        itemImg: firecannon, 
+        itemName: "Rapid Firecannon",
+        cost: 2650, 
+        attribute: [["+35% ", "Attack Speed"], ["+25% ", "Critical Strike Chance"], ["+4% ", "Movement Speed"]],
         description: [["Passive: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Energized: Moving and basic attacking generates Energize stacks, up to 100. <br/><br/>
+            Unique – Sharpshooter: When fully Energized, your next basic attack deals 40 <span className="text-[#6495ED]">bonus magic damage</span> on-hit. Energized attacks gain 35% bonus range, capped at 150.
+
         </> 
         ],
     ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Rapid Firecannon.
     </>]]
     },
 
     // Ravenous
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Passive: ",
+        id: 157,
+        itemImg: ravenous, 
+        itemName: "Ravenous Hydra",
+        cost: 3300, 
+        attribute: [["+65 ", "Attack Damage"], ["+15 ", "Ability Haste"], ["+12% ", "Life Steal"]],
+        description: [["Active: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Ravenous Crescent: Deal 80% <span className="text-[#FF5F1F]">AD physical damage</span> to enemies within a 450 radius in front of you. This damage benefits from <span className="text-[#A52A2A]">life steal</span> at 100% effectiveness (10 second cooldown).
         </> 
         ],
-    ["Limitations: ", 
+    ["Passive: ", 
     <>
-        Hello
-    </>]]
+        Unique – Cleave: Basic attacks on-hit deal (<img src={melee} className="inline w-4 h-4" /> 40% AD / <img src={ranged} className="inline w-4 h-4" /> 20% AD) <span className="text-[#FF5F1F]">physical damage</span> to other enemies in a 350 radius centered around the target. This damage benefits from <span className="text-[#A52A2A]">life steal</span> at 100% effectiveness.
+    </>], ["Limitations: ", "Limited to 1 Hydra item."]]
     },
 
     // Redemption
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Passive: ",
+        id: 158,
+        itemImg: redemption, 
+        itemName: "Redemption",
+        cost: 2300, 
+        attribute: [["+15 ", "Ability Haste"], ["+200 ", "Health"], ["+100% ", "Base Mana Regeneration"], ["+10% ", "Heal and Shield Power"]],
+        description: [["Active: ",
         <>
-            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+            Unique – Intervention: Call upon a 550-radius beam of light to strike upon the target location after 2.5 seconds, granting sight of the area for the duration. Allies within the area are healed for 150 – 350 (based on target's level), while enemy champions within take 10% of target's maximum health as true damage. Can be used while dead. (90 second cooldown; 5500 range).
         </> 
         ],
     ["Limitations: ", 
