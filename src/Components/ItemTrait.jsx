@@ -127,17 +127,17 @@ import guinsoo from "../item-img/40px-Guinsoo's_Rageblade_item.png"
 import heartsteel from "../item-img/40px-Heartsteel_item.png"
 import rocketbelt from "../item-img/40px-Hextech_Rocketbelt_item.png"
 import hollowradiance from "../item-img/40px-Hollow_Radiance_item.png"
-import hozironfocus from "../item-img/40px-Horizon_Focus_item.png"
+import horizonfocus from "../item-img/40px-Horizon_Focus_item.png"
 import hubris from "../item-img/40px-Hubris_item.png"
 import hullbreaker from "../item-img/40px-Hullbreaker_item.png"
 import iceborngauntlet from "../item-img/40px-Iceborn_Gauntlet_item.png"
 import shieldbow from "../item-img/40px-Immortal_Shieldbow_item.png"
-import imperialmandate from "../item-img/40px-Cull_item.png"
+import imperialmandate from "../item-img/40px-Imperial_Mandate_item.png"
 import infinityedge from "../item-img/40px-Infinity_Edge_item.png"
 import jaksho from "../item-img/40px-Jak'Sho,_The_Protean_item.png"
 import kaenic from "../item-img/40px-Kaenic_Rookern_item.png"
-import knightvow from "../item-img/40px-Cull_item.png"
-import krakenslayer from "../item-img/40px-Cull_item.png"
+import knightvow from "../item-img/40px-Knight's_Vow_item.png"
+import krakenslayer from "../item-img/40px-Kraken_Slayer_item.png"
 import liandry from "../item-img/40px-Liandry's_Torment_item.png"
 import lichbane from "../item-img/40px-Lich_Bane_item.png"
 import ironsolari from "../item-img/40px-Locket_of_the_Iron_Solari_item.png"
@@ -236,6 +236,7 @@ const ItemTrait = [
                     350 and permanently disables this passive.
                 </>]]
     },
+
     // Darkseal
     {
         id: 1,
@@ -255,6 +256,7 @@ const ItemTrait = [
         </>
         ]]
     },
+
     // Doran Blade
     {
         id: 2,
@@ -272,6 +274,7 @@ const ItemTrait = [
         </>
         ]]
     },
+
     // Doran's Ring
     {
         id: 3,
@@ -279,7 +282,7 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
             <>
                 Restore 1 <span className="text-[#0096ff]">mana</span> every second. Dealing damage to an enemy champion increases the restoration to 2 <span className="text-[#0096ff]">mana</span> for the next 5 seconds. If you cannot gain mana, heal for ( 45% of the value ) instead.
             </> 
@@ -303,7 +306,8 @@ const ItemTrait = [
         attribute: [["+110 ", "Health"], ["+4 ", "Health per 5 seconds"]],
         description: [["Unique – Enduring Focus: ",
             <>
-                After taking damage from a champion, gain bonus <span className="text-[#008000]">health</span> regeneration per second equal to (<img src={melee} className="inline w-4 h-4" /> 0 – 5 / <img src={ranged} className="inline w-4 h-4" /> 0 – 3.75) (based on current missing health) for 8 seconds, refreshing on subsequent champion damage taken. Area of effect, damage over time, or proc damage taken trigger this effect with the An icon representing the keyword Ranged ranged values.
+                After taking damage from a champion, gain bonus <span className="text-[#008000]">health</span> regeneration per second equal to (<img src={melee} className="inline w-4 h-4" /> 0 – 5 / <img src={ranged} className="inline w-4 h-4" /> 0 – 3.75) (based on current missing health) for 8 seconds, refreshing on subsequent champion damage taken. Area of effect, damage over time, or proc damage taken trigger this effect with the <img src={ranged} className="inline w-4 h-4" />
+ ranged values.
             </> 
         ],
     ["Unique – Helping Hand: ", 
@@ -315,6 +319,7 @@ const ItemTrait = [
         </>
         ]]
     },
+
     // Gustwalker
     {
         id: 5,
@@ -348,6 +353,7 @@ const ItemTrait = [
         </>
         ]]
     },
+
     // Mosstomper
     {
         id: 6,
@@ -382,6 +388,7 @@ const ItemTrait = [
         </>
         ]]
     },
+
     // Scorchclaw
     {
         id: 7,
@@ -416,6 +423,7 @@ const ItemTrait = [
         </>
         ]]
     },
+
     // Tear
     {
         id: 8,
@@ -1468,7 +1476,7 @@ const ItemTrait = [
         itemName: "Warden's Mail",
         cost: 1000, 
         attribute: [["+40 ", "Armor"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
             Unique – Rock Solid: Every first incoming instance of post-mitigation basic damage per cast instance is reduced by 15, with a maximum of 20% reduction each.
         </> 
@@ -1833,7 +1841,7 @@ const ItemTrait = [
         itemName: "Dead Man's Plate",
         cost: 1900, 
         attribute: [["+55 ", "Armor"], ["+350 ", "Health"], ["4% ", "Movement Speed"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
             Unique – Shipwrecker: While moving, generates 7 stacks of Momentum every 0.25 seconds, granting up to 20 bonus <span className="text-white font-bold">movement speed</span> at 100 stacks after 3.75 seconds of moving. Basic attacks consume all stacks to deal 0 – 40 (based on Momentum) (+ 0% – 100% (based on Momentum) base AD) bonus <span className="text-[#FF5F1F]">physical damage</span> on-hit. <br />
             Unique – Unsinkable: Gain 15% slow resist.
@@ -1930,7 +1938,7 @@ const ItemTrait = [
         itemName: "Edge of Night",
         cost: 3000, 
         attribute: [["+50 ", "Attack Damage"], ["+15 ", "Lethality"], ["+250 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
             Unique – Annul: Grants a spell shield that blocks the next hostile ability (40 second cooldown, timer restarts upon taking damage from champions).
         </> 
@@ -1978,7 +1986,7 @@ const ItemTrait = [
         itemName: "Fimbulwinter",
         cost: 2400, 
         attribute: [["+15 ", "Ability Haste"], ["+550 ", "Health"], ["+860 ", "Mana"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
             Unique – Awe: Grants bonus <span className="text-[#008000]">health</span> equal to 15% bonus <span className="text-[#0096ff]">mana</span>. <br />
             Unique – Everlasting: Immobilizing, or slowing if you are <img src={melee} className="inline w-4 h-4" /> melee, an enemy champion grants a 100 (+ 4.5% current mana) shield for 3 seconds (8 second cooldown). The shield's strength is increased by 80% if there is more than one enemy champion within range 1200 units.
@@ -2025,463 +2033,476 @@ const ItemTrait = [
     },
     // Guardian Angel
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 117,
+        itemImg: guardianangel, 
+        itemName: "Guardian Angel",
+        cost: 3200, 
+        attribute: [["+55 ", "Attack Damage"], ["+45 ", "Armor"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Rebirth: Upon taking lethal damage, enter resurrection for 4 seconds, during which you are invulnerable, untargetable, and unable to act, and afterwards heal for 50% of base <span className="text-[#008000]">health</span> and restore 100% of maximum <span className="text-[#0096ff]">mana</span> (300 second cooldown, starts after resurrection ends).
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Guardian Angel.
     </>]]
     },
     // Guinsoo
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 118,
+        itemImg: guinsoo, 
+        itemName: "Guinsoo's Rageblade",
+        cost: 3000, 
+        attribute: [["+30 ", "Attack Damage"], ["+30 ", "Ability Power"], ["+25% ", "Attack Speed"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+            Unique – Wrath: Basic attacks deal 30 bonus <span className="text-[#6495ED]">magic damage</span> on-hit. <br />
+            Unique – Seething Strike: Basic attacks grant 8% bonus <span className="text-[#FFFAA0]">attack speed</span> for 3 seconds, stacking up to 4 times for a total of 32% bonus <span className="text-[#FFFAA0]">attack speed</span>. At maximum stacks, basic attacks on-attack also grant a Phantom stack for 6 seconds, up to 2 stacks. At 2 Phantom stacks, the next basic attack consumes all of those stacks An icon representing the keyword On-attack on-attack to trigger a Phantom Hit that applies on-hit effects to the target after a 0.15 second delay.
+        </> 
+        ]]
     },
     // Heartsteel
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 119,
+        itemImg: heartsteel, 
+        itemName: "Heartsteel",
+        cost: 3000, 
+        attribute: [["+900 ", "Health"], ["+100 ", "Base Health Regeneration"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+            Unique – Colossal Consumption: While within 700 units of an enemy champion, generate a stack on them each second, stacking up to 3 times. Your next basic attack against a target with 3 stacks is empowered to consume them all to deal 70 (+ 6% <span className="text-[#008000]">maximum health</span>) bonus <span className="text-[#FF5F1F]">physical damage</span> on-hit and grant you permanent bonus <span className="text-[#008000]">health</span> equal to 8% of that amount (30 second cooldown per target).
+            Unique – Goliath: Gain 0% – 30% (based on maximum <span className="text-[#008000]">health</span>) increased size.
+        </> 
+        ]]
     },
     // Rocketbelt
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 120,
+        itemImg: rocketbelt, 
+        itemName: "Hextech Rocketbelt",
+        cost: 2650, 
+        attribute: [["+70 ", "Ability Power"], ["+20 ", "Ability Haste"], ["+300 ", "Health"]],
+        description: [["Active: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Supersonic: Dash 275 units in the target direction, though not through terrain, then unleash an arc of 7 rockets forward which upon collision explode in a range 185-radius area. Enemies within 85 units of your dash, a 400 unit distance behind you(note), and ones hit by any rocket's explosion are dealt 100 (+ 10% <span className="text-[#5D3FD3]">AP</span>) <span className="text-[#6495ED]">magic damage</span>, once per cast (40 second cooldown; 1050 rocket range). <br />
+            Supersonic reset resets the user's basic attack timer.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Hextech Rocketbelt.
     </>]]
     },
     // Hollow Radiance
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 121,
+        itemImg: hollowradiance, 
+        itemName: "Hollow Radiance",
+        cost: 2800, 
+        attribute: [["+10 ", "Ability Haste"], ["+40 ", "Magic Resistance"], ["+400 ", "Health"], ["+100% ", "Base Health Regeneration"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Immolate: Taking or dealing damage activates this passive for 3 seconds. Deal 15 (+ 1% bonus <span className="text-[#008000]">health</span>) <span className="text-[#6495ED]">magic damage</span> every second to enemies within range 325 (+ 100% bonus size) units, with the damage being increased to 125% against minions and monsters. This executes minions that would be killed by one more tick of damage. <br />
+            Unique – Desolate: Killing a non-champion unit causes an eruption around their death location that deals 30 (+ 2% bonus <span className="text-[#008000]">health</span>) <span className="text-[#6495ED]">magic damage</span> to enemies within 350 units. Scoring a takedown against an enemy champion within 3 seconds of damaging them causes a larger eruption that deals 60 (+ 4% bonus <span className="text-[#008000]">health</span>) <span className="text-[#6495ED]">magic damage</span> to enemies within 500 units.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Immolate item.
     </>]]
     },
+
+    // Horizon Focus
+    {
+        id: 122,
+        itemImg: horizonfocus, 
+        itemName: "Horizon Focus",
+        cost: 2750, 
+        attribute: [["+125 ", "Ability Power"], ["+25 ", "Ability Haste"]],
+        description: [["Passive: ",
+        <>
+            Unique – Hypershot: Dealing ability damage to a champion at range 600 or more units away from the cast position reveals them for 6 seconds. <br/>
+            Unique – Focus: Upon triggering Hypershot, grant sight of the area range 1400 units around the target for 2 seconds and apply Hypershot's effects to enemy champions within the area for 3 seconds (30 second cooldown).
+        </> 
+        ],
+    ["Limitations: ", 
+    <>
+        Limited to 1 Horizon Focus.
+    </>]]
+    },
+
     // Hubris
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 123,
+        itemImg: hubris, 
+        itemName: "Hubris",
+        cost: 3000, 
+        attribute: [["+60 ", "Attack Damage"], ["+10 ", "Ability Haste"], ["+18 ", "Lethality"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Eminence: Scoring a takedown against an enemy champion within 3 seconds of damaging them generates a permanent stack and grants you 15 (+ 2 per stack) bonus <span className="text-[#F28c28]">attack damage</span> for 90 seconds.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Hubris.
     </>]]
     },
     // Hull Breaker
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 124,
+        itemImg: hullbreaker, 
+        itemName: "Hullbreaker",
+        cost: 3000, 
+        attribute: [["+40 ", "Attack Damage"], ["+500 ", "Health"], ["+4% ", "Movement Speed"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Skipper: Basic attacks on-hit against any enemy grant a stack for 10 seconds, stacking up to 5 times. At maximum stacks, or 4 stacks, your next basic attack against a champion, epic monster, or structure consumes all stacks to deal (<img src={melee} className="inline w-4 h-4" /> 120% / <img src={ranged} className="inline w-4 h-4" /> 84%) base <span className="text-[#F28c28]">AD</span> (+ ( <img src={melee} className="inline w-4 h-4" /> 5% / <img src={ranged} className="inline w-4 h-4" /> 3.5%) <span className="text-[#008000]">maximum health</span>) bonus <span className="text-[#FF5F1F]">physical damage</span>, increased to (<img src={melee} className="inline w-4 h-4" /> 300% / <img src={ranged} className="inline w-4 h-4" /> 210%) base <span className="text-[#F28c28]">AD</span> (+ (<img src={melee} className="inline w-4 h-4" /> 10% / <img src={ranged} className="inline w-4 h-4" /> 7%) <span className="text-[#008000]">maximum health</span>) against structures. <br /><br/>
+            Unique – Boarding Party: Allied siege minions siege minions and super minions within range 1050 units gain (<img src={melee} className="inline w-4 h-4" /> 70 – 130 / <img src={ranged} className="inline w-4 h-4" /> 35 – 65) (based on level) bonus <span className="text-[#ffff00]">armor</span> and bonus <span className="text-[#00ffff]">magic resistance</span>, as well as 10% increased size.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Hullbreaker.
     </>]]
     },
     // Iceborn Gauntlet
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 125,
+        itemImg: iceborngauntlet, 
+        itemName: "Iceborn Gauntlet",
+        cost: 2900, 
+        attribute: [["+15 ", "Ability Haste"], ["+50 ", "Armor"], ["+300 ", "Health"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Spellblade: After using an ability, your next basic attack within 10 seconds deals 150% base <span className="text-[#F28c28]">AD bonus</span> <span className="text-[#FF5F1F]">physical damage</span> on-hit and creates a 300 radius frost field for 2 seconds. Enemies within the field are slowed by (<img src={melee} className="inline w-4 h-4" /> 25% / <img src={ranged} className="inline w-4 h-4" /> 12.5%) (1.5 second cooldown, starts after using the empowered attack).
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Spellblade item.
     </>]]
     },
     // Shield Bow
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 126,
+        itemImg: shieldbow, 
+        itemName: "Immortal Shieldbow",
+        cost: 3000, 
+        attribute: [["+55 ", "Attack Damage"], ["+25% ", "Critical Strike Chance"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Lifeline: If you would take damage that would reduce you below 30% of your <span className="text-[#008000]">maximum health</span>, you first gain a shield that absorbs (<img src={melee} className="inline w-4 h-4" /> 400 – 700 / <img src={ranged} className="inline w-4 h-4" /> 320 – 560) (based on level) damage for 3 seconds (90 second cooldown).
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Lifeline item.
     </>]]
     },
     // Imperial Mandate
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 127,
+        itemImg: imperialmandate, 
+        itemName: "Imperial Mandate",
+        cost: 2250, 
+        attribute: [["+60 ", "Ability Power"], ["+20 ", "Ability Haste"], ["+125% ", "Base Mana Regeneration"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Coordinated Fire: Abilities that slow or immobilize enemy champions mark them for 5 seconds. Allied champions that damage marked enemies consume the mark to deal 10% of the target's <span className="text-[#008000]">current health</span> <span className="text-[#6495ED]">bonus magic damage</span> (9 second cooldown per target, starts upon mark application).
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Imperial Mandate.
     </>]]
     },
     // Infinity Edge
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 128,
+        itemImg: infinityedge, 
+        itemName: "Infinity Edge",
+        cost: 3450, 
+        attribute: [["+65 ", "Attack Damage"], ["+25% ", "Critical Strike Chance"], ["+40% ", "Critical Strike Damage"]],
+        description: [["Limitations: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+            Limited to 1 Infinity Edge.
+        </> 
+        ]]
     },
     // Jaksho
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 129,
+        itemImg: jaksho, 
+        itemName: "Jak'Sho, The Protean",
+        cost: 3200, 
+        attribute: [["+45 ", "Armor"], ["+45 ", "Magic Resistance"], ["+350 ", "Health"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+            Unique – Voidborn Resilience: Gain a stack for each second in combat with enemy champions, stacking up to 5 times. At maximum stacks, increase your <span className="text-[#ffff00]">bonus armor</span> and <span className="text-[#00ffff]">bonus magic resistance</span> by 30% until the end of combat.
+        </> 
+        ]]
     },
     // Kaenic
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 130,
+        itemImg: kaenic, 
+        itemName: "Kaenic Rookern",
+        cost: 2900, 
+        attribute: [["+80 ", "Magic Resistance"], ["+400 ", "Health"], ["+100% ", "Base Health Regeneration"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Magebane: After not taking <span className="text-[#6495ED]">magic damage</span> for 15 seconds, gain a shield that absorbs <span className="text-[#6495ED]">magic damage</span> equal to 15% of <span className="text-[#008000]">maximum health</span> until destroyed.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Kaenic Rookern.
     </>]]
     },
     // Knight Vow
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 131,
+        itemImg: knightvow, 
+        itemName: "Knight's Vow",
+        cost: 2300, 
+        attribute: [["+10 ", "Ability Haste"], ["+40 ", "Armor"], ["+200 ", "Health"], ["+100% ", "Base Health Regeneration"]],
+        description: [["Active: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Pledge: Designate the target allied champion as being Worthy, forming a tether between you and them. Champions can only be designated as Worthy by one Knight's Vow at a time. You cannot be designated as Worthy by an ally's Knight's Vow (60 second cooldown; 1250 range).
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Passive: ", 
     <>
-        Hello
-    </>]]
+        Unique – Sacrifice: While your Worthy ally is tethered to you and you are above 30% of your <span className="text-[#008000]">maximum health</span>, redirect 12% of the pre-mitigation <span className="text-[#FF5F1F]">physical</span> and <span className="text-[#6495ED]">magic damage</span> they take to you as the respective damage type. Additionally, you heal for 10% of the post-mitigation damage dealt by your Worthy ally to champions.
+    </>], 
+    ["Limitations: ", "Limited to 1 Knight's Vow."]]
     },
     // Kraken Slayer
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 132,
+        itemImg: krakenslayer, 
+        itemName: "Kraken Slayer",
+        cost: 3000, 
+        attribute: [["+45 ", "Attack Damage"], ["+40% ", "Attack Speed"], ["+4% ", "Movement Speed"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Bring It Down: Basic attacks on-hit grant a stack for 3 seconds, up to 2 stacks. At 2 stacks, the next basic attack consumes all stacks to deal (<img src={melee} className="inline w-4 h-4" /> 150 – 200 / <img src={ranged} className="inline w-4 h-4" /> 120 – 160) (based on level) bonus <span className="text-[#FF5F1F]">physical damage</span> on-hit, increased by 0% – 75% (based on target's <span className="text-[#008000]">missing health</span>), for up to (<img src={melee} className="inline w-4 h-4" /> 262.5 – 350 / <img src={ranged} className="inline w-4 h-4" /> 210 – 280) (based on level) bonus <span className="text-[#FF5F1F]">physical damage</span>.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Kraken Slayer.
     </>]]
     },
     // liandry
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 133,
+        itemImg: liandry, 
+        itemName: "Liandry's Torment",
+        cost: 3000, 
+        attribute: [["+60 ", "Ability Power"], ["+300 ", "Health"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+            Unique – Torment: Dealing ability damage burns enemies, causing them to take 1% of the target's <span className="text-[#008000]">maximum health</span> <span className="text-[#6495ED]">magic damage</span> every 0.5 seconds over 3 seconds, capped at 20 per tick against monsters. <br/><br/>
+            Unique – Suffering: For each second in combat with enemy champions, deal 2% increased damage, stacking up to 3 times for a total of 6%.
+        </> 
+        ]]
     },
     // Lichbane
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 134,
+        itemImg: lichbane, 
+        itemName: "Lich Bane",
+        cost: 2900, 
+        attribute: [["+100 ", "Ability Power"], ["+10 ", "Ability Haste"], ["+4% ", "Movement Speed"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Spellblade: After using an ability, your next basic attack within 10 seconds gains 50% bonus <span className="text-[#FFFAA0]">attack speed</span> and deals 75% base <span className="text-[#F28c28]">AD</span> (+ 40% <span className="text-[#5D3FD3]">AP</span>) bonus <span className="text-[#6495ED]">magic damage</span> on-hit (1.5 second cooldown, starts after using the empowered attack).
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Spellblade item.
     </>]]
     },
     // Iron Solary
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 135,
+        itemImg: ironsolari, 
+        itemName: "Locket of the Iron Solari",
+        cost: 2200, 
+        attribute: [["+10 ", "Ability Haste"], ["+25 ", "Armor"], ["+25 ", "Magic Resistance"], ["+200 ", "Health"]],
+        description: [["Active: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Devotion: Grants you and allied champions within 850 units a shield for 200 – 360 (based on target's level) that decays over 2.5 seconds (90 second cooldown).
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Locket of the Iron Solari. <br/>
+        Devotion's shield strength is reduced by 75% if the target was affected by another Devotion in the last 20 seconds.
     </>]]
     },
     // Dominik
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 136,
+        itemImg: dominik, 
+        itemName: "Lord Dominik's Regards",
+        cost: 3100, 
+        attribute: [["+35 ", "Attack Damage"], ["+40% ", "Armor Peetration"], ["+25% ", "Critical Strike Chance"]],
+        description: [["Limitations: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
-        ],
-    ["Unique – Helping Hand: ", 
-    <>
-        Hello
-    </>]]
+            Limited to 1 Fatality item.
+        </> 
+        ]]
     },
     // Luden Gun
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 137,
+        itemImg: ludengun, 
+        itemName: "Luden's Companion",
+        cost: 2750, 
+        attribute: [["+100 ", "Ability Power"], ["+10 ", "Ability Haste"], ["+600 ", "Mana"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Fire: Gain 6 Shot Charge stacks to fire. Dealing ability damage to an enemy consumes all Shot Charges to deal 75 (+ 5% <span className="text-[#5D3FD3]">AP</span>) bonus <span className="text-[#6495ED]">magic damage</span> to them and, for each charge consumed beyond the first, an additional enemy within An icon representing the keyword Centered range 600 units of them, firing an orb at each secondary target that impacts after 0.528 seconds to deal the damage. If the number of additional targets fired at is less than the number of charges consumed, deal an additional 15 – 75 (based on remaining Shot Charges) (+ 1% – 5% <span className="text-[#5D3FD3]">AP</span>) <span className="text-[#6495ED]">magic damage</span> to the primary target, for a total of 90 – 150 (+ 6% – 10% <span className="text-[#5D3FD3]">AP</span>) (12 second cooldown).
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Luden's Companion.
     </>]]
     },
     // Malignance
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 138,
+        itemImg: malignance, 
+        itemName: "Malignance",
+        cost: 2700, 
+        attribute: [["+90 ", "Ability Power"], ["+15 ", "Ability Haste"], ["+600 ", "Mana"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Scorn: Gain 20 ultimate haste. <br /> <br/>
+            Unique – Hatefog: Dealing ability damage to enemy champions with your ultimate ability creates a 251 – 550 (based on ultimate's damage instance) radius scorched zone beneath them for 3 seconds, applying a Curse to enemies within that deals 15 (+ 1.25% <span className="text-[#5D3FD3]">AP</span>) <span className="text-[#6495ED]">magic damage</span> every 0.25 seconds」 and reduces their <span className="text-[#00ffff]">magic resistance</span> by 10 (3 second cooldown per target, starts on zone creation).
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Malignance.
     </>]]
     },
     // Manamune
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 139,
+        itemImg: manamune, 
+        itemName: "Manamune",
+        cost: 2900, 
+        attribute: [["+35 ", "Attack Damage"], ["+15 ", "Ability Haste"], ["+500 ", "Mana"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Awe: Grants bonus <span className="text-[#FF5F1F]">attack damage</span> equal to 2% <span className="text-[#0096ff]">mana</span>. <br/><br/>
+            Unique – Manaflow: Grants a charge every 8 seconds, up to 4 charges. Consumes a charge on-hit and whenever affecting an enemy or ally with an ability to grant 3 <span className="text-[#0096ff]">mana</span>, increased to 6 for champion targets, up to a maximum of 360 <span className="text-[#0096ff]">mana</span>. <br/><br/>
+            Transforms into An icon for the item Muramana Muramana at 360 bonus <span className="text-[#0096ff]">mana</span>.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Manaflow item.
     </>]]
     },
+
     // Malmortius
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 140,
+        itemImg: malmortius, 
+        itemName: "Maw of Malmortius",
+        cost: 3100, 
+        attribute: [["+60 ", "Attack Damage"], ["+15 ", "Ability Haste"], ["+40 ", "Magic Resistance"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Lifeline: If you would take <span className="text-[#6495ED]">magic damage</span> that would reduce you below 30% of your <span className="text-[#008000]">maximum health</span>, you first gain a shield that absorbs (<img src={melee} className="inline w-4 h-4" /> 200 / <img src={ranged} className="inline w-4 h-4" /> 150) (+ (<img src={melee} className="inline w-4 h-4" /> 150% / <img src={ranged} className="inline w-4 h-4" /> 112.5%) bonus <span className="text-[#F28c28]">AD</span>) <span className="text-[#6495ED]">magic damage</span> for 3 seconds. Additionally, triggering this effect grants you 10% omnivamp until the end of combat (90 second cooldown).
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Lifeline item.
     </>]]
     },
+
     // Mejai
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 141,
+        itemImg: mejai, 
+        itemName: "Mejai's Soulstealer",
+        cost: 1500, 
+        attribute: [["+20 ", "Ability Power"], ["+100 ", "Health"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Glory: Gain 4 stacks for each champion kill and 2 stacks for each assist, up to a maximum of 25 stacks. For every stack, gain 5 <span className="text-[#5D3FD3]">ability power</span>, up to 125 at maximum stacks. If you have at least 10 stacks, also gain 10% bonus <span className="text-white font-bold">movement speed</span>. Lose 10 stacks on death. Stacks are preserved from Dark Seal.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Glory item.
     </>]]
     },
+
     // Mercurial
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 142,
+        itemImg: mercurial, 
+        itemName: "Mercurial Scimitar",
+        cost: 3200, 
+        attribute: [["+50 ", "Attack Damage"], ["+32 ", "Magic Resistance"], ["+10% ", "Life Steal"]],
+        description: [["Active: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Quicksilver: Removes all crowd control debuffs (except Airborne) from your champion and grants 50% bonus total <span className="text-white font-bold">movement speed</span> and ghosting for 2 seconds (90 second cooldown).
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Quicksilver item.
     </>]]
     },
+
     // Mikael
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 143,
+        itemImg: mikael, 
+        itemName: "Mikael's Blessing",
+        cost: 2300, 
+        attribute: [["+15 ", "Ability Haste"], ["+250 ", "Health"], ["+100% ", "Base Mana Regeneration"], ["+12% ", "Heal and Shield Power"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Purify: Remove all crowd control debuffs (except Airborne, Blind, Disarm, Nearsight, and Suppression) from yourself or the target allied champion and heal the target for 100 – 250 (based on target's level) (120 second cooldown; 650 range).
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
-        Hello
+        Limited to 1 Mikael's Blessing.
     </>]]
     },
+
     // Moonstone
     {
-        id: 100000,
-        itemImg: doranring, 
-        itemName: "Doran's Ring",
-        cost: 400, 
-        attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        id: 144,
+        itemImg: moonstone, 
+        itemName: "Moonstone Renewer",
+        cost: 2200, 
+        attribute: [["+25 ", "Ability Power"], ["+20 ", "Ability Haste"], ["+200 ", "Health"], ["+125% ", "Base Mana Regeneration"]],
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Unique – Starlit Grace: Healing or shielding an allied champion chains the effect to the other nearest allied champion within 800 units of them (excluding yourself), granting them 30% of the heal or 35% of the shield's initial strength. If no other allied champions are in the radius, grant the same target an additional 30% of the heal or 35% of the shield.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Morello
     {
         id: 100000,
@@ -2489,16 +2510,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Mortal Reminder
     {
         id: 100000,
@@ -2506,16 +2528,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Muramana
     {
         id: 100000,
@@ -2523,16 +2546,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Nashor
     {
         id: 100000,
@@ -2540,16 +2564,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Navori
     {
         id: 100000,
@@ -2557,16 +2582,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Opportunity
     {
         id: 100000,
@@ -2574,16 +2600,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Overlord
     {
         id: 100000,
@@ -2591,16 +2618,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Overlord
     {
         id: 100000,
@@ -2608,16 +2636,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Phantom
     {
         id: 100000,
@@ -2625,16 +2654,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Profane
     {
         id: 100000,
@@ -2642,16 +2672,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Rabadon
     {
         id: 100000,
@@ -2659,16 +2690,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Randuin
     {
         id: 100000,
@@ -2676,16 +2708,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Fire Cannon
     {
         id: 100000,
@@ -2693,16 +2726,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Ravenous
     {
         id: 100000,
@@ -2710,16 +2744,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Redemption
     {
         id: 100000,
@@ -2727,16 +2762,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Riftmaker
     {
         id: 100000,
@@ -2744,16 +2780,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Rodofedge
     {
         id: 100000,
@@ -2761,16 +2798,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Runaan
     {
         id: 100000,
@@ -2778,16 +2816,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Rylai
     {
         id: 100000,
@@ -2795,16 +2834,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Seraph
     {
         id: 100000,
@@ -2812,16 +2852,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Serylda
     {
         id: 100000,
@@ -2829,16 +2870,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Solstice
     {
         id: 100000,
@@ -2846,16 +2888,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Shojin
     {
         id: 100000,
@@ -2863,16 +2906,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Spectral
     {
         id: 100000,
@@ -2880,16 +2924,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Spirit Visage
     {
         id: 100000,
@@ -2897,16 +2942,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Flowing Water
     {
         id: 100000,
@@ -2914,16 +2960,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Statikk
     {
         id: 100000,
@@ -2931,16 +2978,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Sterak
     {
         id: 100000,
@@ -2948,16 +2996,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Storm Surge
     {
         id: 100000,
@@ -2965,16 +3014,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Stride Breaker
     {
         id: 100000,
@@ -2982,16 +3032,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Sundered Sky
     {
         id: 100000,
@@ -2999,16 +3050,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Sunfire
     {
         id: 100000,
@@ -3016,16 +3068,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Terminus
     {
         id: 100000,
@@ -3033,16 +3086,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Collector
     {
         id: 100000,
@@ -3050,16 +3104,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Thornmail
     {
         id: 100000,
@@ -3067,16 +3122,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Titanic
     {
         id: 100000,
@@ -3084,16 +3140,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Trail Blazer
     {
         id: 100000,
@@ -3101,16 +3158,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Trinity Force
     {
         id: 100000,
@@ -3118,16 +3176,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Umbral
     {
         id: 100000,
@@ -3135,16 +3194,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Unending
     {
         id: 100000,
@@ -3152,16 +3212,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Wardstone
     {
         id: 100000,
@@ -3169,16 +3230,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Voidstaff
     {
         id: 100000,
@@ -3186,16 +3248,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Voltaic
     {
         id: 100000,
@@ -3203,16 +3266,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Warmog
     {
         id: 100000,
@@ -3220,16 +3284,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Winter Approach
     {
         id: 100000,
@@ -3237,16 +3302,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Witend
     {
         id: 100000,
@@ -3254,16 +3320,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // youmuu
     {
         id: 100000,
@@ -3271,16 +3338,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Yuntal
     {
         id: 100000,
@@ -3288,16 +3356,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Zazzak
     {
         id: 100000,
@@ -3305,16 +3374,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Zeke
     {
         id: 100000,
@@ -3322,16 +3392,17 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
     },
+
     // Zhonya
     {
         id: 100000,
@@ -3339,12 +3410,12 @@ const ItemTrait = [
         itemName: "Doran's Ring",
         cost: 400, 
         attribute: [["+18 ", "Ability Power"], ["+90 ", "Health"]],
-        description: [["Unique – Drain: ",
+        description: [["Passive: ",
         <>
-                Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
-            </> 
+            Killing a minion grants an additional An icon representing Gold 1, up to a maximum of An icon representing Gold 100.
+        </> 
         ],
-    ["Unique – Helping Hand: ", 
+    ["Limitations: ", 
     <>
         Hello
     </>]]
