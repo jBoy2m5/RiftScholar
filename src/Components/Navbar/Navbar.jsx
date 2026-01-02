@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
     return(
-    <div className="font-inter text-white flex justify-between flex-row items-center bg-[#1E2B46] lg:px-18 lg:py-8 md:px-15 md:py-6 px-15 sm:py-4 whitespace-nowrap w-screen overflow-x-auto gap-8">
+    <div className="font-inter text-white flex justify-between flex-row items-center bg-[#1E2B46] lg:px-18 lg:py-8 md:px-15 md:py-6 px-15 sm:py-4 whitespace-nowrap w-screen overflow-x-visible gap-8">
         <Link to={"/"}>
             <span className="font-bold text-4xl text-white font-logo">RiftScholar</span>
         </Link>
@@ -14,7 +14,7 @@ function Navbar() {
             <Link to={"/gameknowledge"}>
                 <li><span className="block py-2 hover:text-[#2FD4FF]">Game Knowledge</span></li>
             </Link>
-            <li className="relative group">
+            <li className="relative group ">
                 <Link to={"/champion"}>
                     <span className="py-2 block hover:text-[#2FD4FF]">Champion</span>
                 </Link>

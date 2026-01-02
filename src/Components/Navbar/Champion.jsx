@@ -19,7 +19,7 @@ function Champion() {
   const [role, setRole] = useState(specialist);
   const [search, setSearch] = useState("");
   const filterRoleChampion = (role === specialist) ? championTrait : championTrait.filter((champion) => champion.lane.includes(role));
-  const filterSearchChampion = filterRoleChampion.filter((champ) => champ.name.toLowerCase().trim().indexOf(search) === 0);
+  const filterSearchChampion = filterRoleChampion.filter((champ) => champ.name.toLowerCase().trim().indexOf(search.toLowerCase()) === 0);
 
   function updateRole(role) {
     setRole(role);
@@ -29,8 +29,8 @@ function Champion() {
 
   return (
     <div>
-      <div className="mb-15 flex gap-5"> 
-        <input className="w-5/12 sm:w-4/12 max-w-xs bg-[#0D1221] rounded-sm px-5 py-1" placeholder="Search Champion" value={search} onChange={(e) => setSearch(e.target.value)} />
+      <div className="mb-15 flex flex-wrap gap-5"> 
+        <input className="w-5/12 sm:w-4/12 max-w-xs bg-[#0D1221] rounded-sm px-5 py-1 min-w-50" placeholder="Search Champion" value={search} onChange={(e) => {setSearch(e.target.value); console.log(search.length)}} />
         <div className="flex">
           {roles.map((r) => (
             <button key={r} className={`w-15 h-9 cursor-pointer flex justify-center items-center border-[rgba(230,234,242,0.16)] border hover:border-white ${
