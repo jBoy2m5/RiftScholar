@@ -2,10 +2,26 @@ import GameKnowledge from './GameKnowledge.jsx'
 import Champion from './Champion.jsx'
 import Items from './Items.jsx'
 import { Link } from 'react-router-dom';
+import { createPortal} from 'react-dom';
+import { useState, useEffect, useRef } from 'react';
 
 function Navbar() {
+
+    const [hovered, setHovered] = useState(false);
+    const [dim, setDim] = useState({top: 0, left: 0});
+    const championRef = useRef(null);
+
+    useEffect(() => {
+        if (hovered && championRef.current) {
+            const rect = championRef.current.getBoundingClientRect();
+            const top = rect.bottom;
+            const left = rect.left;
+            setDim({top, left});
+        }
+    }, [hovered])
+
     return(
-    <div className="font-inter text-white flex justify-between flex-row items-center bg-[#1E2B46] lg:px-18 lg:py-8 md:px-15 md:py-6 px-15 sm:py-4 whitespace-nowrap w-screen overflow-x-visible gap-8">
+    <div className="font-inter text-white flex justify-between flex-row items-center bg-[#1E2B46] lg:px-18 lg:py-8 md:px-15 md:py-6 px-15 sm:py-4 whitespace-nowrap w-screen overflow-x-auto gap-8">
         <Link to={"/"}>
             <span className="font-bold text-4xl text-white font-logo">RiftScholar</span>
         </Link>
@@ -14,22 +30,39 @@ function Navbar() {
             <Link to={"/gameknowledge"}>
                 <li><span className="block py-2 hover:text-[#2FD4FF]">Game Knowledge</span></li>
             </Link>
-            <li className="relative group ">
+            <li className="relative overflow-visible"
+                ref={championRef}
+                onMouseEnter={() => setHovered(true)}
+                onMouseLeave={() => setHovered(false)}
+            >
                 <Link to={"/champion"}>
                     <span className="py-2 block hover:text-[#2FD4FF]">Champion</span>
                 </Link>
-                <div className="absolute bg-[#0D1221] rounded-lg hidden group-hover:block">
+                
+
+                {hovered && createPortal(
+                <div className="absolute bg-[#0D1221] text-[#E6EAF2] rounded-lg"
+                style={{top: dim.top, left: dim.left}}>
                     <Link to={"/build"}>
-                        <span className="w-56 block py-2 px-1 hover:text-[#2FD4FF]">Build</span>
+                        <span className="w-56 block py-2 px-1 hover:text-[#2FD4FF]"
+                        onMouseEnter={() => setHovered(true)}
+                        onMouseLeave={() => setHovered(false)}
+                        >Build</span>
                     </Link>
                     <Link to={"/guide"}>
-                        <span className="w-56 block py-2 px-1 hover:text-[#2FD4FF]">Guide</span>
+                        <span className="w-56 block py-2 px-1 hover:text-[#2FD4FF]"
+                        onMouseEnter={() => setHovered(true)}
+                        onMouseLeave={() => setHovered(false)}
+                        >Guide</span>
                     </Link>
                     <Link to={"/counter"}>
-                        <span className="w-56 block py-2 px-1 hover:text-[#2FD4FF]">Counter</span>
+                        <span className="w-56 block py-2 px-1 hover:text-[#2FD4FF]"
+                        onMouseEnter={() => setHovered(true)}
+                        onMouseLeave={() => setHovered(false)}
+                        >Counter</span>
                     </Link>
-                   
-                </div>
+                </div>, document.getElementById("dropdown-root"))}
+
             </li>
             <Link to={"/items"}>
                 <li><span className="py-2 block hover:text-[#2FD4FF]">Items</span></li>
