@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function ChampionCard(props) {
     return(
         <Link to={props.to}>
-        <div className="bg-[#0D1221] h-75 w-75 px-3 py-3 flex flex-col items-center border border-[rgba(230,234,242,0.16)] hover:border-[#F2D18B] ">
+        <div className="bg-[#0D1221] w-75 h-75 px-3 py-3 flex flex-col items-center border border-[rgba(230,234,242,0.16)] hover:border-[#F2D18B] ">
           <div className="w-10/10 mb-5 flex flex-row justify-between">
             <div className="flex gap-1 w-1/2">
               {props.lane1 && <img src={props.lane1} className="w-[20%] " />}
