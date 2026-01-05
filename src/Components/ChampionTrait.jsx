@@ -196,7 +196,10 @@ const championTrait = [
         img: aatrox,
         name: "Aatrox",
         description: "The Darkin Blade"
-    }, 
+    ,
+  build: "",
+guide: "",
+counter: ""}, 
 
     { // Ahri
         to: "/",
@@ -205,7 +208,10 @@ const championTrait = [
         img: ahri,
         name: "Ahri",
         description: "The Nine-Tailed Fox"
-    },
+   ,
+  build: "",
+guide: "",
+counter: "" },
 
     {
   // Akali
@@ -214,7 +220,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: akali,
   name: "Akali",
-  description: "The Rogue Assassin"
+  description: "The Rogue Assassin",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -224,7 +233,10 @@ const championTrait = [
   class: [marksman, slayer, "", ""],
   img: akshan,
   name: "Akshan",
-  description: "The Rogue Sentinel"
+  description: "The Rogue Sentinel",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -234,7 +246,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: alistar,
   name: "Alistar",
-  description: "The Minotaur"
+  description: "The Minotaur",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -244,7 +259,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: ambessa,
   name: "Ambessa",
-  description: "Matriarch of War"
+  description: "Matriarch of War",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -254,7 +272,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: amumu,
   name: "Amumu",
-  description: "The Sad Mummy"
+  description: "The Sad Mummy",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -264,7 +285,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: anivia,
   name: "Anivia",
-  description: "The Cryophoenix"
+  description: "The Cryophoenix",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -274,7 +298,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: annie,
   name: "Annie",
-  description: "The Dark Child"
+  description: "The Dark Child",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -284,7 +311,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: aphelios,
   name: "Aphelios",
-  description: "The Weapon of the Faithful"
+  description: "The Weapon of the Faithful",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -294,7 +324,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: ashe,
   name: "Ashe",
-  description: "The Frost Archer"
+  description: "The Frost Archer",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -304,7 +337,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: aurelionsol,
   name: "Aurelion Sol",
-  description: "The Star Forger"
+  description: "The Star Forger",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -314,7 +350,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: aurora,
   name: "Aurora",
-  description: "The Witch Between Worlds"
+  description: "The Witch Between Worlds",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -324,7 +363,10 @@ const championTrait = [
   class: [mage, "", "", ""], 
   img: azir,
   name: "Azir",
-  description: "The Emperor of the Sands"
+  description: "The Emperor of the Sands",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -334,7 +376,10 @@ const championTrait = [
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: bard,
   name: "Bard",
-  description: "The Wandering Caretaker"
+  description: "The Wandering Caretaker",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -344,7 +389,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: belveth,
   name: "Bel'Veth",
-  description: "The Empress of the Void"
+  description: "The Empress of the Void",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -354,7 +402,10 @@ const championTrait = [
   class: [tank, "", "", ""], // Controller (no icon in your imports)
   img: blitzcrank,
   name: "Blitzcrank",
-  description: "The Great Steam Golem"
+  description: "The Great Steam Golem",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -364,7 +415,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: brand,
   name: "Brand",
-  description: "The Burning Vengeance"
+  description: "The Burning Vengeance",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -374,7 +428,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: braum,
   name: "Braum",
-  description: "The Heart of the Freljord"
+  description: "The Heart of the Freljord",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -384,7 +441,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: briar,
   name: "Briar",
-  description: "The Restrained Hunger"
+  description: "The Restrained Hunger",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -394,7 +454,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: caitlyn,
   name: "Caitlyn",
-  description: "The Sheriff of Piltover"
+  description: "The Sheriff of Piltover",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -404,7 +467,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: camille,
   name: "Camille",
-  description: "The Steel Shadow"
+  description: "The Steel Shadow",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -414,7 +480,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: cassiopeia,
   name: "Cassiopeia",
-  description: "The Serpent's Embrace"
+  description: "The Serpent's Embrace",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -424,7 +493,10 @@ const championTrait = [
   class: [tank, "", "", ""], 
   img: chogath,
   name: "Cho'Gath",
-  description: "The Terror of the Void"
+  description: "The Terror of the Void",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -434,7 +506,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: corki,
   name: "Corki",
-  description: "The Daring Bombardier"
+  description: "The Daring Bombardier",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -444,7 +519,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: darius,
   name: "Darius",
-  description: "The Hand of Noxus"
+  description: "The Hand of Noxus",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -454,7 +532,10 @@ const championTrait = [
   class: [slayer, fighter, "", ""],
   img: diana,
   name: "Diana",
-  description: "Scorn of the Moon"
+  description: "Scorn of the Moon",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -464,7 +545,10 @@ const championTrait = [
   class: [fighter, tank, "", ""],
   img: mundo,
   name: "Dr. Mundo",
-  description: "The Madman of Zaun"
+  description: "The Madman of Zaun",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -474,7 +558,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: draven,
   name: "Draven",
-  description: "The Glorious Executioner"
+  description: "The Glorious Executioner",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -484,7 +571,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: ekko,
   name: "Ekko",
-  description: "The Boy Who Shattered Time"
+  description: "The Boy Who Shattered Time",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -494,7 +584,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: elise,
   name: "Elise",
-  description: "The Spider Queen"
+  description: "The Spider Queen",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -504,7 +597,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: evelynn,
   name: "Evelynn",
-  description: "Agony's Embrace"
+  description: "Agony's Embrace",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -514,7 +610,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: ezreal,
   name: "Ezreal",
-  description: "The Prodigal Explorer"
+  description: "The Prodigal Explorer",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -524,7 +623,10 @@ const championTrait = [
   class: [mage, "", "", ""], 
   img: fiddlesticks,
   name: "Fiddlesticks",
-  description: "The Ancient Fear"
+  description: "The Ancient Fear",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -534,7 +636,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: fiora,
   name: "Fiora",
-  description: "The Grand Duelist"
+  description: "The Grand Duelist",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -544,7 +649,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: fizz,
   name: "Fizz",
-  description: "The Tidal Trickster"
+  description: "The Tidal Trickster",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 
@@ -555,7 +663,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: galio,
   name: "Galio",
-  description: "The Colossus"
+  description: "The Colossus",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -565,7 +676,10 @@ const championTrait = [
   class: [fighter, "", "", ""], // Specialist (no icon in your imports)
   img: gangplank,
   name: "Gangplank",
-  description: "The Saltwater Scourge"
+  description: "The Saltwater Scourge",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -575,7 +689,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: garen,
   name: "Garen",
-  description: "The Might of Demacia"
+  description: "The Might of Demacia",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -585,7 +702,10 @@ const championTrait = [
   class: [fighter, "", "", ""], // Specialist (no icon in your imports)
   img: gnar,
   name: "Gnar",
-  description: "The Missing Link"
+  description: "The Missing Link",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -595,7 +715,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: gragas,
   name: "Gragas",
-  description: "The Rabble Rouser"
+  description: "The Rabble Rouser",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -605,7 +728,10 @@ const championTrait = [
   class: [marksman, "", "", ""], // Specialist (no icon in your imports)
   img: graves,
   name: "Graves",
-  description: "The Outlaw"
+  description: "The Outlaw",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -615,7 +741,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: gwen,
   name: "Gwen",
-  description: "The Hallowed Seamstress"
+  description: "The Hallowed Seamstress",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -625,7 +754,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: hecarim,
   name: "Hecarim",
-  description: "The Shadow of War"
+  description: "The Shadow of War",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -635,7 +767,10 @@ const championTrait = [
   class: [mage, "", "", ""], // Specialist (no icon in your imports)
   img: heimerdinger,
   name: "Heimerdinger",
-  description: "The Revered Inventor"
+  description: "The Revered Inventor",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -645,7 +780,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: hwei,
   name: "Hwei",
-  description: "The Visionary"
+  description: "The Visionary",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -655,7 +793,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: illaoi,
   name: "Illaoi",
-  description: "The Kraken Priestess"
+  description: "The Kraken Priestess",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -665,7 +806,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: irelia,
   name: "Irelia",
-  description: "The Blade Dancer"
+  description: "The Blade Dancer",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -675,7 +819,10 @@ const championTrait = [
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: ivern,
   name: "Ivern",
-  description: "The Green Father"
+  description: "The Green Father",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -685,7 +832,10 @@ const championTrait = [
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: janna,
   name: "Janna",
-  description: "The Storm's Fury"
+  description: "The Storm's Fury",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -695,7 +845,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: jarvan,
   name: "Jarvan IV",
-  description: "The Exemplar of Demacia"
+  description: "The Exemplar of Demacia",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -705,7 +858,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: jax,
   name: "Jax",
-  description: "Grandmaster at Arms"
+  description: "Grandmaster at Arms",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -715,7 +871,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: jayce,
   name: "Jayce",
-  description: "The Defender of Tomorrow"
+  description: "The Defender of Tomorrow",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -725,7 +884,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: jhin,
   name: "Jhin",
-  description: "The Virtuoso"
+  description: "The Virtuoso",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -735,7 +897,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: jinx,
   name: "Jinx",
-  description: "The Loose Cannon"
+  description: "The Loose Cannon",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -745,7 +910,10 @@ const championTrait = [
   class: [tank, fighter, "", ""],
   img: ksante,
   name: "K'Sante",
-  description: "The Pride of Nazumah"
+  description: "The Pride of Nazumah",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -755,7 +923,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: kaisa,
   name: "Kai'Sa",
-  description: "Daughter of the Void"
+  description: "Daughter of the Void",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -765,7 +936,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: kalista,
   name: "Kalista",
-  description: "The Spear of Vengeance"
+  description: "The Spear of Vengeance",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -775,7 +949,10 @@ const championTrait = [
   class: [mage, "", "", ""], // Controller part omitted (no icon)
   img: karma,
   name: "Karma",
-  description: "The Enlightened One"
+  description: "The Enlightened One",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -785,7 +962,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: karthus,
   name: "Karthus",
-  description: "The Deathsinger"
+  description: "The Deathsinger",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -795,7 +975,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: kassadin,
   name: "Kassadin",
-  description: "The Void Walker"
+  description: "The Void Walker",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -805,7 +988,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: katarina,
   name: "Katarina",
-  description: "The Sinister Blade"
+  description: "The Sinister Blade",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -815,7 +1001,10 @@ const championTrait = [
   class: [marksman, mage, "", ""], // Specialist (no icon in your imports)
   img: kayle,
   name: "Kayle",
-  description: "The Righteous"
+  description: "The Righteous",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -825,7 +1014,10 @@ const championTrait = [
   class: [slayer, fighter, "", ""],
   img: kayn,
   name: "Kayn",
-  description: "The Shadow Reaper"
+  description: "The Shadow Reaper",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -835,7 +1027,10 @@ const championTrait = [
   class: [mage, "", "", ""], // Specialist (no icon in your imports)
   img: kennen,
   name: "Kennen",
-  description: "The Heart of the Tempest"
+  description: "The Heart of the Tempest",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -845,7 +1040,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: khazix,
   name: "Kha'Zix",
-  description: "The Voidreaver"
+  description: "The Voidreaver",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -855,7 +1053,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: kindred,
   name: "Kindred",
-  description: "The Eternal Hunters"
+  description: "The Eternal Hunters",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -865,7 +1066,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: kled,
   name: "Kled",
-  description: "The Cantankerous Cavalier"
+  description: "The Cantankerous Cavalier",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -875,7 +1079,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: kogmaw,
   name: "Kog'Maw",
-  description: "The Mouth of the Abyss"
+  description: "The Mouth of the Abyss",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -885,7 +1092,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: leblanc,
   name: "LeBlanc",
-  description: "The Deceiver"
+  description: "The Deceiver",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -895,7 +1105,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: leesin,
   name: "Lee Sin",
-  description: "The Blind Monk"
+  description: "The Blind Monk",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -905,7 +1118,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: leona,
   name: "Leona",
-  description: "The Radiant Dawn"
+  description: "The Radiant Dawn",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -915,7 +1131,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: lillia,
   name: "Lillia",
-  description: "The Bashful Bloom"
+  description: "The Bashful Bloom",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -925,7 +1144,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: lissandra,
   name: "Lissandra",
-  description: "The Ice Witch"
+  description: "The Ice Witch",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -935,7 +1157,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: lucian,
   name: "Lucian",
-  description: "The Purifier"
+  description: "The Purifier",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -945,7 +1170,10 @@ const championTrait = [
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: lulu,
   name: "Lulu",
-  description: "The Fae Sorceress"
+  description: "The Fae Sorceress",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -955,7 +1183,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: lux,
   name: "Lux",
-  description: "The Lady of Luminosity"
+  description: "The Lady of Luminosity",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -965,7 +1196,10 @@ const championTrait = [
   class: [tank, mage, "", ""],
   img: malphite,
   name: "Malphite",
-  description: "Shard of the Monolith"
+  description: "Shard of the Monolith",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -975,7 +1209,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: malzahar,
   name: "Malzahar",
-  description: "The Prophet of the Void"
+  description: "The Prophet of the Void",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -985,7 +1222,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: maokai,
   name: "Maokai",
-  description: "The Twisted Treant"
+  description: "The Twisted Treant",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -995,7 +1235,10 @@ const championTrait = [
   class: [fighter, slayer, "", ""],
   img: yi,
   name: "Master Yi",
-  description: "The Wuju Bladesman"
+  description: "The Wuju Bladesman",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1005,7 +1248,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: mel,
   name: "Mel",
-  description: "The Soul's Reflection"
+  description: "The Soul's Reflection",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1015,7 +1261,10 @@ const championTrait = [
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: milio,
   name: "Milio",
-  description: "The Gentle Flame"
+  description: "The Gentle Flame",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1025,7 +1274,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: missfortune,
   name: "Miss Fortune",
-  description: "The Bounty Hunter"
+  description: "The Bounty Hunter",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1035,7 +1287,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: mordekaiser,
   name: "Mordekaiser",
-  description: "The Iron Revenant"
+  description: "The Iron Revenant",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1045,7 +1300,10 @@ const championTrait = [
   class: [mage, "", "", ""], // Controller (no icon in your imports)
   img: morgana,
   name: "Morgana",
-  description: "The Fallen"
+  description: "The Fallen",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1055,7 +1313,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: naafiri,
   name: "Naafiri",
-  description: "The Hound of a Hundred Bites"
+  description: "The Hound of a Hundred Bites",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1065,7 +1326,10 @@ const championTrait = [
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: nami,
   name: "Nami",
-  description: "The Tidecaller"
+  description: "The Tidecaller",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1075,7 +1339,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: nasus,
   name: "Nasus",
-  description: "The Curator of the Sands"
+  description: "The Curator of the Sands",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1085,7 +1352,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: nautilus,
   name: "Nautilus",
-  description: "The Titan of the Depths"
+  description: "The Titan of the Depths",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1095,7 +1365,10 @@ const championTrait = [
   class: [mage, "", "", ""], // Controller part omitted (no icon)
   img: neeko,
   name: "Neeko",
-  description: "The Curious Chameleon"
+  description: "The Curious Chameleon",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1105,7 +1378,10 @@ const championTrait = [
   class: [slayer, "", "", ""], // Specialist (no icon in your imports)
   img: nidalee,
   name: "Nidalee",
-  description: "The Bestial Huntress"
+  description: "The Bestial Huntress",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1115,7 +1391,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: nilah,
   name: "Nilah",
-  description: "The Joy Unbound"
+  description: "The Joy Unbound",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1125,7 +1404,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: nocturne,
   name: "Nocturne",
-  description: "The Eternal Nightmare"
+  description: "The Eternal Nightmare",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1135,7 +1417,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: nunuwillump,
   name: "Nunu & Willump",
-  description: "The Boy and His Yeti"
+  description: "The Boy and His Yeti",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1145,7 +1430,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: olaf,
   name: "Olaf",
-  description: "The Berserker"
+  description: "The Berserker",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1155,7 +1443,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: orianna,
   name: "Orianna",
-  description: "The Lady of Clockwork"
+  description: "The Lady of Clockwork",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1165,7 +1456,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: ornn,
   name: "Ornn",
-  description: "The Fire below the Mountain"
+  description: "The Fire below the Mountain",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1175,7 +1469,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: pantheon,
   name: "Pantheon",
-  description: "The Unbreakable Spear"
+  description: "The Unbreakable Spear",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1185,7 +1482,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: poppy,
   name: "Poppy",
-  description: "Keeper of the Hammer"
+  description: "Keeper of the Hammer",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1195,7 +1495,10 @@ const championTrait = [
   class: [slayer, "", "", ""], // Controller part omitted (no icon)
   img: pyke,
   name: "Pyke",
-  description: "The Bloodharbor Ripper"
+  description: "The Bloodharbor Ripper",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1205,7 +1508,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: qiyana,
   name: "Qiyana",
-  description: "Empress of the Elements"
+  description: "Empress of the Elements",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1215,7 +1521,10 @@ const championTrait = [
   class: [marksman, "", "", ""], // Specialist (no icon in your imports)
   img: quinn,
   name: "Quinn",
-  description: "Demacia's Wings"
+  description: "Demacia's Wings",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1225,7 +1534,10 @@ const championTrait = [
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: rakan,
   name: "Rakan",
-  description: "The Charmer"
+  description: "The Charmer",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1235,7 +1547,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: rammus,
   name: "Rammus",
-  description: "The Armordillo"
+  description: "The Armordillo",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1245,7 +1560,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: reksai,
   name: "Rek'Sai",
-  description: "The Void Burrower"
+  description: "The Void Burrower",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1255,7 +1573,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: rell,
   name: "Rell",
-  description: "The Iron Maiden"
+  description: "The Iron Maiden",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1265,7 +1586,10 @@ const championTrait = [
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: renataglasc,
   name: "Renata Glasc",
-  description: "The Chem-Baroness"
+  description: "The Chem-Baroness",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1275,7 +1599,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: renekton,
   name: "Renekton",
-  description: "The Butcher of the Sands"
+  description: "The Butcher of the Sands",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1285,7 +1612,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: rengar,
   name: "Rengar",
-  description: "The Pridestalker"
+  description: "The Pridestalker",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1295,7 +1625,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: riven,
   name: "Riven",
-  description: "The Exile"
+  description: "The Exile",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1305,7 +1638,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: rumble,
   name: "Rumble",
-  description: "The Mechanized Menace"
+  description: "The Mechanized Menace",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1315,7 +1651,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: ryze,
   name: "Ryze",
-  description: "The Rune Mage"
+  description: "The Rune Mage",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1325,7 +1664,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: samira,
   name: "Samira",
-  description: "The Desert Rose"
+  description: "The Desert Rose",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1335,7 +1677,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: sejuani,
   name: "Sejuani",
-  description: "Fury of the North"
+  description: "Fury of the North",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1345,7 +1690,10 @@ const championTrait = [
   class: [marksman, "", "", ""], // Controller part omitted (no icon)
   img: senna,
   name: "Senna",
-  description: "The Redeemer"
+  description: "The Redeemer",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1355,7 +1703,10 @@ const championTrait = [
   class: [mage, "", "", ""], // Controller part omitted (no icon)
   img: seraphine,
   name: "Seraphine",
-  description: "The Starry-Eyed Songstress"
+  description: "The Starry-Eyed Songstress",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1365,7 +1716,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: sett,
   name: "Sett",
-  description: "The Boss"
+  description: "The Boss",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1375,7 +1729,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: shaco,
   name: "Shaco",
-  description: "The Demon Jester"
+  description: "The Demon Jester",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1385,7 +1742,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: shen,
   name: "Shen",
-  description: "The Eye of Twilight"
+  description: "The Eye of Twilight",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1395,7 +1755,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: shyvana,
   name: "Shyvana",
-  description: "The Half-Dragon"
+  description: "The Half-Dragon",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1405,7 +1768,10 @@ const championTrait = [
   class: [tank, mage, "", ""], // Specialist (no icon in your imports)
   img: singed,
   name: "Singed",
-  description: "The Mad Chemist"
+  description: "The Mad Chemist",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1415,7 +1781,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: sion,
   name: "Sion",
-  description: "The Undead Juggernaut"
+  description: "The Undead Juggernaut",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1425,7 +1794,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: sivir,
   name: "Sivir",
-  description: "The Battle Mistress"
+  description: "The Battle Mistress",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1435,7 +1807,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: skarner,
   name: "Skarner",
-  description: "The Primordial Sovereign"
+  description: "The Primordial Sovereign",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1445,7 +1820,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: smolder,
   name: "Smolder",
-  description: "The Fiery Fledgling"
+  description: "The Fiery Fledgling",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1455,7 +1833,10 @@ const championTrait = [
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: sona,
   name: "Sona",
-  description: "Maven of the Strings"
+  description: "Maven of the Strings",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1465,7 +1846,10 @@ const championTrait = [
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: soraka,
   name: "Soraka",
-  description: "The Starchild"
+  description: "The Starchild",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1475,7 +1859,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: swain,
   name: "Swain",
-  description: "The Noxian Grand General"
+  description: "The Noxian Grand General",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1485,7 +1872,10 @@ const championTrait = [
   class: [mage, fighter, "", ""],
   img: sylas,
   name: "Sylas",
-  description: "The Unshackled"
+  description: "The Unshackled",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1495,7 +1885,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: syndra,
   name: "Syndra",
-  description: "The Dark Sovereign"
+  description: "The Dark Sovereign",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1505,7 +1898,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: tahmkench,
   name: "Tahm Kench",
-  description: "The River King"
+  description: "The River King",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1515,7 +1911,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: taliyah,
   name: "Taliyah",
-  description: "The Stoneweaver"
+  description: "The Stoneweaver",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1525,7 +1924,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: talon,
   name: "Talon",
-  description: "The Blade's Shadow"
+  description: "The Blade's Shadow",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1535,7 +1937,10 @@ const championTrait = [
   class: ["", "", "", ""], // Controller part omitted (no icon)
   img: taric,
   name: "Taric",
-  description: "The Shield of Valoran"
+  description: "The Shield of Valoran",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1546,7 +1951,10 @@ const championTrait = [
   img: teemo,
   name: "Teemo",
   description: "The Swift Scout"
-}, 
+,
+build: "",
+guide: "",
+counter: ""}, 
 
 {
   // Thresh
@@ -1555,7 +1963,10 @@ const championTrait = [
   class: [tank, "", "", ""], // Controller (no icon in your imports)
   img: thresh,
   name: "Thresh",
-  description: "The Chain Warden"
+  description: "The Chain Warden",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1565,7 +1976,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: tristana,
   name: "Tristana",
-  description: "The Yordle Gunner"
+  description: "The Yordle Gunner",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1575,7 +1989,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: trundle,
   name: "Trundle",
-  description: "The Troll King"
+  description: "The Troll King",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1585,7 +2002,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: tryndamere,
   name: "Tryndamere",
-  description: "The Barbarian King"
+  description: "The Barbarian King",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1595,7 +2015,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: twistedfate,
   name: "Twisted Fate",
-  description: "The Card Master"
+  description: "The Card Master",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1605,7 +2028,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: twitch,
   name: "Twitch",
-  description: "The Plague Rat"
+  description: "The Plague Rat",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1615,7 +2041,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: udyr,
   name: "Udyr",
-  description: "The Spirit Walker"
+  description: "The Spirit Walker",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1625,7 +2054,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: urgot,
   name: "Urgot",
-  description: "The Dreadnought"
+  description: "The Dreadnought",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1635,7 +2067,10 @@ const championTrait = [
   class: [marksman, mage, "", ""],
   img: varus,
   name: "Varus",
-  description: "The Arrow of Retribution"
+  description: "The Arrow of Retribution",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1645,7 +2080,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: vayne,
   name: "Vayne",
-  description: "The Night Hunter"
+  description: "The Night Hunter",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1655,7 +2093,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: veigar,
   name: "Veigar",
-  description: "The Tiny Master of Evil"
+  description: "The Tiny Master of Evil",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1665,7 +2106,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: velkoz,
   name: "Vel'Koz",
-  description: "The Eye of the Void"
+  description: "The Eye of the Void",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1675,7 +2119,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: vex,
   name: "Vex",
-  description: "The Gloomist"
+  description: "The Gloomist",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1685,7 +2132,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: vi,
   name: "Vi",
-  description: "The Piltover Enforcer"
+  description: "The Piltover Enforcer",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1695,7 +2145,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: viego,
   name: "Viego",
-  description: "The Ruined King"
+  description: "The Ruined King",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1705,7 +2158,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: viktor,
   name: "Viktor",
-  description: "The Arcane Herald"
+  description: "The Arcane Herald",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1715,7 +2171,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: vladimir,
   name: "Vladimir",
-  description: "The Crimson Reaper"
+  description: "The Crimson Reaper",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1725,7 +2184,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: volibear,
   name: "Volibear",
-  description: "The Relentless Storm"
+  description: "The Relentless Storm",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1735,7 +2197,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: warwick,
   name: "Warwick",
-  description: "The Uncaged Wrath of Zaun"
+  description: "The Uncaged Wrath of Zaun",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1745,7 +2210,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: wukong,
   name: "Wukong",
-  description: "The Monkey King"
+  description: "The Monkey King",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1755,7 +2223,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: xayah,
   name: "Xayah",
-  description: "The Rebel"
+  description: "The Rebel",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1765,7 +2236,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: xerath,
   name: "Xerath",
-  description: "The Magus Ascendant"
+  description: "The Magus Ascendant",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1775,7 +2249,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: xinzhao,
   name: "Xin Zhao",
-  description: "The Seneschal of Demacia"
+  description: "The Seneschal of Demacia",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1785,7 +2262,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: yasuo,
   name: "Yasuo",
-  description: "The Unforgiven"
+  description: "The Unforgiven",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1795,7 +2275,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: yone,
   name: "Yone",
-  description: "The Unforgotten"
+  description: "The Unforgotten",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1805,7 +2288,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: yorick,
   name: "Yorick",
-  description: "Shepherd of Souls"
+  description: "Shepherd of Souls",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1815,7 +2301,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: yunara,
   name: "Yunara",
-  description: "The Unbroken Faith"
+  description: "The Unbroken Faith",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1825,7 +2314,10 @@ const championTrait = [
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: yuumi,
   name: "Yuumi",
-  description: "The Magical Cat"
+  description: "The Magical Cat",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1835,7 +2327,10 @@ const championTrait = [
   class: [fighter, "", "", ""],
   img: zaahen,
   name: "Zaahen",
-  description: "The Darkin Glaive"
+  description: "The Darkin Glaive",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 
@@ -1846,7 +2341,10 @@ const championTrait = [
   class: [tank, "", "", ""],
   img: zac,
   name: "Zac",
-  description: "The Secret Weapon"
+  description: "The Secret Weapon",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1856,7 +2354,10 @@ const championTrait = [
   class: [slayer, "", "", ""],
   img: zed,
   name: "Zed",
-  description: "The Master of Shadows"
+  description: "The Master of Shadows",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1866,7 +2367,10 @@ const championTrait = [
   class: [marksman, "", "", ""],
   img: zeri,
   name: "Zeri",
-  description: "The Spark of Zaun"
+  description: "The Spark of Zaun",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1876,7 +2380,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: ziggs,
   name: "Ziggs",
-  description: "The Hexplosives Expert"
+  description: "The Hexplosives Expert",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1886,7 +2393,10 @@ const championTrait = [
   class: ["", "", "", ""],
   img: zilean,
   name: "Zilean",
-  description: "The Chronokeeper"
+  description: "The Chronokeeper",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
@@ -1896,7 +2406,10 @@ const championTrait = [
   class: [mage, "", "", ""],
   img: zoe,
   name: "Zoe",
-  description: "The Aspect of Twilight"
+  description: "The Aspect of Twilight",
+  build: "",
+  guide: "",
+  counter: ""
 },
 
 {
