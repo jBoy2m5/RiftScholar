@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import {useState} from "react";
-import { championTrait } from "../ChampionTrait.jsx";
+import { championTrait } from "../Champion/ChampionTrait.jsx";
 
 import top from "../../role-img/top.png";
 import jungle from "../../role-img/jg.png";
@@ -9,7 +9,7 @@ import support from "../../role-img/sp.png";
 import mid from "../../role-img/mid.png";
 import specialist from "../../role-img/Specialist_icon.webp"
 
-import ChampionCard from "../../Components/ChampionCard.jsx";
+import ChampionCard from "../../Components/Champion/ChampionCard.jsx";
 
 const roles = [specialist, top, jungle, mid, bot, support];
 
