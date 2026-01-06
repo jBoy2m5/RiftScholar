@@ -191,7 +191,7 @@ import * as Champions from "../Champion/ChampionComponents.jsx";
 
 const championTrait = [
     { // Aatrox
-        to: "/",
+        to: "/aatrox",
         lane: [top, jungle, "", ""],
         class: [fighter, "", "", ""],
         img: aatrox,

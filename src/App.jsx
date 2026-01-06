@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="font-inter text-[#E6EAF2]">
       <Navbar />
-      <div className="px-[15%] py-30 max-w-full">
+      <div className="lg:px-[15%] py-30 max-w-full">
         <Outlet />
       </div>
     </div>

@@ -15,6 +15,7 @@ import CoreKnowledge from './Components/GameKnowledge/CoreKnowledge.jsx'
 import RoleSpecific from './Components/GameKnowledge/RoleSpecific.jsx'
 import BeginnerGuide from './Components/GameKnowledge/BeginnerGuide.jsx'
 import GameKnowledgeHome from './Components/GameKnowledge/GameKnowledgeHome.jsx'
+import * as Champions from './Components/Champion/ChampionComponents.jsx'
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,9 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {index: true, element: <Home />},
-      {path: "champion", element: <Champion />},
+      {path: "champion", 
+      element: <Champion />},
+
       { path: "gameknowledge", 
         element: <GameKnowledge />,
         children: [
@@ -37,6 +40,8 @@ const router = createBrowserRouter([
       {path: "guide", element: <Guide />},
       {path: "counter", element: <Counter />},
       {path: "test", element: <Test />},
+      // Champion
+      {path: "aatrox", element: <Champions.Aatrox />}
     ]
   },
 ])
