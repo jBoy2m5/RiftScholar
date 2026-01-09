@@ -7,6 +7,9 @@ import aatrox from "../../champion-img/Aatrox.png";
 import top from "../../role-img/top.png";
 import jungle from "../../role-img/jg.png";
 
+import conqueror from "../../rune-png/8010.png";
+import r1 from "../../rune-png/8008-modified.png";
+
 export function Aatrox() {  
 
   const [clickedItem, setClickedItem] = useState(0);
@@ -70,6 +73,8 @@ export function Aatrox() {
       
       <div className="md:mx-[15%]">
         {displayItem}
+        <img src={conqueror} />
+        <img src={r1} />
       </div>
 
     </div>
