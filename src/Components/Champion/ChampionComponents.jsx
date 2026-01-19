@@ -7,9 +7,12 @@ import aatrox from "../../champion-img/Aatrox.png";
 import top from "../../role-img/top.png";
 import jungle from "../../role-img/jg.png";
 
-
-
-import { PrecisionComponent, ResolveComponent, DominationComponent, SorceryComponent } from "./Rune.jsx";
+import {
+  PrecisionComponent,
+  ResolveComponent,
+  DominationComponent,
+  SorceryComponent,
+} from "./Rune.jsx";
 
 export function Aatrox() {
   const [clickedItem, setClickedItem] = useState(0);
@@ -19,7 +22,20 @@ export function Aatrox() {
       displayItem = "";
       break;
     case 1:
-      displayItem = <Build />;
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={3}
+      lanemain4={4}
+      lane2={0}
+      lane3={3}
+      lane4={2}
+      p1={1}
+      p2={1}
+      p3={3}
+      mainRune={"Precision"}
+      secondaryRune={"Resolve"}
+      />;
       break;
     case 2:
       displayItem = <Guide />;
@@ -93,27 +109,9 @@ export function Aatrox() {
 
       <div className="md:mx-[15%]">
         {displayItem}
-        <span className="font-semibold">RUNES</span>
-        <div className="flex mt-8 justify-between">
-          <PrecisionComponent
-            lane1={1}
-            lane2={2}
-            lane3={3}
-            lane4={2}
-            isMainPath={true}
-          />
-
-            <ResolveComponent
-              lane3={3}
-              lane4={2}
-              p1={1}
-              p2={1}
-              p3={3}
-            />
-
-          </div>
-        </div>
+        
       </div>
+    </div>
   );
 }
 
