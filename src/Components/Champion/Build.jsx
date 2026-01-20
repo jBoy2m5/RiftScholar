@@ -71,6 +71,19 @@ function Build(props) {
   }
 
   switch (props.secondaryRune) {
+    case "Precision":
+      secondaryPath = (
+        <PrecisionComponent
+          lane2={props.lane2}
+          lane3={props.lane3}
+          lane4={props.lane4}
+          p1={props.p1}
+          p2={props.p2}
+          p3={props.p3}
+        />
+      );
+      break;
+
     case "Resolve":
       secondaryPath = (
         <ResolveComponent
@@ -82,6 +95,48 @@ function Build(props) {
           p3={props.p3}
         />
       );
+      break;
+
+    case "Domination":
+      secondaryPath = (
+        <DominationComponent
+          lane2={props.lane2}
+          lane3={props.lane3}
+          lane4={props.lane4}
+          p1={props.p1}
+          p2={props.p2}
+          p3={props.p3}
+        />
+      );
+      break;
+
+    case "Sorcery":
+      secondaryPath = (
+        <SorceryComponent
+          lane2={props.lane2}
+          lane3={props.lane3}
+          lane4={props.lane4}
+          p1={props.p1}
+          p2={props.p2}
+          p3={props.p3}
+        />
+      );
+      break;
+
+    case "Inspiration":
+      secondaryPath = (
+        <InspirationComponent
+          lane2={props.lane2}
+          lane3={props.lane3}
+          lane4={props.lane4}
+          p1={props.p1}
+          p2={props.p2}
+          p3={props.p3}
+        />
+      );
+      break;
+
+
   }
 
   return (
