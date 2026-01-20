@@ -18,6 +18,56 @@ function Build(props) {
           isMainPath={true}
         />
       );
+    break;
+    
+    case "Resolve":
+      mainPath = (
+        <ResolveComponent
+          lane1={props.lanemain1}
+          lane2={props.lanemain2}
+          lane3={props.lanemain3}
+          lane4={props.lanemain4}
+          isMainPath={true}
+        />
+      );
+      break;
+
+    case "Domination":
+      mainPath = (
+        <DominationComponent
+          lane1={props.lanemain1}
+          lane2={props.lanemain2}
+          lane3={props.lanemain3}
+          lane4={props.lanemain4}
+          isMainPath={true}
+        />
+      );
+      break;
+
+      case "Sorcery":
+      mainPath = (
+        <SorceryComponent
+          lane1={props.lanemain1}
+          lane2={props.lanemain2}
+          lane3={props.lanemain3}
+          lane4={props.lanemain4}
+          isMainPath={true}
+        />
+      );
+      break;
+
+      case "Inspiration":
+      mainPath = (
+        <InspirationComponent
+          lane1={props.lanemain1}
+          lane2={props.lanemain2}
+          lane3={props.lanemain3}
+          lane4={props.lanemain4}
+          isMainPath={true}
+        />
+      );
+      break;
+      
   }
 
   switch (props.secondaryRune) {
