@@ -203,7 +203,7 @@ guide: "",
 counter: ""}, 
 
     { // Ahri
-        to: "/",
+        to: "/ahri",
         lane: [mid, "", "", ""],
         class: [mage, "", "", ""],
         img: ahri,
@@ -216,7 +216,7 @@ counter: "" },
 
     {
   // Akali
-  to: "/",
+  to: "/akali",
   lane: [mid, "", "", ""],
   class: [slayer, "", "", ""],
   img: akali,
@@ -229,7 +229,7 @@ counter: "" },
 
 {
   // Akshan
-  to: "/",
+  to: "/akshan",
   lane: [mid, "", "", ""],
   class: [marksman, slayer, "", ""],
   img: akshan,
@@ -242,7 +242,7 @@ counter: "" },
 
 {
   // Alistar
-  to: "/",
+  to: "/alistar",
   lane: [support, "", "", ""],
   class: [tank, "", "", ""],
   img: alistar,
@@ -255,7 +255,7 @@ counter: "" },
 
 {
   // Ambessa
-  to: "/",
+  to: "/ambessa",
   lane: [top, "", "", ""],
   class: [fighter, "", "", ""],
   img: ambessa,
@@ -268,7 +268,7 @@ counter: "" },
 
 {
   // Amumu
-  to: "/",
+  to: "/amumu",
   lane: [jungle, support, "", ""],
   class: [tank, "", "", ""],
   img: amumu,
@@ -281,7 +281,7 @@ counter: "" },
 
 {
   // Anivia
-  to: "/",
+  to: "/anivia",
   lane: [mid, "", "", ""],
   class: [mage, "", "", ""],
   img: anivia,
@@ -294,7 +294,7 @@ counter: "" },
 
 {
   // Annie
-  to: "/",
+  to: "/annie",
   lane: [mid, support, "", ""],
   class: [mage, "", "", ""],
   img: annie,
@@ -307,7 +307,7 @@ counter: "" },
 
 {
   // Aphelios
-  to: "/",
+  to: "/aphelios",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: aphelios,
@@ -320,7 +320,7 @@ counter: "" },
 
 {
   // Ashe
-  to: "/",
+  to: "/ashe",
   lane: [bot, support, "", ""],
   class: [marksman, "", "", ""],
   img: ashe,
@@ -333,7 +333,7 @@ counter: "" },
 
 {
   // Aurelion Sol
-  to: "/",
+  to: "/aurelionsol",
   lane: [mid, "", "", ""],
   class: [mage, "", "", ""],
   img: aurelionsol,
@@ -346,7 +346,7 @@ counter: "" },
 
 {
   // Aurora
-  to: "/",
+  to: "/aurora",
   lane: [mid, "", "", ""],
   class: [mage, "", "", ""],
   img: aurora,
@@ -359,7 +359,7 @@ counter: "" },
 
 {
   // Azir
-  to: "/",
+  to: "/azir",
   lane: [mid, "", "", ""],
   class: [mage, "", "", ""], 
   img: azir,
@@ -372,7 +372,7 @@ counter: "" },
 
 {
   // Bard
-  to: "/",
+  to: "/bard",
   lane: [support, "", "", ""],
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: bard,
@@ -385,7 +385,7 @@ counter: "" },
 
 {
   // Bel'Veth
-  to: "/",
+  to: "/belveth",
   lane: [jungle, "", "", ""],
   class: [fighter, "", "", ""],
   img: belveth,
@@ -398,7 +398,7 @@ counter: "" },
 
 {
   // Blitzcrank
-  to: "/",
+  to: "/blitzcrank",
   lane: [support, "", "", ""],
   class: [tank, "", "", ""], // Controller (no icon in your imports)
   img: blitzcrank,
@@ -411,7 +411,7 @@ counter: "" },
 
 {
   // Brand
-  to: "/",
+  to: "/brand",
   lane: [mid, support, jungle, ""],
   class: [mage, "", "", ""],
   img: brand,
@@ -424,7 +424,7 @@ counter: "" },
 
 {
   // Braum
-  to: "/",
+  to: "/braum",
   lane: [support, "", "", ""],
   class: [tank, "", "", ""],
   img: braum,
@@ -437,7 +437,7 @@ counter: "" },
 
 {
   // Briar
-  to: "/",
+  to: "/briar",
   lane: [jungle, "", "", ""],
   class: [fighter, "", "", ""],
   img: briar,
@@ -450,7 +450,7 @@ counter: "" },
 
 {
   // Caitlyn
-  to: "/",
+  to: "/caitlyn",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: caitlyn,
@@ -463,7 +463,7 @@ counter: "" },
 
 {
   // Camille
-  to: "/",
+  to: "/camile",
   lane: [top, "", "", ""],
   class: [fighter, "", "", ""],
   img: camille,
@@ -476,7 +476,7 @@ counter: "" },
 
 {
   // Cassiopeia
-  to: "/",
+  to: "/cassiopeia",
   lane: [mid, "", "", ""],
   class: [mage, "", "", ""],
   img: cassiopeia,
@@ -489,7 +489,7 @@ counter: "" },
 
 {
   // Cho'Gath
-  to: "/",
+  to: "/chogath",
   lane: [top, "", "", ""],
   class: [tank, "", "", ""], 
   img: chogath,
@@ -502,7 +502,7 @@ counter: "" },
 
 {
   // Corki
-  to: "/",
+  to: "/corki",
   lane: [bot, mid, "", ""],
   class: [marksman, "", "", ""],
   img: corki,
@@ -515,7 +515,7 @@ counter: "" },
 
 {
   // Darius
-  to: "/",
+  to: "/darius",
   lane: [top, "", "", ""],
   class: [fighter, "", "", ""],
   img: darius,
@@ -528,7 +528,7 @@ counter: "" },
 
 {
   // Diana
-  to: "/",
+  to: "/diana",
   lane: [mid, jungle, "", ""],
   class: [slayer, fighter, "", ""],
   img: diana,
@@ -541,7 +541,7 @@ counter: "" },
 
 {
   // Dr. Mundo
-  to: "/",
+  to: "/drmundo",
   lane: [top, jungle, "", ""],
   class: [fighter, tank, "", ""],
   img: mundo,
@@ -554,7 +554,7 @@ counter: "" },
 
 {
   // Draven
-  to: "/",
+  to: "/draven",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: draven,
@@ -567,7 +567,7 @@ counter: "" },
 
 {
   // Ekko
-  to: "/",
+  to: "/ekko",
   lane: [mid, jungle, "", ""],
   class: [slayer, "", "", ""],
   img: ekko,
@@ -580,7 +580,7 @@ counter: "" },
 
 {
   // Elise
-  to: "/",
+  to: "/elise",
   lane: [jungle, support, "", ""],
   class: [slayer, "", "", ""],
   img: elise,
@@ -593,7 +593,7 @@ counter: "" },
 
 {
   // Evelynn
-  to: "/",
+  to: "/evelynn",
   lane: [jungle, "", "", ""],
   class: [slayer, "", "", ""],
   img: evelynn,
@@ -606,7 +606,7 @@ counter: "" },
 
 {
   // Ezreal
-  to: "/",
+  to: "/ezeal",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: ezreal,
@@ -619,7 +619,7 @@ counter: "" },
 
 {
   // Fiddlesticks
-  to: "/",
+  to: "/fiddlesticks",
   lane: [jungle, support, "", ""],
   class: [mage, "", "", ""], 
   img: fiddlesticks,
@@ -632,7 +632,7 @@ counter: "" },
 
 {
   // Fiora
-  to: "/",
+  to: "/flora",
   lane: [top, "", "", ""],
   class: [fighter, "", "", ""],
   img: fiora,
@@ -645,7 +645,7 @@ counter: "" },
 
 {
   // Fizz
-  to: "/",
+  to: "/fizz",
   lane: [mid, "", "", ""],
   class: [slayer, "", "", ""],
   img: fizz,
@@ -659,7 +659,7 @@ counter: "" },
 
 {
   // Galio
-  to: "/",
+  to: "/galio",
   lane: [mid, support, "", ""],
   class: [tank, "", "", ""],
   img: galio,
@@ -672,7 +672,7 @@ counter: "" },
 
 {
   // Gangplank
-  to: "/",
+  to: "/gangplank",
   lane: [top, "", "", ""],
   class: [fighter, "", "", ""], // Specialist (no icon in your imports)
   img: gangplank,
@@ -685,7 +685,7 @@ counter: "" },
 
 {
   // Garen
-  to: "/",
+  to: "/garen",
   lane: [top, mid, "", ""],
   class: [fighter, "", "", ""],
   img: garen,
@@ -698,7 +698,7 @@ counter: "" },
 
 {
   // Gnar
-  to: "/",
+  to: "/gnar",
   lane: [top, "", "", ""],
   class: [fighter, "", "", ""], // Specialist (no icon in your imports)
   img: gnar,
@@ -711,7 +711,7 @@ counter: "" },
 
 {
   // Gragas
-  to: "/",
+  to: "/gragas",
   lane: [jungle, top, mid, ""],
   class: [tank, "", "", ""],
   img: gragas,
@@ -724,7 +724,7 @@ counter: "" },
 
 {
   // Graves
-  to: "/",
+  to: "/graves",
   lane: [jungle, "", "", ""],
   class: [marksman, "", "", ""], // Specialist (no icon in your imports)
   img: graves,
@@ -737,7 +737,7 @@ counter: "" },
 
 {
   // Gwen
-  to: "/",
+  to: "/gwen",
   lane: [top, jungle, "", ""],
   class: [fighter, "", "", ""],
   img: gwen,
@@ -750,7 +750,7 @@ counter: "" },
 
 {
   // Hecarim
-  to: "/",
+  to: "/hecarim",
   lane: [jungle, "", "", ""],
   class: [fighter, "", "", ""],
   img: hecarim,
@@ -763,7 +763,7 @@ counter: "" },
 
 {
   // Heimerdinger
-  to: "/",
+  to: "/heimerdinger",
   lane: [top, mid, support, ""],
   class: [mage, "", "", ""], // Specialist (no icon in your imports)
   img: heimerdinger,
@@ -776,7 +776,7 @@ counter: "" },
 
 {
   // Hwei
-  to: "/",
+  to: "/hwei",
   lane: [mid, support, bot, ""],
   class: [mage, "", "", ""],
   img: hwei,
@@ -789,7 +789,7 @@ counter: "" },
 
 {
   // Illaoi
-  to: "/",
+  to: "/illaoi",
   lane: [top, "", "", ""],
   class: [fighter, "", "", ""],
   img: illaoi,
@@ -802,7 +802,7 @@ counter: "" },
 
 {
   // Irelia
-  to: "/",
+  to: "/irelia",
   lane: [top, mid, "", ""],
   class: [fighter, "", "", ""],
   img: irelia,
@@ -815,7 +815,7 @@ counter: "" },
 
 {
   // Ivern
-  to: "/",
+  to: "/ivern",
   lane: [jungle, support, "", ""],
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: ivern,
@@ -828,7 +828,7 @@ counter: "" },
 
 {
   // Janna
-  to: "/",
+  to: "/janna",
   lane: [support, "", "", ""],
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: janna,
@@ -841,7 +841,7 @@ counter: "" },
 
 {
   // Jarvan IV
-  to: "/",
+  to: "/jarvaniv",
   lane: [jungle, "", "", ""],
   class: [fighter, "", "", ""],
   img: jarvan,
@@ -854,7 +854,7 @@ counter: "" },
 
 {
   // Jax
-  to: "/",
+  to: "/jax",
   lane: [top, jungle, "", ""],
   class: [fighter, "", "", ""],
   img: jax,
@@ -867,7 +867,7 @@ counter: "" },
 
 {
   // Jayce
-  to: "/",
+  to: "/jayce",
   lane: [top, mid, "", ""],
   class: [marksman, "", "", ""],
   img: jayce,
@@ -880,7 +880,7 @@ counter: "" },
 
 {
   // Jhin
-  to: "/",
+  to: "/jhin",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: jhin,
@@ -893,7 +893,7 @@ counter: "" },
 
 {
   // Jinx
-  to: "/",
+  to: "/jinx",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: jinx,
@@ -906,7 +906,7 @@ counter: "" },
 
 {
   // K'Sante
-  to: "/",
+  to: "/ksante",
   lane: [top, "", "", ""],
   class: [tank, fighter, "", ""],
   img: ksante,
@@ -919,7 +919,7 @@ counter: "" },
 
 {
   // Kai'Sa
-  to: "/",
+  to: "/kaisa",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: kaisa,
@@ -932,7 +932,7 @@ counter: "" },
 
 {
   // Kalista
-  to: "/",
+  to: "/kalista",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: kalista,
@@ -945,7 +945,7 @@ counter: "" },
 
 {
   // Karma
-  to: "/",
+  to: "/karma",
   lane: [mid, support, "", ""],
   class: [mage, "", "", ""], // Controller part omitted (no icon)
   img: karma,
@@ -958,7 +958,7 @@ counter: "" },
 
 {
   // Karthus
-  to: "/",
+  to: "/karthus",
   lane: [jungle, "", "", ""],
   class: [mage, "", "", ""],
   img: karthus,
@@ -971,7 +971,7 @@ counter: "" },
 
 {
   // Kassadin
-  to: "/",
+  to: "/kassadin",
   lane: [mid, "", "", ""],
   class: [slayer, "", "", ""],
   img: kassadin,
@@ -984,7 +984,7 @@ counter: "" },
 
 {
   // Katarina
-  to: "/",
+  to: "/katarina",
   lane: [mid, "", "", ""],
   class: [slayer, "", "", ""],
   img: katarina,
@@ -997,7 +997,7 @@ counter: "" },
 
 {
   // Kayle
-  to: "/",
+  to: "/kayle",
   lane: [top, "", "", ""],
   class: [marksman, mage, "", ""], // Specialist (no icon in your imports)
   img: kayle,
@@ -1010,7 +1010,7 @@ counter: "" },
 
 {
   // Kayn
-  to: "/",
+  to: "/kayn",
   lane: [jungle, top, "", ""],
   class: [slayer, fighter, "", ""],
   img: kayn,
@@ -1023,7 +1023,7 @@ counter: "" },
 
 {
   // Kennen
-  to: "/",
+  to: "/kennen",
   lane: [top, mid, "", ""],
   class: [mage, "", "", ""], // Specialist (no icon in your imports)
   img: kennen,
@@ -1036,7 +1036,7 @@ counter: "" },
 
 {
   // Kha'Zix
-  to: "/",
+  to: "/khazix",
   lane: [jungle, "", "", ""],
   class: [slayer, "", "", ""],
   img: khazix,
@@ -1049,7 +1049,7 @@ counter: "" },
 
 {
   // Kindred
-  to: "/",
+  to: "/kindred",
   lane: [jungle, "", "", ""],
   class: [marksman, "", "", ""],
   img: kindred,
@@ -1062,7 +1062,7 @@ counter: "" },
 
 {
   // Kled
-  to: "/",
+  to: "/kled",
   lane: [top, "", "", ""],
   class: [fighter, "", "", ""],
   img: kled,
@@ -1075,7 +1075,7 @@ counter: "" },
 
 {
   // Kog'Maw
-  to: "/",
+  to: "/kogmaw",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: kogmaw,
@@ -1088,7 +1088,7 @@ counter: "" },
 
 {
   // LeBlanc
-  to: "/",
+  to: "/leblanc",
   lane: [mid, support, "", ""],
   class: [mage, "", "", ""],
   img: leblanc,
@@ -1101,7 +1101,7 @@ counter: "" },
 
 {
   // Lee Sin
-  to: "/",
+  to: "/leesin",
   lane: [jungle, top, "", ""],
   class: [fighter, "", "", ""],
   img: leesin,
@@ -1114,7 +1114,7 @@ counter: "" },
 
 {
   // Leona
-  to: "/",
+  to: "/leona",
   lane: [support, "", "", ""],
   class: [tank, "", "", ""],
   img: leona,
@@ -1127,7 +1127,7 @@ counter: "" },
 
 {
   // Lillia
-  to: "/",
+  to: "/lillia",
   lane: [jungle, "", "", ""],
   class: [fighter, "", "", ""],
   img: lillia,
@@ -1140,7 +1140,7 @@ counter: "" },
 
 {
   // Lissandra
-  to: "/",
+  to: "/lissandra",
   lane: [mid, "", "", ""],
   class: [mage, "", "", ""],
   img: lissandra,
@@ -1153,7 +1153,7 @@ counter: "" },
 
 {
   // Lucian
-  to: "/",
+  to: "/lucian",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: lucian,
@@ -1166,7 +1166,7 @@ counter: "" },
 
 {
   // Lulu
-  to: "/",
+  to: "/lulu",
   lane: [support, "", "", ""],
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: lulu,
@@ -1179,7 +1179,7 @@ counter: "" },
 
 {
   // Lux
-  to: "/",
+  to: "/lux",
   lane: [mid, support, "", ""],
   class: [mage, "", "", ""],
   img: lux,
@@ -1192,7 +1192,7 @@ counter: "" },
 
 {
   // Malphite
-  to: "/",
+  to: "/malphite",
   lane: [top, support, jungle, mid],
   class: [tank, mage, "", ""],
   img: malphite,
@@ -1205,7 +1205,7 @@ counter: "" },
 
 {
   // Malzahar
-  to: "/",
+  to: "/malzahar",
   lane: [mid, "", "", ""],
   class: [mage, "", "", ""],
   img: malzahar,
@@ -1218,7 +1218,7 @@ counter: "" },
 
 {
   // Maokai
-  to: "/",
+  to: "/maokai",
   lane: [jungle, support, "", ""],
   class: [tank, "", "", ""],
   img: maokai,
@@ -1231,7 +1231,7 @@ counter: "" },
 
 {
   // Master Yi
-  to: "/",
+  to: "/masteryi",
   lane: [jungle, top, "", ""],
   class: [fighter, slayer, "", ""],
   img: yi,
@@ -1244,7 +1244,7 @@ counter: "" },
 
 {
   // Mel
-  to: "/",
+  to: "/mel",
   lane: [mid, support, "", ""],
   class: [mage, "", "", ""],
   img: mel,
@@ -1257,7 +1257,7 @@ counter: "" },
 
 {
   // Milio
-  to: "/",
+  to: "/milio",
   lane: [support, "", "", ""],
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: milio,
@@ -1270,7 +1270,7 @@ counter: "" },
 
 {
   // Miss Fortune
-  to: "/",
+  to: "/missfortune",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: missfortune,
@@ -1283,7 +1283,7 @@ counter: "" },
 
 {
   // Mordekaiser
-  to: "/",
+  to: "/mordekaiser",
   lane: [top, "", "", ""],
   class: [fighter, "", "", ""],
   img: mordekaiser,
@@ -1296,7 +1296,7 @@ counter: "" },
 
 {
   // Morgana
-  to: "/",
+  to: "/morgana",
   lane: [support, mid, "", ""],
   class: [mage, "", "", ""], // Controller (no icon in your imports)
   img: morgana,
@@ -1309,7 +1309,7 @@ counter: "" },
 
 {
   // Naafiri
-  to: "/",
+  to: "/naafiri",
   lane: [jungle, mid, "", ""],
   class: [slayer, "", "", ""],
   img: naafiri,
@@ -1322,7 +1322,7 @@ counter: "" },
 
 {
   // Nami
-  to: "/",
+  to: "/nami",
   lane: [support, "", "", ""],
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: nami,
@@ -1335,7 +1335,7 @@ counter: "" },
 
 {
   // Nasus
-  to: "/",
+  to: "/nasus",
   lane: [top, jungle, mid, ""],
   class: [fighter, "", "", ""],
   img: nasus,
@@ -1348,7 +1348,7 @@ counter: "" },
 
 {
   // Nautilus
-  to: "/",
+  to: "/nautilus",
   lane: [support, "", "", ""],
   class: [tank, "", "", ""],
   img: nautilus,
@@ -1361,7 +1361,7 @@ counter: "" },
 
 {
   // Neeko
-  to: "/",
+  to: "/neeko",
   lane: [mid, support, "", ""],
   class: [mage, "", "", ""], // Controller part omitted (no icon)
   img: neeko,
@@ -1374,7 +1374,7 @@ counter: "" },
 
 {
   // Nidalee
-  to: "/",
+  to: "/nidalee",
   lane: [jungle, support, top, ""],
   class: [slayer, "", "", ""], // Specialist (no icon in your imports)
   img: nidalee,
@@ -1387,7 +1387,7 @@ counter: "" },
 
 {
   // Nilah
-  to: "/",
+  to: "/nilah",
   lane: [bot, "", "", ""],
   class: [fighter, "", "", ""],
   img: nilah,
@@ -1400,7 +1400,7 @@ counter: "" },
 
 {
   // Nocturne
-  to: "/",
+  to: "/nocturne",
   lane: [jungle, "", "", ""],
   class: [slayer, "", "", ""],
   img: nocturne,
@@ -1413,7 +1413,7 @@ counter: "" },
 
 {
   // Nunu & Willump
-  to: "/",
+  to: "/nunuwillump",
   lane: [jungle, mid, "", ""],
   class: [tank, "", "", ""],
   img: nunuwillump,
@@ -1426,7 +1426,7 @@ counter: "" },
 
 {
   // Olaf
-  to: "/",
+  to: "/olaf",
   lane: [top, jungle, "", ""],
   class: [fighter, "", "", ""],
   img: olaf,
@@ -1439,7 +1439,7 @@ counter: "" },
 
 {
   // Orianna
-  to: "/",
+  to: "/orianna",
   lane: [mid, "", "", ""],
   class: [mage, "", "", ""],
   img: orianna,
@@ -1452,7 +1452,7 @@ counter: "" },
 
 {
   // Ornn
-  to: "/",
+  to: "/ornn",
   lane: [top, "", "", ""],
   class: [tank, "", "", ""],
   img: ornn,
@@ -1465,7 +1465,7 @@ counter: "" },
 
 {
   // Pantheon
-  to: "/",
+  to: "/pantheon",
   lane: [top, jungle, mid, support],
   class: [fighter, "", "", ""],
   img: pantheon,
@@ -1478,7 +1478,7 @@ counter: "" },
 
 {
   // Poppy
-  to: "/",
+  to: "/poppy",
   lane: [top, support, jungle, ""],
   class: [tank, "", "", ""],
   img: poppy,
@@ -1491,7 +1491,7 @@ counter: "" },
 
 {
   // Pyke
-  to: "/",
+  to: "/pyke",
   lane: [support, "", "", ""],
   class: [slayer, "", "", ""], // Controller part omitted (no icon)
   img: pyke,
@@ -1504,7 +1504,7 @@ counter: "" },
 
 {
   // Qiyana
-  to: "/",
+  to: "/qiyana",
   lane: [mid, jungle, "", ""],
   class: [slayer, "", "", ""],
   img: qiyana,
@@ -1517,7 +1517,7 @@ counter: "" },
 
 {
   // Quinn
-  to: "/",
+  to: "/quinn",
   lane: [top, "", "", ""],
   class: [marksman, "", "", ""], // Specialist (no icon in your imports)
   img: quinn,
@@ -1530,7 +1530,7 @@ counter: "" },
 
 {
   // Rakan
-  to: "/",
+  to: "/rakan",
   lane: [support, "", "", ""],
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: rakan,
@@ -1543,7 +1543,7 @@ counter: "" },
 
 {
   // Rammus
-  to: "/",
+  to: "/rammus",
   lane: [jungle, "", "", ""],
   class: [tank, "", "", ""],
   img: rammus,
@@ -1556,7 +1556,7 @@ counter: "" },
 
 {
   // Rek'Sai
-  to: "/",
+  to: "/reksai",
   lane: [jungle, top, "", ""],
   class: [fighter, "", "", ""],
   img: reksai,
@@ -1569,7 +1569,7 @@ counter: "" },
 
 {
   // Rell
-  to: "/",
+  to: "/rell",
   lane: [support, "", "", ""],
   class: [tank, "", "", ""],
   img: rell,
@@ -1582,7 +1582,7 @@ counter: "" },
 
 {
   // Renata Glasc
-  to: "/",
+  to: "/renataglasc",
   lane: [support, "", "", ""],
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: renataglasc,
@@ -1595,7 +1595,7 @@ counter: "" },
 
 {
   // Renekton
-  to: "/",
+  to: "/renekton",
   lane: [top, "", "", ""],
   class: [fighter, "", "", ""],
   img: renekton,
@@ -1608,7 +1608,7 @@ counter: "" },
 
 {
   // Rengar
-  to: "/",
+  to: "/rengar",
   lane: [jungle, top, "", ""],
   class: [slayer, "", "", ""],
   img: rengar,
@@ -1621,7 +1621,7 @@ counter: "" },
 
 {
   // Riven
-  to: "/",
+  to: "/riven",
   lane: [top, jungle, "", ""],
   class: [fighter, "", "", ""],
   img: riven,
@@ -1634,7 +1634,7 @@ counter: "" },
 
 {
   // Rumble
-  to: "/",
+  to: "/rumble",
   lane: [top, mid, "", ""],
   class: [mage, "", "", ""],
   img: rumble,
@@ -1647,7 +1647,7 @@ counter: "" },
 
 {
   // Ryze
-  to: "/",
+  to: "/ryze",
   lane: [mid, "", "", ""],
   class: [mage, "", "", ""],
   img: ryze,
@@ -1660,7 +1660,7 @@ counter: "" },
 
 {
   // Samira
-  to: "/",
+  to: "/samira",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: samira,
@@ -1673,7 +1673,7 @@ counter: "" },
 
 {
   // Sejuani
-  to: "/",
+  to: "/sejuani",
   lane: [jungle, top, "", ""],
   class: [tank, "", "", ""],
   img: sejuani,
@@ -1686,7 +1686,7 @@ counter: "" },
 
 {
   // Senna
-  to: "/",
+  to: "/senna",
   lane: [bot, support, "", ""],
   class: [marksman, "", "", ""], // Controller part omitted (no icon)
   img: senna,
@@ -1699,7 +1699,7 @@ counter: "" },
 
 {
   // Seraphine
-  to: "/",
+  to: "/seraphine",
   lane: [mid, support, "", ""],
   class: [mage, "", "", ""], // Controller part omitted (no icon)
   img: seraphine,
@@ -1712,7 +1712,7 @@ counter: "" },
 
 {
   // Sett
-  to: "/",
+  to: "/sett",
   lane: [top, "", "", ""],
   class: [fighter, "", "", ""],
   img: sett,
@@ -1725,7 +1725,7 @@ counter: "" },
 
 {
   // Shaco
-  to: "/",
+  to: "/shaco",
   lane: [jungle, support, top, ""],
   class: [slayer, "", "", ""],
   img: shaco,
@@ -1738,7 +1738,7 @@ counter: "" },
 
 {
   // Shen
-  to: "/",
+  to: "/shen",
   lane: [top, support, "", ""],
   class: [tank, "", "", ""],
   img: shen,
@@ -1751,7 +1751,7 @@ counter: "" },
 
 {
   // Shyvana
-  to: "/",
+  to: "/shyvana",
   lane: [jungle, "", "", ""],
   class: [fighter, "", "", ""],
   img: shyvana,
@@ -1764,7 +1764,7 @@ counter: "" },
 
 {
   // Singed
-  to: "/",
+  to: "/singed",
   lane: [top, "", "", ""],
   class: [tank, mage, "", ""], // Specialist (no icon in your imports)
   img: singed,
@@ -1777,7 +1777,7 @@ counter: "" },
 
 {
   // Sion
-  to: "/",
+  to: "/sion",
   lane: [top, support, "", ""],
   class: [tank, "", "", ""],
   img: sion,
@@ -1790,7 +1790,7 @@ counter: "" },
 
 {
   // Sivir
-  to: "/",
+  to: "/sivir",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: sivir,
@@ -1803,7 +1803,7 @@ counter: "" },
 
 {
   // Skarner
-  to: "/",
+  to: "/skarner",
   lane: [jungle, top, support, ""],
   class: [tank, "", "", ""],
   img: skarner,
@@ -1816,7 +1816,7 @@ counter: "" },
 
 {
   // Smolder
-  to: "/",
+  to: "/smolder",
   lane: [bot, mid, top, ""],
   class: [marksman, "", "", ""],
   img: smolder,
@@ -1829,7 +1829,7 @@ counter: "" },
 
 {
   // Sona
-  to: "/",
+  to: "/sona",
   lane: [support, "", "", ""],
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: sona,
@@ -1842,7 +1842,7 @@ counter: "" },
 
 {
   // Soraka
-  to: "/",
+  to: "/soraka",
   lane: [support, "", "", ""],
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: soraka,
@@ -1855,7 +1855,7 @@ counter: "" },
 
 {
   // Swain
-  to: "/",
+  to: "/swain",
   lane: [top, support, bot, mid],
   class: [mage, "", "", ""],
   img: swain,
@@ -1868,7 +1868,7 @@ counter: "" },
 
 {
   // Sylas
-  to: "/",
+  to: "/sylas",
   lane: [mid, top, jungle, ""],
   class: [mage, fighter, "", ""],
   img: sylas,
@@ -1881,7 +1881,7 @@ counter: "" },
 
 {
   // Syndra
-  to: "/",
+  to: "/syndra",
   lane: [mid, "", "", ""],
   class: [mage, "", "", ""],
   img: syndra,
@@ -1894,7 +1894,7 @@ counter: "" },
 
 {
   // Tahm Kench
-  to: "/",
+  to: "/tahmkench",
   lane: [support, top, "", ""],
   class: [tank, "", "", ""],
   img: tahmkench,
@@ -1907,7 +1907,7 @@ counter: "" },
 
 {
   // Taliyah
-  to: "/",
+  to: "/taliyah",
   lane: [mid, jungle, "", ""],
   class: [mage, "", "", ""],
   img: taliyah,
@@ -1920,7 +1920,7 @@ counter: "" },
 
 {
   // Talon
-  to: "/",
+  to: "/talon",
   lane: [mid, jungle, "", ""],
   class: [slayer, "", "", ""],
   img: talon,
@@ -1933,7 +1933,7 @@ counter: "" },
 
 {
   // Taric
-  to: "/",
+  to: "/taric",
   lane: [support, "", "", ""],
   class: ["", "", "", ""], // Controller part omitted (no icon)
   img: taric,
@@ -1946,7 +1946,7 @@ counter: "" },
 
 {
   // Teemo
-  to: "/",
+  to: "/teemo",
   lane: [top, "", "", ""],
   class: ["", "", "", ""], // Specialist (no icon in your imports)
   img: teemo,
@@ -1959,7 +1959,7 @@ counter: ""},
 
 {
   // Thresh
-  to: "/",
+  to: "/thresh",
   lane: [support, "", "", ""],
   class: [tank, "", "", ""], // Controller (no icon in your imports)
   img: thresh,
@@ -1972,7 +1972,7 @@ counter: ""},
 
 {
   // Tristana
-  to: "/",
+  to: "/tristana",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: tristana,
@@ -1985,7 +1985,7 @@ counter: ""},
 
 {
   // Trundle
-  to: "/",
+  to: "/trundle",
   lane: [top, jungle, "", ""],
   class: [fighter, "", "", ""],
   img: trundle,
@@ -1998,7 +1998,7 @@ counter: ""},
 
 {
   // Tryndamere
-  to: "/",
+  to: "/tryndamere",
   lane: [top, "", "", ""],
   class: [slayer, "", "", ""],
   img: tryndamere,
@@ -2011,7 +2011,7 @@ counter: ""},
 
 {
   // Twisted Fate
-  to: "/",
+  to: "/twistedfate",
   lane: [mid, "", "", ""],
   class: [mage, "", "", ""],
   img: twistedfate,
@@ -2024,7 +2024,7 @@ counter: ""},
 
 {
   // Twitch
-  to: "/",
+  to: "/twitch",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: twitch,
@@ -2037,7 +2037,7 @@ counter: ""},
 
 {
   // Udyr
-  to: "/",
+  to: "/udyr",
   lane: [top, jungle, "", ""],
   class: [fighter, "", "", ""],
   img: udyr,
@@ -2050,7 +2050,7 @@ counter: ""},
 
 {
   // Urgot
-  to: "/",
+  to: "/urgot",
   lane: [top, "", "", ""],
   class: [fighter, "", "", ""],
   img: urgot,
@@ -2063,7 +2063,7 @@ counter: ""},
 
 {
   // Varus
-  to: "/",
+  to: "/varus",
   lane: [bot, top, "", ""],
   class: [marksman, mage, "", ""],
   img: varus,
@@ -2076,7 +2076,7 @@ counter: ""},
 
 {
   // Vayne
-  to: "/",
+  to: "/vayne",
   lane: [bot, top, "", ""],
   class: [marksman, "", "", ""],
   img: vayne,
@@ -2089,7 +2089,7 @@ counter: ""},
 
 {
   // Veigar
-  to: "/",
+  to: "/veigar",
   lane: [mid, support, "", ""],
   class: [mage, "", "", ""],
   img: veigar,
@@ -2102,7 +2102,7 @@ counter: ""},
 
 {
   // Vel'Koz
-  to: "/",
+  to: "/veikoz",
   lane: [mid, support, "", ""],
   class: [mage, "", "", ""],
   img: velkoz,
@@ -2115,7 +2115,7 @@ counter: ""},
 
 {
   // Vex
-  to: "/",
+  to: "/vex",
   lane: [mid, "", "", ""],
   class: [mage, "", "", ""],
   img: vex,
@@ -2128,7 +2128,7 @@ counter: ""},
 
 {
   // Vi
-  to: "/",
+  to: "/vi",
   lane: [jungle, "", "", ""],
   class: [fighter, "", "", ""],
   img: vi,
@@ -2141,7 +2141,7 @@ counter: ""},
 
 {
   // Viego
-  to: "/",
+  to: "/viego",
   lane: [jungle, "", "", ""],
   class: [fighter, "", "", ""],
   img: viego,
@@ -2154,7 +2154,7 @@ counter: ""},
 
 {
   // Viktor
-  to: "/",
+  to: "/viktor",
   lane: [mid, "", "", ""],
   class: [mage, "", "", ""],
   img: viktor,
@@ -2167,7 +2167,7 @@ counter: ""},
 
 {
   // Vladimir
-  to: "/",
+  to: "/vladimir",
   lane: [mid, top, "", ""],
   class: [mage, "", "", ""],
   img: vladimir,
@@ -2180,7 +2180,7 @@ counter: ""},
 
 {
   // Volibear
-  to: "/",
+  to: "/volibear",
   lane: [top, jungle, "", ""],
   class: [fighter, "", "", ""],
   img: volibear,
@@ -2193,7 +2193,7 @@ counter: ""},
 
 {
   // Warwick
-  to: "/",
+  to: "/warwick",
   lane: [jungle, top, "", ""],
   class: [fighter, "", "", ""],
   img: warwick,
@@ -2206,7 +2206,7 @@ counter: ""},
 
 {
   // Wukong
-  to: "/",
+  to: "/wukong",
   lane: [top, jungle, "", ""],
   class: [fighter, "", "", ""],
   img: wukong,
@@ -2219,7 +2219,7 @@ counter: ""},
 
 {
   // Xayah
-  to: "/",
+  to: "/xayah",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: xayah,
@@ -2232,7 +2232,7 @@ counter: ""},
 
 {
   // Xerath
-  to: "/",
+  to: "/xerath",
   lane: [mid, support, "", ""],
   class: [mage, "", "", ""],
   img: xerath,
@@ -2245,7 +2245,7 @@ counter: ""},
 
 {
   // Xin Zhao
-  to: "/",
+  to: "/xinzhao",
   lane: [jungle, "", "", ""],
   class: [fighter, "", "", ""],
   img: xinzhao,
@@ -2258,7 +2258,7 @@ counter: ""},
 
 {
   // Yasuo
-  to: "/",
+  to: "/yasuo",
   lane: [mid, top, "", ""],
   class: [fighter, "", "", ""],
   img: yasuo,
@@ -2271,7 +2271,7 @@ counter: ""},
 
 {
   // Yone
-  to: "/",
+  to: "/yone",
   lane: [mid, top, "", ""],
   class: [fighter, "", "", ""],
   img: yone,
@@ -2284,7 +2284,7 @@ counter: ""},
 
 {
   // Yorick
-  to: "/",
+  to: "/yorick",
   lane: [top, "", "", ""],
   class: [fighter, "", "", ""],
   img: yorick,
@@ -2297,7 +2297,7 @@ counter: ""},
 
 {
   // Yunara
-  to: "/",
+  to: "/yunara",
   lane: [mid, "", "", ""],
   class: [marksman, "", "", ""],
   img: yunara,
@@ -2310,7 +2310,7 @@ counter: ""},
 
 {
   // Yuumi
-  to: "/",
+  to: "/yuumi",
   lane: [support, "", "", ""],
   class: ["", "", "", ""], // Controller (no icon in your imports)
   img: yuumi,
@@ -2323,7 +2323,7 @@ counter: ""},
 
 {
   // Zaahen
-  to: "/",
+  to: "/zaahen",
   lane: [top, jungle, "", ""],
   class: [fighter, "", "", ""],
   img: zaahen,
@@ -2337,7 +2337,7 @@ counter: ""},
 
 {
   // Zac
-  to: "/",
+  to: "/zac",
   lane: [jungle, top, support, ""],
   class: [tank, "", "", ""],
   img: zac,
@@ -2350,7 +2350,7 @@ counter: ""},
 
 {
   // Zed
-  to: "/",
+  to: "/zed",
   lane: [mid, jungle, "", ""],
   class: [slayer, "", "", ""],
   img: zed,
@@ -2363,7 +2363,7 @@ counter: ""},
 
 {
   // Zeri
-  to: "/",
+  to: "/zeri",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: zeri,
@@ -2376,7 +2376,7 @@ counter: ""},
 
 {
   // Ziggs
-  to: "/",
+  to: "/ziggs",
   lane: [bot, mid, "", ""],
   class: [mage, "", "", ""],
   img: ziggs,
@@ -2389,7 +2389,7 @@ counter: ""},
 
 {
   // Zilean
-  to: "/",
+  to: "/zilean",
   lane: [mid, support, "", ""],
   class: ["", "", "", ""],
   img: zilean,
@@ -2402,7 +2402,7 @@ counter: ""},
 
 {
   // Zoe
-  to: "/",
+  to: "/zoe",
   lane: [mid, support, "", ""],
   class: [mage, "", "", ""],
   img: zoe,
@@ -2415,7 +2415,7 @@ counter: ""},
 
 {
   // Zyra
-  to: "/",
+  to: "/zyra",
   lane: [jungle, support, "", ""],
   class: [mage, "", "", ""],
   img: zyra,
