@@ -4,8 +4,10 @@ import Counter from "../Champion/Counter.jsx";
 import Guide from "../Champion/Guide.jsx";
 
 import aatrox from "../../champion-img/Aatrox.png";
+import ahri from "../../champion-img/AhriSquare.webp";
 import top from "../../role-img/top.png";
 import jungle from "../../role-img/jg.png";
+import mid from "../../role-img/mid.png";
 
 import {
   PrecisionComponent,
@@ -116,7 +118,103 @@ export function Aatrox() {
 }
 
 export function Ahri() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Akali() {

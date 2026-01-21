@@ -41,7 +41,8 @@ const router = createBrowserRouter([
       {path: "counter", element: <Counter />},
       {path: "test", element: <Test />},
       // Champion
-      {path: "aatrox", element: <Champions.Aatrox />}
+      {path: "aatrox", element: <Champions.Aatrox />},
+      {path: "ahri", element: <Champions.Ahri />}
     ]
   },
 ])
