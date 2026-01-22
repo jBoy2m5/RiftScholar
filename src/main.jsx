@@ -42,7 +42,72 @@ const router = createBrowserRouter([
       {path: "test", element: <Test />},
       // Champion
       {path: "aatrox", element: <Champions.Aatrox />},
-      {path: "ahri", element: <Champions.Ahri />}
+      {path: "ahri", element: <Champions.Ahri />},
+      { path: "akali", element: <Champions.Akali /> },
+{ path: "akshan", element: <Champions.Akshan /> },
+{ path: "alistar", element: <Champions.Alistar /> },
+{ path: "ambessa", element: <Champions.Ambessa /> },
+{ path: "amumu", element: <Champions.Amumu /> },
+{ path: "anivia", element: <Champions.Anivia /> },
+{ path: "annie", element: <Champions.Annie /> },
+{ path: "aphelios", element: <Champions.Aphelios /> },
+{ path: "ashe", element: <Champions.Ashe /> },
+{ path: "aurelionsol", element: <Champions.AurelionSol /> },
+{ path: "aurora", element: <Champions.Aurora /> },
+{ path: "azir", element: <Champions.Azir /> },
+
+{ path: "bard", element: <Champions.Bard /> },
+{ path: "belveth", element: <Champions.Belveth /> },
+{ path: "blitzcrank", element: <Champions.Blitzcrank /> },
+{ path: "brand", element: <Champions.Brand /> },
+{ path: "braum", element: <Champions.Braum /> },
+{ path: "briar", element: <Champions.Briar /> },
+
+{ path: "caitlyn", element: <Champions.Caitlyn /> },
+{ path: "camille", element: <Champions.Camille /> },
+{ path: "cassiopeia", element: <Champions.Cassiopeia /> },
+{ path: "chogath", element: <Champions.Chogath /> },
+{ path: "corki", element: <Champions.Corki /> },
+
+{ path: "darius", element: <Champions.Darius /> },
+{ path: "diana", element: <Champions.Diana /> },
+{ path: "draven", element: <Champions.Draven /> },
+{ path: "drmundo", element: <Champions.DrMundo /> },
+
+{ path: "ekko", element: <Champions.Ekko /> },
+{ path: "elise", element: <Champions.Elise /> },
+{ path: "evelynn", element: <Champions.Evelynn /> },
+{ path: "ezreal", element: <Champions.Ezreal /> },
+
+{ path: "fiddlesticks", element: <Champions.Fiddlesticks /> },
+{ path: "fiora", element: <Champions.Fiora /> },
+{ path: "fizz", element: <Champions.Fizz /> },
+
+{ path: "galio", element: <Champions.Galio /> },
+{ path: "gangplank", element: <Champions.Gangplank /> },
+{ path: "garen", element: <Champions.Garen /> },
+{ path: "gnar", element: <Champions.Gnar /> },
+{ path: "gragas", element: <Champions.Gragas /> },
+{ path: "graves", element: <Champions.Graves /> },
+{ path: "gwen", element: <Champions.Gwen /> },
+
+{ path: "hecarim", element: <Champions.Hecarim /> },
+{ path: "heimerdinger", element: <Champions.Heimerdinger /> },
+{ path: "hwei", element: <Champions.Hwei /> },
+
+{ path: "illaoi", element: <Champions.Illaoi /> },
+{ path: "irelia", element: <Champions.Irelia /> },
+{ path: "ivern", element: <Champions.Ivern /> },
+
+{ path: "janna", element: <Champions.Janna /> },
+{ path: "jarvaniv", element: <Champions.JarvanIV /> },
+{ path: "jax", element: <Champions.Jax /> },
+{ path: "jayce", element: <Champions.Jayce /> },
+{ path: "jhin", element: <Champions.Jhin /> },
+{ path: "jinx", element: <Champions.Jinx /> },
+
+{ path: "kaisa", element: <Champions.KaiSa /> },
+
     ]
   },
 ])
