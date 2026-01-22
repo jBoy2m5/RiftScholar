@@ -9,6 +9,206 @@ import top from "../../role-img/top.png";
 import jungle from "../../role-img/jg.png";
 import mid from "../../role-img/mid.png";
 
+
+import akali from "../../champion-img/AkaliSquare.webp";
+import akshan from "../../champion-img/AkshanSquare.webp";
+import alistar from "../../champion-img/AlistarSquare.webp";
+import ambessa from "../../champion-img/AmbessaSquare.webp";
+import amumu from "../../champion-img/AmumuSquare.webp";
+import anivia from "../../champion-img/AniviaSquare.webp";
+import annie from "../../champion-img/AnnieSquare.webp";
+import aphelios from "../../champion-img/ApheliosSquare.webp";
+import ashe from "../../champion-img/AsheSquare.webp";
+import aurelionSol from "../../champion-img/Aurelion_SolSquare.webp";
+import aurora from "../../champion-img/AuroraSquare.webp";
+import azir from "../../champion-img/AzirSquare.webp";
+
+import bard from "../../champion-img/BardSquare.webp";
+import belveth from "../../champion-img/BelVethSquare.webp";
+import blitzcrank from "../../champion-img/BlitzcrankSquare.webp";
+import brand from "../../champion-img/BrandSquare.webp";
+import braum from "../../champion-img/BraumSquare.webp";
+import briar from "../../champion-img/Briar.png";
+
+import caitlyn from "../../champion-img/CaitlynSquare.webp";
+import camille from "../../champion-img/CamilleSquare.webp";
+import cassiopeia from "../../champion-img/CassiopeiaSquare.webp";
+import chogath from "../../champion-img/ChoGathSquare.webp";
+import corki from "../../champion-img/CorkiSquare.webp";
+
+import darius from "../../champion-img/DariusSquare.webp";
+import diana from "../../champion-img/DianaSquare.webp";
+import drMundo from "../../champion-img/Dr._MundoSquare.webp";
+import draven from "../../champion-img/DravenSquare.webp";
+
+import ekko from "../../champion-img/EkkoSquare.webp";
+import elise from "../../champion-img/EliseSquare.webp";
+import evelynn from "../../champion-img/EvelynnSquare.webp";
+import ezreal from "../../champion-img/EzrealSquare.webp";
+
+import fiddlesticks from "../../champion-img/FiddlesticksSquare.webp";
+import fiora from "../../champion-img/FioraSquare.webp";
+import fizz from "../../champion-img/FizzSquare.webp";
+
+import galio from "../../champion-img/GalioSquare.webp";
+import gangplank from "../../champion-img/GangplankSquare.webp";
+import garen from "../../champion-img/GarenSquare.webp";
+import gnar from "../../champion-img/GnarSquare.webp";
+import gragas from "../../champion-img/GragasSquare.webp";
+import graves from "../../champion-img/GravesSquare.webp";
+import gwen from "../../champion-img/GwenSquare.webp";
+
+import hecarim from "../../champion-img/HecarimSquare.webp";
+import heimerdinger from "../../champion-img/HeimerdingerSquare_Unreleased.webp";
+import hwei from "../../champion-img/Hwei.png";
+
+import illaoi from "../../champion-img/IllaoiSquare.webp";
+import irelia from "../../champion-img/IreliaSquare.webp";
+import ivern from "../../champion-img/IvernSquare.webp";
+
+import janna from "../../champion-img/JannaSquare.webp";
+import jarvanIV from "../../champion-img/Jarvan_IVSquare.webp";
+import jax from "../../champion-img/JaxSquare.webp";
+import jayce from "../../champion-img/JayceSquare.webp";
+import jhin from "../../champion-img/JhinSquare.webp";
+import jinx from "../../champion-img/JinxSquare.webp";
+
+import kaisa from "../../champion-img/KaiSaSquare.webp";
+import kalista from "../../champion-img/KalistaSquare.webp";
+import karma from "../../champion-img/KarmaSquare_Unreleased.webp";
+import karthus from "../../champion-img/KarthusSquare.webp";
+import kassadin from "../../champion-img/KassadinSquare.webp";
+import katarina from "../../champion-img/KatarinaSquare_Unreleased.webp";
+import kayle from "../../champion-img/KayleSquare.webp";
+import kayn from "../../champion-img/KaynSquare.webp";
+import kennen from "../../champion-img/KennenSquare.webp";
+import khazix from "../../champion-img/KhaZixSquare.webp";
+import kindred from "../../champion-img/KindredSquare.webp";
+import kled from "../../champion-img/KledSquare.webp";
+import kogmaw from "../../champion-img/KogMawSquare.webp";
+import ksante from "../../champion-img/KSanteSquare.webp";
+
+import leblanc from "../../champion-img/LeBlancSquare.webp";
+import leesin from "../../champion-img/Lee_SinSquare.webp";
+import leona from "../../champion-img/LeonaSquare.webp";
+import lillia from "../../champion-img/LilliaSquare.webp";
+import lissandra from "../../champion-img/LissandraSquare.webp";
+import lucian from "../../champion-img/LucianSquare.webp";
+import lulu from "../../champion-img/LuluSquare.webp";
+import lux from "../../champion-img/LuxSquare.webp";
+
+import malphite from "../../champion-img/MalphiteSquare.webp";
+import malzahar from "../../champion-img/MalzaharSquare.webp";
+import maokai from "../../champion-img/MaokaiSquare.webp";
+import masteryi from "../../champion-img/Master_YiSquare.webp";
+import mel from "../../champion-img/Mel.png";
+import milio from "../../champion-img/Milio.png";
+import missfortune from "../../champion-img/MissFortuneSquare.webp";
+import mordekaiser from "../../champion-img/MordekaiserSquare.webp";
+import morgana from "../../champion-img/MorganaSquare.webp";
+
+import naafiri from "../../champion-img/Naafiri.png";
+import nami from "../../champion-img/NamiSquare.webp";
+import nasus from "../../champion-img/NasusSquare.webp";
+import nautilus from "../../champion-img/NautilusSquare.webp";
+import neeko from "../../champion-img/NeekoSquare.webp";
+import nidalee from "../../champion-img/NidaleeSquare.webp";
+import nilah from "../../champion-img/NilahSquare.webp";
+import nocturne from "../../champion-img/NocturneSquare.webp";
+import nunuWillump from "../../champion-img/Nunu_WillumpSquare.webp";
+
+import olaf from "../../champion-img/OlafSquare.webp";
+import orianna from "../../champion-img/OriannaSquare.webp";
+import ornn from "../../champion-img/OrnnSquare.webp";
+
+import pantheon from "../../champion-img/PantheonSquare.webp";
+import poppy from "../../champion-img/PoppySquare.webp";
+import pyke from "../../champion-img/PykeSquare.webp";
+
+import qiyana from "../../champion-img/QiyanaSquare.webp";
+import quinn from "../../champion-img/QuinnSquare.webp";
+
+import rakan from "../../champion-img/RakanSquare.webp";
+import rammus from "../../champion-img/RammusSquare.webp";
+import reksai from "../../champion-img/RekSaiSquare.webp";
+import rell from "../../champion-img/Rell.png";
+import renataGlasc from "../../champion-img/Renata_GlascSquare.webp";
+import renekton from "../../champion-img/RenektonSquare.webp";
+import rengar from "../../champion-img/RengarSquare.webp";
+import riven from "../../champion-img/RivenSquare.webp";
+import rumble from "../../champion-img/RumbleSquare.webp";
+import ryze from "../../champion-img/RyzeSquare.webp";
+
+import samira from "../../champion-img/Samira.png";
+import sejuani from "../../champion-img/SejuaniSquare.webp";
+import senna from "../../champion-img/SennaSquare.webp";
+import seraphine from "../../champion-img/Seraphine.png";
+import sett from "../../champion-img/SettSquare.webp";
+import shaco from "../../champion-img/ShacoSquare.webp";
+import shen from "../../champion-img/ShenSquare.webp";
+import shyvana from "../../champion-img/ShyvanaSquare.webp";
+import singed from "../../champion-img/SingedSquare.webp";
+import sion from "../../champion-img/SionSquare.webp";
+import sivir from "../../champion-img/SivirSquare.webp";
+import skarner from "../../champion-img/SkarnerSquare.webp";
+import smolder from "../../champion-img/Smolder.png";
+import sona from "../../champion-img/Sona.png";
+import soraka from "../../champion-img/SorakaSquare.webp";
+import swain from "../../champion-img/SwainSquare.webp";
+import sylas from "../../champion-img/SylasSquare.webp";
+import syndra from "../../champion-img/SyndraSquare.webp";
+
+import tahmKench from "../../champion-img/Tahm_KenchSquare.webp";
+import taliyah from "../../champion-img/TaliyahSquare.webp";
+import talon from "../../champion-img/TalonSquare.webp";
+import taric from "../../champion-img/TaricSquare.webp";
+import teemo from "../../champion-img/TeemoSquare.webp";
+import thresh from "../../champion-img/ThreshSquare.webp";
+import tristana from "../../champion-img/TristanaSquare.webp";
+import trundle from "../../champion-img/TrundleSquare.webp";
+import tryndamere from "../../champion-img/TryndamereSquare.webp";
+import twistedFate from "../../champion-img/Twisted_FateSquare.webp";
+import twitch from "../../champion-img/TwitchSquare.webp";
+
+import udyr from "../../champion-img/UdyrSquare.webp";
+import urgot from "../../champion-img/UrgotSquare.webp";
+
+import varus from "../../champion-img/VarusSquare.webp";
+import vayne from "../../champion-img/VayneSquare.webp";
+import veigar from "../../champion-img/VeigarSquare.webp";
+import velkoz from "../../champion-img/VelKozSquare.webp";
+import vex from "../../champion-img/VexSquare.webp";
+import vi from "../../champion-img/ViSquare.webp";
+import viego from "../../champion-img/ViegoSquare.webp";
+import viktor from "../../champion-img/ViktorSquare.webp";
+import vladimir from "../../champion-img/VladimirSquare.webp";
+import volibear from "../../champion-img/VolibearSquare.webp";
+
+import warwick from "../../champion-img/WarwickSquare.webp";
+import wukong from "../../champion-img/WukongSquare.webp";
+
+import xayah from "../../champion-img/XayahSquare.webp";
+import xerath from "../../champion-img/XerathSquare.webp";
+import xinzhao from "../../champion-img/Xin_ZhaoSquare.webp";
+
+import yasuo from "../../champion-img/YasuoSquare_Unreleased.webp";
+import yone from "../../champion-img/Yone.png";
+import yorick from "../../champion-img/Yorick.png";
+import yunara from "../../champion-img/Yunara.png";
+import yuumi from "../../champion-img/Yuumi.png";
+import zaahen from "../../champion-img/Zaahen.png";
+
+import zac from "../../champion-img/Zac.png";
+import zed from "../../champion-img/Zed.png";
+import zeri from "../../champion-img/Zeri.png";
+import ziggs from "../../champion-img/Ziggs.png";
+import zilean from "../../champion-img/Zilean.png";
+import zoe from "../../champion-img/Zoe.png";
+import zyra from "../../champion-img/Zyra.png";
+
+
+
+
 import {
   PrecisionComponent,
   ResolveComponent,
@@ -218,673 +418,16801 @@ export function Ahri() {
 }
 
 export function Akali() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={3}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={0}
+      lane3={2}
+      lane4={1}
+      p1={1}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Resolve"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Ahri</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Akshan() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Alistar() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Ambessa() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Amumu() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Anivia() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Annie() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Aphelios() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Ashe() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Aurora() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function AurelionSol() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Azir() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Bard() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function BelVeth() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Blitzcrank() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Brand() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Braum() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Briar() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Caitlyn() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Camille() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Cassiopeia() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Chogath() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Corki() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Darius() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Diana() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Draven() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function DrMundo() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Ekko() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Elise() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Evelynn() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Ezreal() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Fiddlesticks() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Fiora() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Fizz() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Galio() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Gangplank() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Garen() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Gnar() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Gragas() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Graves() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Gwen() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Hecarim() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Heimerdinger() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Hwei() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Illaoi() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Irelia() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Ivern() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Janna() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function JarvanIV() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Jax() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Jayce() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Jhin() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Jinx() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function KSante() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function KaiSa() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Kalista() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Karma() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Karthus() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Kassadin() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Katarina() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Kayle() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Kayn() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Kennen() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function KhaZix() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Kindred() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Kled() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function KogMaw() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function LeBlanc() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function LeeSin() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Leona() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Lillia() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Lissandra() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Lucian() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Lulu() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Lux() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Malphite() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Malzahar() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Maokai() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function MasterYi() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Mel() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Milio() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function MissFortune() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Mordekaiser() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Morgana() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Naafiri() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Nami() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Nasus() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Nautilus() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Neeko() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Nidalee() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Nilah() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Nocturne() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function NunuWillump() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Olaf() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Orianna() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Ornn() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Pantheon() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Poppy() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Pyke() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Qiyana() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Quinn() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Rakan() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Rammus() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function RekSai() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Rell() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function RenataGlasc() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Renekton() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Rengar() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Riven() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Rumble() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Ryze() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Samira() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Sejuani() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Senna() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Seraphine() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Sett() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Shaco() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Shen() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Shyvana() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Singed() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Sion() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Sivir() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Skarner() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Smolder() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Sona() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Soraka() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Swain() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Sylas() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Syndra() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function TahmKench() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Taliyah() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Talon() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Taric() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Teemo() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Thresh() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Tristana() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Trundle() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Tryndamere() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function TwistedFate() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Twitch() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Udyr() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Urgot() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Varus() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Vayne() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Veigar() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function VelKoz() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Vex() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Vi() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Viego() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Viktor() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Vladimir() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Volibear() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Warwick() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Wukong() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Xayah() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Xerath() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function XinZhao() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Yasuo() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Yone() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Yorick() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Yuumi() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Zac() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Zed() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Zeri() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Ziggs() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Zilean() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Zoe() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
 
 export function Zyra() {
-  return <div>Champ</div>;
+  const [clickedItem, setClickedItem] = useState(0);
+  let displayItem;
+  switch (clickedItem) {
+    case 0:
+      displayItem = "";
+      break;
+    case 1:
+      displayItem = <Build 
+      lanemain1={1}
+      lanemain2={2}
+      lanemain3={2}
+      lanemain4={3}
+      lane2={2}
+      lane3={1}
+      lane4={0}
+      p1={2}
+      p2={1}
+      p3={3}
+      mainRune={"Domination"}
+      secondaryRune={"Sorcery"}
+      />;
+      break;
+    case 2:
+      displayItem = <Guide />;
+      break;
+    case 3:
+      displayItem = <Counter />;
+      break;
+  }
+
+  return (
+    <div className="flex flex-col gap-25">
+      <div className="flex justify-around">
+        <div className="flex gap-8 w-3/10 min-w-[400px]">
+          <img src={ahri} className="max-w-28 w-28" />
+          <div className="flex flex-col gap-3">
+            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <div className="flex">
+              <img src={mid} alt="" className="w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-auto flex-wrap flex-end">
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Win rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Pick rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Ban rate:</span>
+            <span className="font-bold">50%</span>
+          </div>
+          <div className="w-38 flex justify-between border border-[rgba(230,234,242,0.15)] rounded md:px-2 md:py-1 lg:px-2 lg:py-1 text-sm">
+            <span className="text-[#7F8AA3]">Matches:</span>
+            <span className="font-bold">1000000</span>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul className="flex md:mx-[15%] gap-20 text-lg text-[#7F8AA3] border-b border-[rgba(230,234,242,0.10)] pb-5">
+          <li
+            className={`hover:text-white ${clickedItem == 1 && "text-white"}`}
+            value="build"
+            key="build"
+            onClick={() => setClickedItem(1)}
+          >
+            Build
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 2 && "text-white"}`}
+            value="guide"
+            key="guide"
+            onClick={() => setClickedItem(2)}
+          >
+            Guide
+          </li>
+          <li
+            className={`hover:text-white ${clickedItem == 3 && "text-white"}`}
+            value="counter"
+            key="counter"
+            onClick={() => setClickedItem(3)}
+          >
+            Counter
+          </li>
+        </ul>
+      </nav>
+
+      <div className="md:mx-[15%]">
+        {displayItem}
+        
+      </div>
+    </div>
+  );
 }
