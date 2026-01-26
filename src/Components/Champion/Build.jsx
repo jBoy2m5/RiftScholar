@@ -3,6 +3,7 @@ import {
   ResolveComponent,
   DominationComponent,
   SorceryComponent,
+  InspirationComponent
 } from "./Rune.jsx";
 
 function Build(props) {

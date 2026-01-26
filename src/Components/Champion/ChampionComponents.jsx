@@ -452,7 +452,7 @@ export function Akali() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={akali} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
             <h3 className="font-bold text-4xl">Ahri</h3>
             <div className="flex">
@@ -527,17 +527,17 @@ export function Akshan() {
     case 1:
       displayItem = <Build 
       lanemain1={1}
-      lanemain2={2}
-      lanemain3={2}
-      lanemain4={3}
+      lanemain2={3}
+      lanemain3={1}
+      lanemain4={2}
       lane2={2}
       lane3={1}
       lane4={0}
       p1={2}
       p2={1}
-      p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      p3={1}
+      mainRune={"Precision"}
+      secondaryRune={"Domination"}
       />;
       break;
     case 2:
@@ -554,7 +554,7 @@ export function Akshan() {
         <div className="flex gap-8 w-3/10 min-w-[400px]">
           <img src={ahri} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Akshan</h3>
             <div className="flex">
               <img src={mid} alt="" className="w-10" />
             </div>
