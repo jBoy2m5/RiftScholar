@@ -8,6 +8,9 @@ import ahri from "../../champion-img/AhriSquare.webp";
 import top from "../../role-img/top.png";
 import jungle from "../../role-img/jg.png";
 import mid from "../../role-img/mid.png";
+import support from "../../role-img/sp.png";
+import bot from "../../role-img/bot.png";
+
 
 
 import akali from "../../champion-img/AkaliSquare.webp";
@@ -537,7 +540,7 @@ export function Akshan() {
       p2={1}
       p3={1}
       mainRune={"Precision"}
-      secondaryRune={"Domination"}
+      secondaryRune={"Inspiration"}
       />;
       break;
     case 2:
@@ -552,7 +555,7 @@ export function Akshan() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={akshan} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
             <h3 className="font-bold text-4xl">Akshan</h3>
             <div className="flex">
@@ -626,18 +629,18 @@ export function Alistar() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
+      lanemain1={2}
       lanemain2={2}
-      lanemain3={2}
+      lanemain3={3}
       lanemain4={3}
-      lane2={2}
-      lane3={1}
-      lane4={0}
-      p1={2}
-      p2={1}
+      lane2={1}
+      lane3={0}
+      lane4={1}
+      p1={3}
+      p2={3}
       p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      mainRune={"Resolve"}
+      secondaryRune={"Inspiration"}
       />;
       break;
     case 2:
@@ -652,11 +655,11 @@ export function Alistar() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={alistar} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Alistar</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={support} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -727,17 +730,17 @@ export function Ambessa() {
     case 1:
       displayItem = <Build 
       lanemain1={1}
-      lanemain2={2}
+      lanemain2={3}
       lanemain3={2}
-      lanemain4={3}
+      lanemain4={1}
       lane2={2}
-      lane3={1}
+      lane3={3}
       lane4={0}
-      p1={2}
+      p1={1}
       p2={1}
-      p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      p3={1}
+      mainRune={"Resolve"}
+      secondaryRune={"Inspiration"}
       />;
       break;
     case 2:
@@ -752,11 +755,11 @@ export function Ambessa() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={ambessa} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Ambessa</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={top} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -826,18 +829,18 @@ export function Amumu() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
+      lanemain1={4}
       lanemain2={2}
       lanemain3={2}
       lanemain4={3}
-      lane2={2}
-      lane3={1}
-      lane4={0}
+      lane2={1}
+      lane3={0}
+      lane4={3}
       p1={2}
       p2={1}
       p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      mainRune={"Precision"}
+      secondaryRune={"Domination"}
       />;
       break;
     case 2:
@@ -854,9 +857,9 @@ export function Amumu() {
         <div className="flex gap-8 w-3/10 min-w-[400px]">
           <img src={ahri} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Amumu</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={jungle} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -927,17 +930,17 @@ export function Anivia() {
     case 1:
       displayItem = <Build 
       lanemain1={1}
-      lanemain2={2}
+      lanemain2={1}
       lanemain3={2}
-      lanemain4={3}
-      lane2={2}
-      lane3={1}
-      lane4={0}
+      lanemain4={2}
+      lane2={3}
+      lane3={0}
+      lane4={1}
       p1={2}
       p2={1}
       p3={3}
       mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      secondaryRune={"Precision"}
       />;
       break;
     case 2:
@@ -954,7 +957,7 @@ export function Anivia() {
         <div className="flex gap-8 w-3/10 min-w-[400px]">
           <img src={ahri} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Anivia</h3>
             <div className="flex">
               <img src={mid} alt="" className="w-10" />
             </div>
@@ -1027,13 +1030,13 @@ export function Annie() {
     case 1:
       displayItem = <Build 
       lanemain1={1}
-      lanemain2={2}
+      lanemain2={1}
       lanemain3={2}
-      lanemain4={3}
-      lane2={2}
-      lane3={1}
+      lanemain4={2}
+      lane2={1}
+      lane3={2}
       lane4={0}
-      p1={2}
+      p1={1}
       p2={1}
       p3={3}
       mainRune={"Domination"}
@@ -1052,11 +1055,12 @@ export function Annie() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={annie} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Annie</h3>
             <div className="flex">
               <img src={mid} alt="" className="w-10" />
+              <img src={support} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -1128,16 +1132,16 @@ export function Aphelios() {
       displayItem = <Build 
       lanemain1={1}
       lanemain2={2}
-      lanemain3={2}
-      lanemain4={3}
-      lane2={2}
+      lanemain3={3}
+      lanemain4={2}
+      lane2={3}
       lane3={1}
       lane4={0}
       p1={2}
       p2={1}
-      p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      p3={1}
+      mainRune={"Precision"}
+      secondaryRune={"Inspiration"}
       />;
       break;
     case 2:
@@ -1152,11 +1156,11 @@ export function Aphelios() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={aphelios} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
             <h3 className="font-bold text-4xl">Aatrox</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={bot} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -1226,18 +1230,18 @@ export function Ashe() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
-      lanemain2={2}
-      lanemain3={2}
-      lanemain4={3}
-      lane2={2}
-      lane3={1}
-      lane4={0}
+      lanemain1={2}
+      lanemain2={3}
+      lanemain3={1}
+      lanemain4={2}
+      lane2={0}
+      lane3={3}
+      lane4={2}
       p1={2}
       p2={1}
-      p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      p3={1}
+      mainRune={"Precision"}
+      secondaryRune={"Inspiration"}
       />;
       break;
     case 2:
@@ -1252,11 +1256,12 @@ export function Ashe() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={ashe} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Ashe</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={bot} alt="" className="w-10" />
+              <img src={support} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -1352,11 +1357,12 @@ export function Aurora() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={aurora} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Aurora</h3>
             <div className="flex">
               <img src={mid} alt="" className="w-10" />
+              <img src={top} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -1426,18 +1432,18 @@ export function AurelionSol() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
+      lanemain1={2}
       lanemain2={2}
-      lanemain3={2}
-      lanemain4={3}
-      lane2={2}
-      lane3={1}
-      lane4={0}
-      p1={2}
+      lanemain3={3}
+      lanemain4={1}
+      lane2={0}
+      lane3={3}
+      lane4={1}
+      p1={1}
       p2={1}
       p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      mainRune={"Sorcery"}
+      secondaryRune={"Resolve"}
       />;
       break;
     case 2:
@@ -1452,11 +1458,12 @@ export function AurelionSol() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={aurelionSol} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Aurelion Sol</h3>
             <div className="flex">
               <img src={mid} alt="" className="w-10" />
+              <img src={bot} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -1526,18 +1533,18 @@ export function Azir() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
-      lanemain2={2}
-      lanemain3={2}
-      lanemain4={3}
-      lane2={2}
-      lane3={1}
-      lane4={0}
+      lanemain1={2}
+      lanemain2={3}
+      lanemain3={1}
+      lanemain4={2}
+      lane2={0}
+      lane3={3}
+      lane4={1}
       p1={2}
       p2={1}
       p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      mainRune={"Precision"}
+      secondaryRune={"Resolve"}
       />;
       break;
     case 2:
@@ -1552,9 +1559,9 @@ export function Azir() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={azir} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Azir</h3>
             <div className="flex">
               <img src={mid} alt="" className="w-10" />
             </div>
@@ -1627,15 +1634,15 @@ export function Bard() {
     case 1:
       displayItem = <Build 
       lanemain1={1}
-      lanemain2={2}
-      lanemain3={2}
-      lanemain4={3}
-      lane2={2}
-      lane3={1}
-      lane4={0}
+      lanemain2={1}
+      lanemain3={3}
+      lanemain4={2}
+      lane2={0}
+      lane3={2}
+      lane4={1}
       p1={2}
       p2={1}
-      p3={3}
+      p3={1}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -1652,11 +1659,11 @@ export function Bard() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={bard} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Bard</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={support} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -1726,18 +1733,18 @@ export function BelVeth() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
+      lanemain1={4}
       lanemain2={2}
-      lanemain3={2}
-      lanemain4={3}
+      lanemain3={1}
+      lanemain4={1}
       lane2={2}
-      lane3={1}
-      lane4={0}
-      p1={2}
+      lane3={0}
+      lane4={1}
+      p1={1}
       p2={1}
       p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      mainRune={"Precision"}
+      secondaryRune={"Inspiration"}
       />;
       break;
     case 2:
@@ -1752,11 +1759,11 @@ export function BelVeth() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={belveth} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Bel'Veth</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={jungle} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -1827,16 +1834,16 @@ export function Blitzcrank() {
     case 1:
       displayItem = <Build 
       lanemain1={1}
-      lanemain2={2}
-      lanemain3={2}
-      lanemain4={3}
-      lane2={2}
-      lane3={1}
+      lanemain2={1}
+      lanemain3={3}
+      lanemain4={1}
+      lane2={3}
+      lane3={2}
       lane4={0}
-      p1={2}
-      p2={1}
+      p1={3}
+      p2={3}
       p3={3}
-      mainRune={"Domination"}
+      mainRune={"Inspiration"}
       secondaryRune={"Sorcery"}
       />;
       break;
@@ -1852,11 +1859,11 @@ export function Blitzcrank() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={blitzcrank} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Blitzcrank</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={support} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -1926,18 +1933,18 @@ export function Brand() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
+      lanemain1={2}
       lanemain2={2}
-      lanemain3={2}
-      lanemain4={3}
-      lane2={2}
-      lane3={1}
-      lane4={0}
-      p1={2}
+      lanemain3={1}
+      lanemain4={1}
+      lane2={0}
+      lane3={3}
+      lane4={1}
+      p1={1}
       p2={1}
       p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      mainRune={"Sorcery"}
+      secondaryRune={"Inspiration"}
       />;
       break;
     case 2:
@@ -1952,11 +1959,13 @@ export function Brand() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={brand} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Brand</h3>
             <div className="flex">
+              <img src={support} alt="" className="w-10" />
               <img src={mid} alt="" className="w-10" />
+              <img src={bot} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -2026,18 +2035,18 @@ export function Braum() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
+      lanemain1={3}
       lanemain2={2}
-      lanemain3={2}
+      lanemain3={3}
       lanemain4={3}
-      lane2={2}
-      lane3={1}
-      lane4={0}
+      lane2={0}
+      lane3={3}
+      lane4={1}
       p1={2}
-      p2={1}
+      p2={3}
       p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      mainRune={"Resolve"}
+      secondaryRune={"Inspiration"}
       />;
       break;
     case 2:
@@ -2052,11 +2061,11 @@ export function Braum() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={braum} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Braum</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={support} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -2128,16 +2137,16 @@ export function Briar() {
       displayItem = <Build 
       lanemain1={1}
       lanemain2={2}
-      lanemain3={2}
-      lanemain4={3}
-      lane2={2}
-      lane3={1}
-      lane4={0}
-      p1={2}
+      lanemain3={1}
+      lanemain4={1}
+      lane2={3}
+      lane3={0}
+      lane4={1}
+      p1={1}
       p2={1}
       p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      mainRune={"Precision"}
+      secondaryRune={"Domination"}
       />;
       break;
     case 2:
@@ -2152,11 +2161,11 @@ export function Briar() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={briar} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Briar</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={jungle} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -2226,17 +2235,17 @@ export function Caitlyn() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
-      lanemain2={2}
-      lanemain3={2}
-      lanemain4={3}
-      lane2={2}
-      lane3={1}
-      lane4={0}
+      lanemain1={2}
+      lanemain2={3}
+      lanemain3={3}
+      lanemain4={1}
+      lane2={0}
+      lane3={3}
+      lane4={3}
       p1={2}
       p2={1}
       p3={3}
-      mainRune={"Domination"}
+      mainRune={"Precision"}
       secondaryRune={"Sorcery"}
       />;
       break;
@@ -2252,11 +2261,11 @@ export function Caitlyn() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={caitlyn} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Caitlyn</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={bot} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -2327,17 +2336,17 @@ export function Camille() {
     case 1:
       displayItem = <Build 
       lanemain1={1}
-      lanemain2={2}
-      lanemain3={2}
+      lanemain2={3}
+      lanemain3={3}
       lanemain4={3}
       lane2={2}
-      lane3={1}
+      lane3={3}
       lane4={0}
       p1={2}
       p2={1}
       p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      mainRune={"Resolve"}
+      secondaryRune={"Inspiration"}
       />;
       break;
     case 2:
@@ -2352,11 +2361,12 @@ export function Camille() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={camille} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Camile</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={top} alt="" className="w-10" />
+              <img src={support} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -2426,17 +2436,17 @@ export function Cassiopeia() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
-      lanemain2={2}
+      lanemain1={4}
+      lanemain2={3}
       lanemain3={2}
       lanemain4={3}
       lane2={2}
       lane3={1}
       lane4={0}
-      p1={2}
+      p1={1}
       p2={1}
       p3={3}
-      mainRune={"Domination"}
+      mainRune={"Precision"}
       secondaryRune={"Sorcery"}
       />;
       break;
@@ -2452,9 +2462,9 @@ export function Cassiopeia() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={cassiopeia} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Cassiopeia</h3>
             <div className="flex">
               <img src={mid} alt="" className="w-10" />
             </div>
@@ -2552,11 +2562,13 @@ export function Chogath() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={chogath} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Cho'Gath</h3>
             <div className="flex">
+              <img src={top} alt="" className="w-10" />
               <img src={mid} alt="" className="w-10" />
+              <img src={jungle} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -2626,18 +2638,18 @@ export function Corki() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
-      lanemain2={2}
-      lanemain3={2}
-      lanemain4={3}
-      lane2={2}
+      lanemain1={4}
+      lanemain2={3}
+      lanemain3={1}
+      lanemain4={2}
+      lane2={3}
       lane3={1}
       lane4={0}
       p1={2}
       p2={1}
-      p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      p3={1}
+      mainRune={"Precision"}
+      secondaryRune={"Inspiration"}
       />;
       break;
     case 2:
@@ -2652,11 +2664,12 @@ export function Corki() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={corki} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Corki</h3>
             <div className="flex">
               <img src={mid} alt="" className="w-10" />
+              <img src={bot} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -2726,17 +2739,17 @@ export function Darius() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
+      lanemain1={4}
       lanemain2={2}
-      lanemain3={2}
+      lanemain3={1}
       lanemain4={3}
-      lane2={2}
-      lane3={1}
+      lane2={1}
+      lane3={2}
       lane4={0}
       p1={2}
       p2={1}
       p3={3}
-      mainRune={"Domination"}
+      mainRune={"Precision"}
       secondaryRune={"Sorcery"}
       />;
       break;
@@ -2752,11 +2765,11 @@ export function Darius() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={darius} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Darius</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={top} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -2826,18 +2839,18 @@ export function Diana() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
+      lanemain1={4}
       lanemain2={2}
-      lanemain3={2}
-      lanemain4={3}
+      lanemain3={1}
+      lanemain4={1}
       lane2={2}
-      lane3={1}
-      lane4={0}
+      lane3={0}
+      lane4={1}
       p1={2}
       p2={1}
       p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      mainRune={"Precision"}
+      secondaryRune={"Inspiration"}
       />;
       break;
     case 2:
@@ -2852,10 +2865,11 @@ export function Diana() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={diana} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Diana</h3>
             <div className="flex">
+              <img src={jungle} alt="" className="w-10" />
               <img src={mid} alt="" className="w-10" />
             </div>
           </div>
@@ -3027,17 +3041,17 @@ export function DrMundo() {
     case 1:
       displayItem = <Build 
       lanemain1={1}
-      lanemain2={2}
+      lanemain2={1}
       lanemain3={2}
-      lanemain4={3}
+      lanemain4={1}
       lane2={2}
-      lane3={1}
-      lane4={0}
+      lane3={0}
+      lane4={2}
       p1={2}
       p2={1}
       p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      mainRune={"Resolve"}
+      secondaryRune={"Inspiration"}
       />;
       break;
     case 2:
@@ -3052,11 +3066,12 @@ export function DrMundo() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={drMundo} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Dr.Mundo</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={top} alt="" className="w-10" />
+              <img src={jungle} alt="" className="w-10" />
             </div>
           </div>
         </div>

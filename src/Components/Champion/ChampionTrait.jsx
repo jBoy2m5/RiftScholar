@@ -463,8 +463,8 @@ counter: "" },
 
 {
   // Camille
-  to: "/camile",
-  lane: [top, "", "", ""],
+  to: "/camille",
+  lane: [top, support, "", ""],
   class: [fighter, "", "", ""],
   img: camille,
   name: "Camille",
@@ -490,7 +490,7 @@ counter: "" },
 {
   // Cho'Gath
   to: "/chogath",
-  lane: [top, "", "", ""],
+  lane: [top, mid, jungle, ""],
   class: [tank, "", "", ""], 
   img: chogath,
   name: "Cho'Gath",

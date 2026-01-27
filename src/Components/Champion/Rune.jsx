@@ -537,24 +537,24 @@ export function InspirationComponent(props) {
   return (
     <div className="flex flex-col w-[45%] max-w-xs mt-1">
       <div className="flex gap-3 items-center mb-5 mx-auto">
-        <img src={sorcery} className="w-12 inline" />
-        <span className="font-bold">Sorcery</span>
+        <img src={inspiration} className="w-12 inline" />
+        <span className="font-bold">Inspiration</span>
       </div>
       <div className="flex-col items-center">
         {props.isMainPath && (
           <div className="flex gap-5 justify-evenly my-5">
             <img
-              src={summonaery}
+              src={glacialaugment}
               className="w-12"
               style={{ filter: props.lane1 !== 1 && "grayscale(100%)" }}
             />
             <img
-              src={arcanecomet}
+              src={unsealedspellbook}
               className="w-12"
               style={{ filter: props.lane1 !== 2 && "grayscale(100%)" }}
             />
             <img
-              src={phaserush}
+              src={firststrike}
               className="w-12"
               style={{ filter: props.lane1 !== 3 && "grayscale(100%)" }}
             />
@@ -562,51 +562,51 @@ export function InspirationComponent(props) {
         )}
         <div className="flex justify-evenly my-5">
           <img
-            src={axiomarcanist}
+            src={hextechflashtraption}
             className="w-10"
             style={{ filter: props.lane2 !== 1 && "grayscale(100%)" }}
           />
           <img
-            src={manaflowband}
+            src={magicalfootwear}
             className="w-10"
             style={{ filter: props.lane2 !== 2 && "grayscale(100%)" }}
           />
           <img
-            src={nimbuscloak}
+            src={cashback}
             className="w-10"
             style={{ filter: props.lane2 !== 3 && "grayscale(100%)" }}
           />
         </div>
         <div className="flex justify-evenly my-5">
           <img
-            src={transcendence}
+            src={tripletonic}
             className="w-10"
             style={{ filter: props.lane3 !== 1 && "grayscale(100%)" }}
           />
           <img
-            src={celerity}
+            src={timewarptonic}
             className="w-10"
             style={{ filter: props.lane3 !== 2 && "grayscale(100%)" }}
           />
           <img
-            src={absolutefocus}
+            src={biscuitdelivery}
             className="w-10"
             style={{ filter: props.lane3 !== 3 && "grayscale(100%)" }}
           />
         </div>
         <div className="flex justify-evenly my-5">
           <img
-            src={scorch}
+            src={cosmicinsight}
             className="w-10"
             style={{ filter: props.lane4 !== 1 && "grayscale(100%)" }}
           />
           <img
-            src={waterwalking}
+            src={approachvelocity}
             className="w-10"
             style={{ filter: props.lane4 !== 2 && "grayscale(100%)" }}
           />
           <img
-            src={gatheringstorm}
+            src={jackofalltrades}
             className="w-10"
             style={{ filter: props.lane4 !== 3 && "grayscale(100%)" }}
           />
