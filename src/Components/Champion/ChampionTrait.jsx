@@ -606,7 +606,7 @@ counter: "" },
 
 {
   // Ezreal
-  to: "/ezeal",
+  to: "/ezreal",
   lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: ezreal,

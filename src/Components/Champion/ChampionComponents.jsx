@@ -3141,18 +3141,18 @@ export function Ekko() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
-      lanemain2={2}
+      lanemain1={2}
+      lanemain2={3}
       lanemain3={2}
-      lanemain4={3}
+      lanemain4={1}
       lane2={2}
-      lane3={1}
-      lane4={0}
+      lane3={0}
+      lane4={1}
       p1={2}
       p2={1}
       p3={3}
       mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      secondaryRune={"Inspiration"}
       />;
       break;
     case 2:
@@ -3167,11 +3167,12 @@ export function Ekko() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={ekko} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Ekko</h3>
             <div className="flex">
               <img src={mid} alt="" className="w-10" />
+              <img src={jungle} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -3241,18 +3242,18 @@ export function Elise() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
-      lanemain2={2}
+      lanemain1={2}
+      lanemain2={1}
       lanemain3={2}
-      lanemain4={3}
+      lanemain4={2}
       lane2={2}
-      lane3={1}
-      lane4={0}
+      lane3={0}
+      lane4={1}
       p1={2}
       p2={1}
       p3={3}
       mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      secondaryRune={"Precision"}
       />;
       break;
     case 2:
@@ -3267,11 +3268,12 @@ export function Elise() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={elise} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Elise</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={jungle} alt="" className="w-10" />
+              <img src={support} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -3342,13 +3344,13 @@ export function Evelynn() {
     case 1:
       displayItem = <Build 
       lanemain1={1}
-      lanemain2={2}
+      lanemain2={3}
       lanemain3={2}
-      lanemain4={3}
-      lane2={2}
-      lane3={1}
-      lane4={0}
-      p1={2}
+      lanemain4={2}
+      lane2={0}
+      lane3={3}
+      lane4={3}
+      p1={1}
       p2={1}
       p3={3}
       mainRune={"Domination"}
@@ -3367,11 +3369,11 @@ export function Evelynn() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={evelynn} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Evelynn</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={jungle} alt="" className="w-10" />
             </div>
           </div>
         </div>
@@ -3441,18 +3443,18 @@ export function Ezreal() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
-      lanemain2={2}
-      lanemain3={2}
-      lanemain4={3}
+      lanemain1={2}
+      lanemain2={3}
+      lanemain3={3}
+      lanemain4={1}
       lane2={2}
-      lane3={1}
+      lane3={3}
       lane4={0}
       p1={2}
       p2={1}
       p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      mainRune={"Precision"}
+      secondaryRune={"Inspiration"}
       />;
       break;
     case 2:
@@ -3467,11 +3469,11 @@ export function Ezreal() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={ezreal} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Ezreal</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={bot} alt="" className="w-10" />
             </div>
           </div>
         </div>
