@@ -632,7 +632,7 @@ counter: "" },
 
 {
   // Fiora
-  to: "/flora",
+  to: "/fiora",
   lane: [top, "", "", ""],
   class: [fighter, "", "", ""],
   img: fiora,
