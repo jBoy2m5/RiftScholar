@@ -5355,18 +5355,18 @@ export function Jax() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
+      lanemain1={2}
       lanemain2={2}
-      lanemain3={2}
+      lanemain3={1}
       lanemain4={3}
-      lane2={2}
-      lane3={1}
-      lane4={0}
+      lane2={0}
+      lane3={3}
+      lane4={3}
       p1={2}
       p2={1}
       p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      mainRune={"Precision"}
+      secondaryRune={"Resolve"}
       />;
       break;
     case 2:
@@ -5383,9 +5383,9 @@ export function Jax() {
         <div className="flex gap-8 w-3/10 min-w-[400px]">
           <img src={ahri} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Jax</h3>
             <div className="flex">
-              <img src={mid} alt="" className="w-10" />
+              <img src={top} alt="" className="w-10" />
             </div>
           </div>
         </div>
