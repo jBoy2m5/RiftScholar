@@ -868,7 +868,7 @@ counter: "" },
 {
   // Jayce
   to: "/jayce",
-  lane: [top, mid, "", ""],
+  lane: [top, mid, jungle, ""],
   class: [marksman, "", "", ""],
   img: jayce,
   name: "Jayce",

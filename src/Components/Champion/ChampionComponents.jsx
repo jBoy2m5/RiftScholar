@@ -5455,18 +5455,18 @@ export function Jayce() {
       break;
     case 1:
       displayItem = <Build 
-      lanemain1={1}
-      lanemain2={2}
-      lanemain3={2}
-      lanemain4={3}
-      lane2={2}
-      lane3={1}
-      lane4={0}
-      p1={2}
+      lanemain1={3}
+      lanemain2={3}
+      lanemain3={1}
+      lanemain4={1}
+      lane2={3}
+      lane3={0}
+      lane4={1}
+      p1={1}
       p2={1}
       p3={3}
-      mainRune={"Domination"}
-      secondaryRune={"Sorcery"}
+      mainRune={"Inspiration"}
+      secondaryRune={"Domination"}
       />;
       break;
     case 2:
@@ -5481,11 +5481,13 @@ export function Jayce() {
     <div className="flex flex-col gap-25">
       <div className="flex justify-around">
         <div className="flex gap-8 w-3/10 min-w-[400px]">
-          <img src={ahri} className="max-w-28 w-28" />
+          <img src={jayce} className="max-w-28 w-28" />
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-4xl">Aatrox</h3>
+            <h3 className="font-bold text-4xl">Jayce</h3>
             <div className="flex">
+              <img src={top} alt="" className="w-10" />
               <img src={mid} alt="" className="w-10" />
+              <img src={jungle} alt="" className="w-10" />
             </div>
           </div>
         </div>
