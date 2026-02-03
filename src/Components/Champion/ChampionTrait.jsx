@@ -1869,7 +1869,7 @@ counter: "" },
 {
   // Sylas
   to: "/sylas",
-  lane: [mid, top, jungle, ""],
+  lane: [mid, top, jungle, support],
   class: [mage, fighter, "", ""],
   img: sylas,
   name: "Sylas",
@@ -2102,7 +2102,7 @@ counter: ""},
 
 {
   // Vel'Koz
-  to: "/veikoz",
+  to: "/velkoz",
   lane: [mid, support, "", ""],
   class: [mage, "", "", ""],
   img: velkoz,
@@ -2298,7 +2298,7 @@ counter: ""},
 {
   // Yunara
   to: "/yunara",
-  lane: [mid, "", "", ""],
+  lane: [bot, "", "", ""],
   class: [marksman, "", "", ""],
   img: yunara,
   name: "Yunara",
