@@ -11,13 +11,11 @@ function ItemCard() {
   let left = position.x + 15;
 
   useEffect(() => {
-    console.log("HHHHH");
     if (hoveredItemId && itemRef.current) {
       const tableDim = itemRef.current.getBoundingClientRect();
       const width = tableDim.width;
       const height = tableDim.height;
       setTableDimension({ width, height });
-      console.log("Hello");
     }
   }, [hoveredItemId]);
 
@@ -33,7 +31,41 @@ function ItemCard() {
   return (
     <div className="flex flex-wrap gap-10">
       {ItemTrait.map((item) => (
-        <div className="w-25 px-2 pb-3">
+        <ItemBox 
+          item={item}
+        />
+      ))}
+    </div>
+  );
+}
+
+export function ItemBox({item}) {
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [hoveredItemId, setHoveredItemId] = useState(null);
+  const itemRef = useRef(null);
+  const [tableDimension, setTableDimension] = useState({ width: 0, height: 0 });
+  let top = position.y + 15;
+  let left = position.x + 15;
+
+  useEffect(() => {
+    if (hoveredItemId && itemRef.current) {
+      const tableDim = itemRef.current.getBoundingClientRect();
+      const width = tableDim.width;
+      const height = tableDim.height;
+      setTableDimension({ width, height });
+    }
+  }, [hoveredItemId]);
+
+  if (top + tableDimension.height > window.innerHeight) {
+    top = position.y - 15 - tableDimension.height;
+  }
+
+  if (left + tableDimension.width > window.innerWidth) {
+    left = position.x - 15 - tableDimension.width;
+  }
+
+  return (
+      <div className="w-25 px-2 pb-3">
           <img
             src={item.itemImg}
             className="w-[100%] rounded-full mb-3"
@@ -93,9 +125,9 @@ function ItemCard() {
             </div>
           )}
         </div>
-      ))}
-    </div>
-  );
+  )
+
 }
+
 
 export default ItemCard;
