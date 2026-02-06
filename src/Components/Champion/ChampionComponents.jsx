@@ -230,6 +230,7 @@ export function Aatrox() {
       p3={3}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
+      item={[0, 1, 2, 3, 4, 6]}
       />;
       break;
     case 2:
@@ -329,6 +330,7 @@ export function Ahri() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -429,6 +431,7 @@ export function Akali() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Resolve"}
       />;
@@ -529,6 +532,7 @@ export function Akshan() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -629,6 +633,7 @@ export function Alistar() {
       p1={3}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -729,6 +734,7 @@ export function Ambessa() {
       p1={1}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -829,6 +835,7 @@ export function Amumu() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Domination"}
       />;
@@ -929,6 +936,7 @@ export function Anivia() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Precision"}
       />;
@@ -1029,6 +1037,7 @@ export function Annie() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -1130,6 +1139,7 @@ export function Aphelios() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -1230,6 +1240,7 @@ export function Ashe() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -1331,6 +1342,7 @@ export function Aurora() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -1432,6 +1444,7 @@ export function AurelionSol() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Resolve"}
       />;
@@ -1533,6 +1546,7 @@ export function Azir() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -1633,6 +1647,7 @@ export function Bard() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -1733,6 +1748,7 @@ export function BelVeth() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -1833,6 +1849,7 @@ export function Blitzcrank() {
       p1={3}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Inspiration"}
       secondaryRune={"Sorcery"}
       />;
@@ -1933,6 +1950,7 @@ export function Brand() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Inspiration"}
       />;
@@ -2035,6 +2053,7 @@ export function Braum() {
       p1={2}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -2135,6 +2154,7 @@ export function Briar() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Domination"}
       />;
@@ -2235,6 +2255,7 @@ export function Caitlyn() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Sorcery"}
       />;
@@ -2335,6 +2356,7 @@ export function Camille() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -2436,6 +2458,7 @@ export function Cassiopeia() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Sorcery"}
       />;
@@ -2536,6 +2559,7 @@ export function Chogath() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -2638,6 +2662,7 @@ export function Corki() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -2739,6 +2764,7 @@ export function Darius() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Sorcery"}
       />;
@@ -2839,6 +2865,7 @@ export function Diana() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -2940,6 +2967,7 @@ export function Draven() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -3040,6 +3068,7 @@ export function DrMundo() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -3141,6 +3170,7 @@ export function Ekko() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Inspiration"}
       />;
@@ -3242,6 +3272,7 @@ export function Elise() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Precision"}
       />;
@@ -3343,6 +3374,7 @@ export function Evelynn() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -3443,6 +3475,7 @@ export function Ezreal() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -3543,6 +3576,7 @@ export function Fiddlesticks() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -3644,6 +3678,7 @@ export function Fiora() {
       p1={1}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -3744,6 +3779,7 @@ export function Fizz() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -3844,6 +3880,7 @@ export function Galio() {
       p1={1}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Resolve"}
       />;
@@ -3945,6 +3982,7 @@ export function Gangplank() {
       p1={1}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -4045,6 +4083,7 @@ export function Garen() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Sorcery"}
       />;
@@ -4146,6 +4185,7 @@ export function Gnar() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -4246,6 +4286,7 @@ export function Gragas() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Inspiration"}
       />;
@@ -4348,6 +4389,7 @@ export function Graves() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Precision"}
       />;
@@ -4448,6 +4490,7 @@ export function Gwen() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -4549,6 +4592,7 @@ export function Hecarim() {
       p1={1}
       p2={1}
       p3={0}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Precision"}
       />;
@@ -4649,6 +4693,7 @@ export function Heimerdinger() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Sorcery"}
       />;
@@ -4751,6 +4796,7 @@ export function Hwei() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Precision"}
       />;
@@ -4853,6 +4899,7 @@ export function Illaoi() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Precision"}
       />;
@@ -4953,6 +5000,7 @@ export function Irelia() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -5054,6 +5102,7 @@ export function Ivern() {
       p1={3}
       p2={2}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Inspiration"}
       />;
@@ -5155,6 +5204,7 @@ export function Janna() {
       p1={1}
       p2={2}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Resolve"}
       />;
@@ -5255,6 +5305,7 @@ export function JarvanIV() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -5355,6 +5406,7 @@ export function Jax() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -5455,6 +5507,7 @@ export function Jayce() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Inspiration"}
       secondaryRune={"Domination"}
       />;
@@ -5557,6 +5610,7 @@ export function Jhin() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Sorcery"}
       />;
@@ -5657,6 +5711,7 @@ export function Jinx() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -5757,6 +5812,7 @@ export function KSante() {
       p1={2}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -5857,6 +5913,7 @@ export function KaiSa() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -5957,6 +6014,7 @@ export function Kalista() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Domination"}
       />;
@@ -6057,6 +6115,7 @@ export function Karma() {
       p1={3}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Resolve"}
       />;
@@ -6158,6 +6217,7 @@ export function Karthus() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Precision"}
       />;
@@ -6258,6 +6318,7 @@ export function Kassadin() {
       p1={1}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Resolve"}
       />;
@@ -6358,6 +6419,7 @@ export function Katarina() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Precision"}
       />;
@@ -6458,6 +6520,7 @@ export function Kayle() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Sorcery"}
       />;
@@ -6558,6 +6621,7 @@ export function Kayn() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Sorcery"}
       />;
@@ -6659,6 +6723,7 @@ export function Kennen() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -6760,6 +6825,7 @@ export function KhaZix() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Inspiration"}
       secondaryRune={"Domination"}
       />;
@@ -6860,6 +6926,7 @@ export function Kindred() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Domination"}
       />;
@@ -6960,6 +7027,7 @@ export function Kled() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -7060,6 +7128,7 @@ export function KogMaw() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -7160,6 +7229,7 @@ export function LeBlanc() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -7261,6 +7331,7 @@ export function LeeSin() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -7362,6 +7433,7 @@ export function Leona() {
       p1={3}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -7462,6 +7534,7 @@ export function Lillia() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -7562,6 +7635,7 @@ export function Lissandra() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -7662,6 +7736,7 @@ export function Lucian() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -7762,6 +7837,7 @@ export function Lulu() {
       p1={3}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Resolve"}
       />;
@@ -7862,6 +7938,7 @@ export function Lux() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Domination"}
       />;
@@ -7963,6 +8040,7 @@ export function Malphite() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -8066,6 +8144,7 @@ export function Malzahar() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Inspiration"}
       />;
@@ -8166,6 +8245,7 @@ export function Maokai() {
       p1={1}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -8267,6 +8347,7 @@ export function MasterYi() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -8368,6 +8449,7 @@ export function Mel() {
       p1={3}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Precision"}
       />;
@@ -8469,6 +8551,7 @@ export function Milio() {
       p1={3}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Resolve"}
       />;
@@ -8569,6 +8652,7 @@ export function MissFortune() {
       p1={1}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Inspiration"}
       secondaryRune={"Sorcery"}
       />;
@@ -8669,6 +8753,7 @@ export function Mordekaiser() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -8769,6 +8854,7 @@ export function Morgana() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -8869,6 +8955,7 @@ export function Naafiri() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -8971,6 +9058,7 @@ export function Nami() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Resolve"}
       />;
@@ -9071,6 +9159,7 @@ export function Nasus() {
       p1={3}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -9173,6 +9262,7 @@ export function Nautilus() {
       p1={3}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -9273,6 +9363,7 @@ export function Neeko() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Inspiration"}
       />;
@@ -9374,6 +9465,7 @@ export function Nidalee() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -9476,6 +9568,7 @@ export function Nilah() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -9576,6 +9669,7 @@ export function Nocturne() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Domination"}
       />;
@@ -9676,6 +9770,7 @@ export function NunuWillump() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -9777,6 +9872,7 @@ export function Olaf() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -9878,6 +9974,7 @@ export function Orianna() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Precision"}
       />;
@@ -9978,6 +10075,7 @@ export function Ornn() {
       p1={2}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -10078,6 +10176,7 @@ export function Pantheon() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Domination"}
       />;
@@ -10181,6 +10280,7 @@ export function Poppy() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -10283,6 +10383,7 @@ export function Pyke() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Resolve"}
       />;
@@ -10383,6 +10484,7 @@ export function Qiyana() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Precision"}
       />;
@@ -10484,6 +10586,7 @@ export function Quinn() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -10584,6 +10687,7 @@ export function Rakan() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Domination"}
       />;
@@ -10684,6 +10788,7 @@ export function Rammus() {
       p1={2}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Precision"}
       />;
@@ -10784,6 +10889,7 @@ export function RekSai() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -10885,6 +10991,7 @@ export function Rell() {
       p1={3}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -10985,6 +11092,7 @@ export function RenataGlasc() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Domination"}
       />;
@@ -11085,6 +11193,7 @@ export function Renekton() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -11185,6 +11294,7 @@ export function Rengar() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Domination"}
       />;
@@ -11286,6 +11396,7 @@ export function Riven() {
       p1={3}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -11387,6 +11498,7 @@ export function Rumble() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Resolve"}
       />;
@@ -11488,6 +11600,7 @@ export function Ryze() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Resolve"}
       />;
@@ -11588,6 +11701,7 @@ export function Samira() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Domination"}
       />;
@@ -11688,6 +11802,7 @@ export function Sejuani() {
       p1={2}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Precision"}
       />;
@@ -11789,6 +11904,7 @@ export function Senna() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Resolve"}
       />;
@@ -11890,6 +12006,7 @@ export function Seraphine() {
       p1={3}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Resolve"}
       />;
@@ -11991,6 +12108,7 @@ export function Sett() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -12091,6 +12209,7 @@ export function Shaco() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Precision"}
       />;
@@ -12193,6 +12312,7 @@ export function Shen() {
       p1={2}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -12294,6 +12414,7 @@ export function Shyvana() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -12394,6 +12515,7 @@ export function Singed() {
       p1={1}
       p2={2}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Sorcery"}
       />;
@@ -12494,6 +12616,7 @@ export function Sion() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -12595,6 +12718,7 @@ export function Sivir() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -12695,6 +12819,7 @@ export function Skarner() {
       p1={3}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -12797,6 +12922,7 @@ export function Smolder() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Sorcery"}
       />;
@@ -12899,6 +13025,7 @@ export function Sona() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Resolve"}
       />;
@@ -12999,6 +13126,7 @@ export function Soraka() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Resolve"}
       />;
@@ -13099,6 +13227,7 @@ export function Swain() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -13202,6 +13331,7 @@ export function Sylas() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -13305,6 +13435,7 @@ export function Syndra() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Inspiration"}
       secondaryRune={"Sorcery"}
       />;
@@ -13405,6 +13536,7 @@ export function TahmKench() {
       p1={2}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Precision"}
       />;
@@ -13506,6 +13638,7 @@ export function Taliyah() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Precision"}
       />;
@@ -13607,6 +13740,7 @@ export function Talon() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Inspiration"}
       />;
@@ -13708,6 +13842,7 @@ export function Taric() {
       p1={2}
       p2={3}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Inspiration"}
       secondaryRune={"Resolve"}
       />;
@@ -13808,6 +13943,7 @@ export function Teemo() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -13908,6 +14044,7 @@ export function Thresh() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Inspiration"}
       />;
@@ -14008,6 +14145,7 @@ export function Tristana() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -14108,6 +14246,7 @@ export function Trundle() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -14209,6 +14348,7 @@ export function Tryndamere() {
       p1={1}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Precision"}
       />;
@@ -14309,6 +14449,7 @@ export function TwistedFate() {
       p1={2}
       p2={2}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Inspiration"}
       secondaryRune={"Resolve"}
       />;
@@ -14409,6 +14550,7 @@ export function Twitch() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Sorcery"}
       />;
@@ -14509,6 +14651,7 @@ export function Udyr() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -14610,6 +14753,7 @@ export function Urgot() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -14710,6 +14854,7 @@ export function Varus() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Inspiration"}
       />;
@@ -14811,6 +14956,7 @@ export function Vayne() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -14912,6 +15058,7 @@ export function Veigar() {
       p1={3}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Inspiration"}
       secondaryRune={"Sorcery"}
       />;
@@ -15013,6 +15160,7 @@ export function VelKoz() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Domination"}
       />;
@@ -15114,6 +15262,7 @@ export function Vex() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -15214,6 +15363,7 @@ export function Vi() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -15314,6 +15464,7 @@ export function Viego() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -15414,6 +15565,7 @@ export function Viktor() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Resolve"}
       />;
@@ -15514,6 +15666,7 @@ export function Vladimir() {
       p1={3}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Precision"}
       />;
@@ -15615,6 +15768,7 @@ export function Volibear() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -15716,6 +15870,7 @@ export function Warwick() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Sorcery"}
       />;
@@ -15817,6 +15972,7 @@ export function Wukong() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -15918,6 +16074,7 @@ export function Xayah() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -16018,6 +16175,7 @@ export function Xerath() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Precision"}
       />;
@@ -16119,6 +16277,7 @@ export function XinZhao() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -16219,6 +16378,7 @@ export function Yasuo() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -16320,6 +16480,7 @@ export function Yone() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -16421,6 +16582,7 @@ export function Yunara() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -16521,6 +16683,7 @@ export function Yorick() {
       p1={2}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Resolve"}
       secondaryRune={"Precision"}
       />;
@@ -16621,6 +16784,7 @@ export function Yuumi() {
       p1={3}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Resolve"}
       />;
@@ -16721,6 +16885,7 @@ export function Zaahen() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Resolve"}
       />;
@@ -16822,6 +16987,7 @@ export function Zac() {
       p1={3}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -16924,6 +17090,7 @@ export function Zed() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -17025,6 +17192,7 @@ export function Zeri() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Precision"}
       secondaryRune={"Inspiration"}
       />;
@@ -17125,6 +17293,7 @@ export function Ziggs() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Inspiration"}
       />;
@@ -17226,6 +17395,7 @@ export function Zilean() {
       p1={3}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Domination"}
       />;
@@ -17327,6 +17497,7 @@ export function Zoe() {
       p1={2}
       p2={1}
       p3={1}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Domination"}
       secondaryRune={"Sorcery"}
       />;
@@ -17428,6 +17599,7 @@ export function Zyra() {
       p1={1}
       p2={1}
       p3={3}
+      item={[0, 1, 2, 3, 4, 6]}
       mainRune={"Sorcery"}
       secondaryRune={"Domination"}
       />;

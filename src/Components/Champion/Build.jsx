@@ -351,19 +351,22 @@ function Build(props) {
       <span className="font-semibold">ITEMS</span>
       <div className="flex mt-8 justify-between max-w-3xl mx-auto">
         <ItemBox 
-          item={ItemTrait[0]}
+          item={ItemTrait[props.item[0]]}
         />
         <ItemBox 
-          item={ItemTrait[1]}
+          item={ItemTrait[props.item[1]]}
         />
         <ItemBox 
-          item={ItemTrait[2]}
+          item={ItemTrait[props.item[2]]}
         />
         <ItemBox 
-          item={ItemTrait[3]}
+          item={ItemTrait[props.item[3]]}
         />
         <ItemBox 
-          item={ItemTrait[4]}
+          item={ItemTrait[props.item[4]]}
+        />
+        <ItemBox 
+          item={ItemTrait[props.item[5]]}
         />
       </div>
     </>
